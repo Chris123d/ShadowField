@@ -1843,3 +1843,19 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Set isRaining?
 [2017.05.11-19.27.23:625][852]SourceControl: Info  create mode 100644 Content/Weather/Rain/RainFallS.uasset
 [2017.05.11-19.27.23:625][852]SourceControl: Info  create mode 100644 Content/Weather/Rain/RainM.uasset
 [2017.05.11-19.27.23:638][852]SourceControl: Info Commited [master 69fc954] RainFall Added.
+[2017.05.11-19.32.45:959][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weather/Rain/RainFallPS" FILE="../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainFallPS.uasset" SILENT=true
+[2017.05.11-19.32.45:982][662]LogSavePackage: Save=20.38ms
+[2017.05.11-19.32.45:982][662]LogSavePackage: Moving '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Saved/RainFallPS2FB22F5847841F52D3CD12BDA43CD21E.tmp' to '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainFallPS.uasset'
+[2017.05.11-19.32.45:984][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainFallPS.uasset
+[2017.05.11-19.32.46:187][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weather/Rain/RainFallS" FILE="../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainFallS.uasset" SILENT=true
+[2017.05.11-19.32.46:193][662]LogSavePackage: Save=4.61ms
+[2017.05.11-19.32.46:193][662]LogSavePackage: Moving '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Saved/RainFallS54C46B17455ED8A8524CD9B30EA54D3A.tmp' to '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainFallS.uasset'
+[2017.05.11-19.32.46:195][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainFallS.uasset
+[2017.05.11-19.32.46:417][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weather/Rain/Rain_sound_effect" FILE="../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/Rain_sound_effect.uasset" SILENT=true
+[2017.05.11-19.32.46:430][662]LogSavePackage: Save=9.77ms
+[2017.05.11-19.32.46:430][662]LogSavePackage: Moving '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Saved/Rain_sound_effectD61EE86944EBBA55106CA895FDCFC7EA.tmp' to '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/Rain_sound_effect.uasset'
+[2017.05.11-19.32.46:433][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/Rain_sound_effect.uasset
+[2017.05.11-19.32.47:747][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weather/Rain/RainM" FILE="../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainM.uasset" SILENT=true
+[2017.05.11-19.32.47:769][662]LogSavePackage: Save=19.67ms
+[2017.05.11-19.32.47:769][662]LogSavePackage: Moving '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Saved/RainMCA04BDDA4DFF54D6FE1334A4719FFE32.tmp' to '../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainM.uasset'
+[2017.05.11-19.32.47:771][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/Weather/Rain/RainM.uasset

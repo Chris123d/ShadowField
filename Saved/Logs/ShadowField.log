@@ -327,3 +327,7 @@ LogInit: Object subsystem initialized
 [2017.05.16-18.00.51:980][  2]LogAssetRegistry: Asset discovery search completed in 23.5533 seconds
 [2017.05.16-18.00.51:980][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
 [2017.05.16-18.00.51:980][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.05.16-18.07.48:518][942]LogRenderer: Reallocating scene render targets to support 1268x612 NumSamples 1 (Frame:747).
+[2017.05.16-18.07.50:617][178]LogRenderer: Reallocating scene render targets to support 1268x616 NumSamples 1 (Frame:975).
+[2017.05.16-18.07.50:750][179]LogRenderer: Reallocating scene render targets to support 1268x648 NumSamples 1 (Frame:977).
+[2017.05.16-18.07.50:869][180]LogRenderer: Reallocating scene render targets to support 1268x708 NumSamples 1 (Frame:979).

@@ -5296,3 +5296,539 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2017.05.30-05.08.40:667][164]SourceControl: Info  create mode 100644 Content/Phoenix/standard_run.uasset
 [2017.05.30-05.08.40:667][164]SourceControl: Info  create mode 100644 Content/Phoenix/walking.uasset
 [2017.05.30-05.08.40:676][164]SourceControl: Info Commited [Allen 93b1f30] Character added - animation blueprint needs fixing.
+[2017.05.30-05.13.44:595][857]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.13.44:605][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.13.44:605][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.13.44:605][857]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:13:44 PM)
+[2017.05.30-05.13.44:605][857]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.13.44:672][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067019s)
+[2017.05.30-05.13.44:673][857]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.13.44:673][857]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2017.05.30-05.13.44:673][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.068538s)
+[2017.05.30-05.13.44:700][857]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.13.44:742][857]LogInit: FAudioDevice initialized.
+[2017.05.30-05.13.44:797][857]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.13.44:804][857]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:01D7
+[2017.05.30-05.13.44:804][857]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+[2017.05.30-05.13.44:804][857]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:0205
+[2017.05.30-05.13.44:804][857]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2017.05.30-05.13.44:805][857]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.13.44
+[2017.05.30-05.13.44:806][857]LogWorld: Bringing up level for play took: 0.006080
+[2017.05.30-05.13.44:812][857]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.324
+[2017.05.30-05.13.44:813][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.13.55:143][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.13.55:191][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.13.57:071][689]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.13.57:080][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.13.57:080][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.13.57:080][689]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:13:57 PM)
+[2017.05.30-05.13.57:080][689]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.13.57:145][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065223s)
+[2017.05.30-05.13.57:146][689]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.13.57:146][689]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.05.30-05.13.57:146][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.066155s)
+[2017.05.30-05.13.57:179][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.13.57:213][689]LogInit: FAudioDevice initialized.
+[2017.05.30-05.13.57:271][689]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.13.57:276][689]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:01D7
+[2017.05.30-05.13.57:276][689]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+[2017.05.30-05.13.57:276][689]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:0205
+[2017.05.30-05.13.57:276][689]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2017.05.30-05.13.57:276][689]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.13.57
+[2017.05.30-05.13.57:277][689]LogWorld: Bringing up level for play took: 0.004041
+[2017.05.30-05.13.57:282][689]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.146
+[2017.05.30-05.13.57:283][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.14:859][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.14:910][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.24:820][638]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.14.24:829][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.24:829][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.14.24:830][638]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:14:24 PM)
+[2017.05.30-05.14.24:830][638]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.14.24:890][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060367s)
+[2017.05.30-05.14.24:891][638]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.14.24:891][638]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2017.05.30-05.14.24:891][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.061395s)
+[2017.05.30-05.14.24:919][638]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.14.24:960][638]LogInit: FAudioDevice initialized.
+[2017.05.30-05.14.25:024][638]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.14.25:030][638]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:01D7
+[2017.05.30-05.14.25:030][638]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+[2017.05.30-05.14.25:030][638]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:0205
+[2017.05.30-05.14.25:030][638]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2017.05.30-05.14.25:031][638]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.14.25
+[2017.05.30-05.14.25:032][638]LogWorld: Bringing up level for play took: 0.006326
+[2017.05.30-05.14.25:040][638]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.096
+[2017.05.30-05.14.25:041][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.31:255][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.31:308][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.52:006][123]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.14.52:016][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.14.52:016][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.14.52:016][123]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:14:52 PM)
+[2017.05.30-05.14.52:021][123]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.14.52:083][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061622s)
+[2017.05.30-05.14.52:083][123]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.14.52:084][123]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.05.30-05.14.52:084][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.062720s)
+[2017.05.30-05.14.52:115][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.14.52:156][123]LogInit: FAudioDevice initialized.
+[2017.05.30-05.14.52:217][123]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.14.52:222][123]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:01D7
+[2017.05.30-05.14.52:222][123]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+[2017.05.30-05.14.52:222][123]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:0205
+[2017.05.30-05.14.52:222][123]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2017.05.30-05.14.52:223][123]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.14.52
+[2017.05.30-05.14.52:223][123]LogWorld: Bringing up level for play took: 0.004003
+[2017.05.30-05.14.52:228][123]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 1.092
+[2017.05.30-05.14.52:228][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.00:266][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.00:331][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.01:391][583]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.15.01:400][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.01:400][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.15.01:400][583]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:15:01 PM)
+[2017.05.30-05.15.01:400][583]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.15.01:459][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058944s)
+[2017.05.30-05.15.01:459][583]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.15.01:460][583]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.05.30-05.15.01:460][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.059869s)
+[2017.05.30-05.15.01:495][583]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.15.01:538][583]LogInit: FAudioDevice initialized.
+[2017.05.30-05.15.01:599][583]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.15.01:604][583]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:01D7
+[2017.05.30-05.15.01:604][583]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+[2017.05.30-05.15.01:604][583]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:0205
+[2017.05.30-05.15.01:604][583]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2017.05.30-05.15.01:604][583]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.15.01
+[2017.05.30-05.15.01:605][583]LogWorld: Bringing up level for play took: 0.004000
+[2017.05.30-05.15.01:610][583]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.474
+[2017.05.30-05.15.01:611][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.10:683][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.10:751][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.18:304][456]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.15.18:313][456]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.18:313][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.15.18:313][456]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:15:18 PM)
+[2017.05.30-05.15.18:313][456]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.15.18:373][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060180s)
+[2017.05.30-05.15.18:374][456]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.15.18:374][456]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.05.30-05.15.18:374][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.061174s)
+[2017.05.30-05.15.18:406][456]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.15.18:444][456]LogInit: FAudioDevice initialized.
+[2017.05.30-05.15.18:504][456]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.15.18:508][456]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	PhoenixAnimBlueprint_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0.PhoenixAnimBlueprint_C_0
+	Function /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint_C:ExecuteUbergraph_PhoenixAnimBlueprint:01D7
+[2017.05.30-05.15.18:508][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+[2017.05.30-05.15.18:508][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue from function: 'ExecuteUbergraph_PhoenixAnimBlueprint' from node: Set is in Air? in graph: EventGraph in object: PhoenixAnimBlueprint with description: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2017.05.30-05.15.18:509][456]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.15.18
+[2017.05.30-05.15.18:509][456]LogWorld: Bringing up level for play took: 0.003896
+[2017.05.30-05.15.18:515][456]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.622
+[2017.05.30-05.15.18:515][456]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.54:558][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.15.54:617][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.16.23:555][225]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.05.30-05.16.23:675][225]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) - call TermArticulated first.
+[2017.05.30-05.16.23:763][225]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.30-05.16.23:764][225]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.30-05.17.30:695][794]LogEditorTransaction: Undo Create Pin Link
+[2017.05.30-05.17.30:697][794]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.05.30-05.17.31:119][813]LogEditorTransaction: Undo Delete current selection
+[2017.05.30-05.17.31:134][813]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.05.30-05.17.33:243][938]LogEditorTransaction: Undo Move Node
+[2017.05.30-05.17.33:261][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.05.30-05.17.33:823][970]LogEditorTransaction: Undo Create Pin Link
+[2017.05.30-05.17.33:824][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.05.30-05.17.34:705][ 25]LogEditorTransaction: Undo Delete current selection
+[2017.05.30-05.17.34:720][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_98:PersistentLevel.Actor_36.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.05.30-05.17.42:544][503]BlueprintLog: New page: Compile PhoenixAnimBlueprint
+[2017.05.30-05.17.43:507][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Phoenix/PhoenixAnimBlueprint" FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/PhoenixAnimBlueprint.uasset" SILENT=true
+[2017.05.30-05.17.43:544][547]LogSavePackage: Save=31.44ms
+[2017.05.30-05.17.43:544][547]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/PhoenixAnimBlueprint0A66834248BD6FDF4F5B8CA950F2FD8F.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/PhoenixAnimBlueprint.uasset'
+[2017.05.30-05.17.43:548][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/PhoenixAnimBlueprint.uasset
+[2017.05.30-05.17.46:437][808]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.17.46:447][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.17.46:448][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.17.46:448][808]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:17:46 PM)
+[2017.05.30-05.17.46:448][808]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.17.46:510][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062567s)
+[2017.05.30-05.17.46:511][808]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.17.46:511][808]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2017.05.30-05.17.46:511][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.063597s)
+[2017.05.30-05.17.46:539][808]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.17.46:573][808]LogInit: FAudioDevice initialized.
+[2017.05.30-05.17.46:634][808]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.17.46:639][808]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.17.46
+[2017.05.30-05.17.46:639][808]LogWorld: Bringing up level for play took: 0.003725
+[2017.05.30-05.17.46:645][808]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.491
+[2017.05.30-05.17.46:645][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.17.50:896][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.17.50:956][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.19.13:827][847]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_101:PersistentLevel.Actor_37.DebugSkelMeshComponent_67) Already registered. Aborting.
+[2017.05.30-05.19.13:946][847]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_101:PersistentLevel.Actor_37.DebugSkelMeshComponent_67) - call TermArticulated first.
+[2017.05.30-05.20.00:776][660]BlueprintLog: New page: Compile PhoenixAnimBlueprint
+[2017.05.30-05.20.05:441][ 24]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.20.05:452][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.05:452][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.20.05:452][ 24]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:20:05 PM)
+[2017.05.30-05.20.05:452][ 24]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.20.05:513][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061451s)
+[2017.05.30-05.20.05:514][ 24]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.20.05:514][ 24]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.05.30-05.20.05:514][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.062473s)
+[2017.05.30-05.20.05:550][ 24]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.20.05:589][ 24]LogInit: FAudioDevice initialized.
+[2017.05.30-05.20.05:652][ 24]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.20.05:658][ 24]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.20.05
+[2017.05.30-05.20.05:658][ 24]LogWorld: Bringing up level for play took: 0.003725
+[2017.05.30-05.20.05:663][ 24]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.527
+[2017.05.30-05.20.05:664][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.09:812][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.09:871][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.11:360][613]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_104:PersistentLevel.Actor_38.DebugSkelMeshComponent_69) Already registered. Aborting.
+[2017.05.30-05.20.11:479][613]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_104:PersistentLevel.Actor_38.DebugSkelMeshComponent_69) - call TermArticulated first.
+[2017.05.30-05.20.16:185][924]BlueprintLog: New page: Compile PhoenixAnimBlueprint
+[2017.05.30-05.20.17:453][  2]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-05.20.17:462][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.17:462][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-05.20.17:462][  2]PIE: New page: PIE session: ShadowField (May 29, 2017, 3:20:17 PM)
+[2017.05.30-05.20.17:462][  2]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-05.20.17:523][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061151s)
+[2017.05.30-05.20.17:524][  2]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-05.20.17:524][  2]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.05.30-05.20.17:524][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.062225s)
+[2017.05.30-05.20.17:553][  2]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-05.20.17:588][  2]LogInit: FAudioDevice initialized.
+[2017.05.30-05.20.17:653][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-05.20.17:657][  2]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.29-22.20.17
+[2017.05.30-05.20.17:658][  2]LogWorld: Bringing up level for play took: 0.003773
+[2017.05.30-05.20.17:665][  2]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.529
+[2017.05.30-05.20.17:665][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.20:191][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.20:252][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-05.20.47:611][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.025
+[2017.05.30-05.20.47:613][624]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Phoenix/PhoenixAnimBlueprint] ([1] browsable assets)...
+[2017.05.30-05.20.47:638][624]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Phoenix/PhoenixAnimBlueprint.PhoenixAnimBlueprint]
+[2017.05.30-05.20.47:638][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/Phoenix/PhoenixAnimBlueprint]
+[2017.05.30-05.20.47:674][624]LogSavePackage: Save=30.12ms
+[2017.05.30-05.20.47:674][624]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/PhoenixAnimBlueprint_Auto5E1F12C0A4107E43C18A3B1BFADFB2DA7.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/Autosaves/Game/Phoenix/PhoenixAnimBlueprint_Auto5.uasset'
+[2017.05.30-05.20.47:676][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/Autosaves/Game/Phoenix/PhoenixAnimBlueprint_Auto5.uasset
+[2017.05.30-05.20.47:676][624]LogFileHelpers: Auto-saving content packages took 0.064
+[2017.05.30-05.22.43:014][967]LogSavePackage: Save=752.61ms
+[2017.05.30-05.22.43:014][967]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/ShadowField2EDE3D9F41E148110EA1EBB8F86A09F1.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap'
+[2017.05.30-05.22.43:018][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap
+[2017.05.30-05.22.43:727][967]LogSavePackage: Save=528.07ms
+[2017.05.30-05.22.43:727][967]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/ShadowField_BuiltData633D5A6445F5BC4DCD344098B5FB20D3.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset'
+[2017.05.30-05.22.43:729][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
+[2017.05.30-05.22.50:625][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Phoenix/PhoenixAnimBlueprint" FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/PhoenixAnimBlueprint.uasset" SILENT=true
+[2017.05.30-05.22.50:654][266]LogSavePackage: Save=22.62ms
+[2017.05.30-05.22.50:654][266]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/PhoenixAnimBlueprint3CF26CA94DC2D510CF0DE095DB4BF907.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/PhoenixAnimBlueprint.uasset'
+[2017.05.30-05.22.50:657][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/PhoenixAnimBlueprint.uasset
+[2017.05.30-05.22.50:941][267]Cmd: QUIT_EDITOR
+[2017.05.30-05.22.51:724][267]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.30-05.22.51:768][267]LogExit: Preparing to exit.
+[2017.05.30-05.22.52:486][267]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/', and we were unable to create a new request.
+[2017.05.30-05.22.52:535][267]LogExit: Editor shut down
+[2017.05.30-05.22.52:535][267]LogExit: Transaction tracking system shut down
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C33A6FE780 from material 0x000001C27E22B100
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C3D6658800 from material 0x000001C2BA965180
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C2847A4F00 from material 0x000001C284839A80
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C286318100 from material 0x000001C28706F580
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C3C4E01D00 from material 0x000001C289B45600
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C28A7A4F00 from material 0x000001C275972E00
+[2017.05.30-05.22.52:540][267]LogTemp:Display: Removed shader map 0x000001C28D044F00 from material 0x000001C28C3C8880
+[2017.05.30-05.22.52:678][267]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.30-05.22.52:678][267]LogExit: Object subsystem successfully closed.
+[2017.05.30-05.22.52:705][267]LogD3D11RHI: Shutdown
+[2017.05.30-05.22.52:705][267]LogD3D11RHI: CleanupD3DDevice
+[2017.05.30-05.22.52:944][267]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module MaterialEditor (516)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module PhAT (514)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (512)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (510)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module AnimationEditor (508)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module SkeletonEditor (502)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (500)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.30-05.22.52:977][267]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.30-05.22.52:977][267]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.30-05.22.52:978][267]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.30-05.22.52:978][267]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.30-05.22.52:978][267]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.30-05.22.52:978][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Collections/' was aborted.
+[2017.05.30-05.22.52:978][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Developers/Chris/Collections/' was aborted.
+[2017.05.30-05.22.52:978][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Saved/Collections/' was aborted.
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.30-05.22.52:979][267]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.30-05.22.53:411][267]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.30-05.22.53:412][267]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.30-05.22.53:466][267]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.30-05.22.53:481][267]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.30-05.22.53:482][267]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.30-05.22.53:485][267]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.30-05.22.53:562][267]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.30-05.22.53:563][267]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.30-05.22.53:565][267]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.30-05.22.53:565][267]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.30-05.22.53:565][267]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.30-05.22.53:566][267]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.30-05.22.53:567][267]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.30-05.22.53:568][267]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.30-05.22.53:568][267]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.30-05.22.53:568][267]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.30-05.22.53:668][267]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.30-05.22.53:769][267]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.30-05.22.53:773][267]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.30-05.22.53:773][267]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.30-05.22.53:773][267]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.30-05.22.53:773][267]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.30-05.22.53:773][267]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.30-05.22.53:773][267]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.30-05.22.53:927][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.30-05.22.53:927][267]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/' was aborted.
+[2017.05.30-05.22.53:927][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.30-05.22.53:928][267]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.30-05.22.53:929][267]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.30-05.22.53:967][267]LogDerivedDataCache: Shutdown
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.30-05.22.53:967][267]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.30-05.22.53:968][267]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.30-05.22.53:968][267]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.30-05.22.53:968][267]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.30-05.22.53:968][267]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA7381952-49D0-3186-78EF-5D8066DBABB8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=ab0c7b864ad56983ffc0a5b38213b067%7Cf8ccf1562c484920bde4bdb0d5186e1f%7Ce960b601-9302-4946-9b75-9838b448f97b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.30-05.22.54:001][267]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.30-05.22.54:004][267]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.30-05.22.54:004][267]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.30-05.22.54:004][267]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.30-05.22.54:004][267]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.30-05.22.54:004][267]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.30-05.22.54:010][267]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.30-05.22.54:014][267]LogExit: Exiting.
+[2017.05.30-05.22.54:035][267]Log file closed, 05/29/17 22:22:54

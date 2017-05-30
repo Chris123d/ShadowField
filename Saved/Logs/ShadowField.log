@@ -544,3 +544,24 @@ LogInit: Object subsystem initialized
 [2017.05.30-18.48.28:970][582]SourceControl: Info  rewrite Content/Phoenix/Shoesmat.uasset (98%)
 [2017.05.30-18.48.28:970][582]SourceControl: Info  rewrite Content/Phoenix/Topmat.uasset (98%)
 [2017.05.30-18.48.28:979][582]SourceControl: Info Commited [MR_ALlEN f0d737c] NewStuff.
+[2017.05.30-18.52.07:015][863]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-18.52.07:025][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-18.52.07:025][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-18.52.07:025][863]PIE: New page: PIE session: ShadowField (May 30, 2017, 4:52:07 AM)
+[2017.05.30-18.52.07:025][863]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-18.52.07:092][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066803s)
+[2017.05.30-18.52.07:093][863]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-18.52.07:093][863]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2017.05.30-18.52.07:094][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.068168s)
+[2017.05.30-18.52.07:104][863]LogTemp:Display: Removed shader map 0x0000020005AA6780 from material 0x000001FFD40A2700
+[2017.05.30-18.52.07:104][863]LogTemp:Display: Removed shader map 0x000002004710FC80 from material 0x000001FFB71D3880
+[2017.05.30-18.52.07:104][863]LogTemp:Display: Removed shader map 0x0000020049DBEB00 from material 0x000001FFB71D3880
+[2017.05.30-18.52.07:123][863]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.30-18.52.07:132][863]LogInit: FAudioDevice initialized.
+[2017.05.30-18.52.07:185][863]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-18.52.07:190][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-11.52.07
+[2017.05.30-18.52.07:190][863]LogWorld: Bringing up level for play took: 0.004106
+[2017.05.30-18.52.07:195][863]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.059
+[2017.05.30-18.52.07:196][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-18.52.11:966][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-18.52.12:010][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'

@@ -73,3 +73,9 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/AutoScreenshot.png
+Saved/Logs/ShadowField.log
+Saved/Config/Windows/Engine.ini
+Saved/Config/Windows/Editor.ini
+Intermediate/CachedAssetRegistry.bin

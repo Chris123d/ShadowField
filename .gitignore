@@ -73,3 +73,27 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+<<<<<<< HEAD
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/AutoScreenshot.png
+Saved/Logs/ShadowField.log
+Saved/Config/Windows/Engine.ini
+Saved/Config/Windows/Editor.ini
+Intermediate/CachedAssetRegistry.bin
+=======
+Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
+Intermediate/CachedAssetRegistry.bin
+Saved/AutoScreenshot.png
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/Logs/ShadowField.log
+Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
+Intermediate/CachedAssetRegistry.bin
+Saved/AutoScreenshot.png
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/Logs/ShadowField.log
+>>>>>>> master
+Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
+Intermediate/CachedAssetRegistry.bin
+Saved/AutoScreenshot.png
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/Logs/ShadowField.log

@@ -1,9 +1,9 @@
-﻿Log file open, 05/30/17 10:12:10
+﻿Log file open, 05/30/17 10:27:01
 LogInit:Display: Running engine for game: ShadowField
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1686911065) SRandInit(1686911066).
-LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 1.976167
+LogInit:Display: RandInit(-1887620025) SRandInit(-1887620024).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.310849
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,8 +20,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.15-CL-3299760
-LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
 LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
 LogInit: Net CL: 3299760
 LogDevObjectVersion: Number of dev versions registered: 14
@@ -39,7 +39,7 @@ LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
-LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
@@ -48,345 +48,213 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.30-17.12.11:609][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.30-17.12.11:609][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.30-17.12.11:631][  0]LogInit: Computer: DESKTOP-PR3U7DC
-[2017.05.30-17.12.11:631][  0]LogInit: User: Admin
-[2017.05.30-17.12.11:631][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.05.30-17.12.11:631][  0]LogInit: High frequency timer resolution =2.531255 MHz
-[2017.05.30-17.12.11:631][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.05.30-17.12.11:631][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.30-17.12.11:631][  0]LogMemory: Process Physical Memory: 262.61 MB used, 262.61 MB peak
-[2017.05.30-17.12.11:631][  0]LogMemory: Process Virtual Memory: 262.26 MB used, 262.26 MB peak
-[2017.05.30-17.12.11:631][  0]LogMemory: Physical Memory: 3243.32 MB used,  4828.09 MB free, 8071.41 MB total
-[2017.05.30-17.12.11:631][  0]LogMemory: Virtual Memory: 642.33 MB used,  4828.09 MB free, 134217728.00 MB total
-[2017.05.30-17.12.12:073][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.05.30-17.12.13:201][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.30-17.12.13:215][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2017.05.30-17.12.13:215][  0]LogD3D11RHI:       128/0/3988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.05.30-17.12.13:217][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.30-17.12.13:217][  0]LogD3D11RHI:       0/0/3988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.30-17.12.13:217][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.30-17.12.13:224][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.30-17.12.13:225][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.30-17.12.13:225][  0]LogWindows: EnumDisplayDevices:
-[2017.05.30-17.12.13:225][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2017.05.30-17.12.13:225][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.05.30-17.12.13:226][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.05.30-17.12.13:226][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.05.30-17.12.13:226][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2017.05.30-17.12.13:226][  0]LogD3D11RHI:   Driver Version: 20.19.15.4326 (internal:20.19.15.4326, unified:20.19.15.4326)
-[2017.05.30-17.12.13:226][  0]LogD3D11RHI:      Driver Date: 11-18-2015
-[2017.05.30-17.12.13:226][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.30-17.12.13:235][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.30-17.12.13:322][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2017.05.30-17.12.13:341][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Intermediate/Shaders/WorkingDirectory/12952/).
-[2017.05.30-17.12.13:341][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/B87FF060473A146D037BD282BA314FE6/'.
-[2017.05.30-17.12.13:341][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.30-17.12.15:370][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.30-17.12.15:440][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.30-17.12.15:499][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.30-17.12.15:572][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.30-17.12.15:681][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.30-17.12.15:749][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.30-17.12.15:808][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.30-17.12.15:883][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.30-17.12.15:938][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.30-17.12.16:001][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.30-17.12.16:060][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.30-17.12.16:119][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.30-17.12.16:174][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.30-17.12.16:230][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.30-17.12.16:286][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.30-17.12.16:402][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.30-17.12.16:402][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.30-17.12.16:442][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.30-17.12.16:554][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.30-17.12.16:602][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.30-17.12.16:670][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.30-17.12.16:731][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.30-17.12.16:790][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.30-17.12.16:850][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.30-17.12.16:850][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.30-17.12.17:401][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.30-17.12.17:675][  0]LogDerivedDataCache: Loaded boot cache 0.27s 50MB C:/Users/Admin/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.30-17.12.17:675][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.30-17.12.17:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.30-17.12.17:675][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.30-17.12.17:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.30-17.12.17:675][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.30-17.12.17:702][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.30-17.12.17:715][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.30-17.12.17:738][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.30-17.12.17:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.30-17.12.17:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.30-17.12.19:060][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.30-17.12.19:069][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.30-17.12.19:350][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.30-17.12.19:417][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.30-17.12.19:476][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.30-17.12.19:476][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.30-17.12.19:476][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.30-17.12.20:424][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: shadowfield, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2966221921
-[2017.05.30-17.12.20:483][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
-[2017.05.30-17.12.20:544][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.034104 seconds
-[2017.05.30-17.12.20:550][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
-[2017.05.30-17.12.20:550][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
-[2017.05.30-17.12.20:550][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.30-17.12.20:623][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.30-17.12.23:591][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.30-17.12.23:637][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.30-17.12.24:293][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.30-17.12.24:733][  0]SourceControl: Info Source control is disabled
-[2017.05.30-17.12.26:776][  0]LogEngine: Initializing Engine...
-[2017.05.30-17.12.26:778][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.30-17.12.27:086][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.30-17.12.27:107][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.30-17.12.27:181][  0]LogInit: FAudioDevice initialized.
-[2017.05.30-17.12.27:209][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Admin/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.30-17.12.27:212][  0]LogInit: Texture streaming: Enabled
-[2017.05.30-17.12.27:322][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.05.30-17.12.27:484][  0]LogInit: Transaction tracking system initialized
-[2017.05.30-17.12.28:033][  0]BlueprintLog: New page: Editor Load
-[2017.05.30-17.12.29:316][  0]LocalizationService: Info Localization service is disabled
-[2017.05.30-17.12.30:566][  0]LogConsoleResponse:Display: 
-[2017.05.30-17.12.30:826][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.30-17.12.30:826][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.30-17.12.31:241][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Desktop/GD Stuff/ShadowField/Content/' took 0.02s
-[2017.05.30-17.12.32:552][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Desktop/GD Stuff/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.30-17.12.32:553][  0]LightingResults: New page: Lighting Build
-[2017.05.30-17.12.32:632][  0]MapCheck: New page: Map Check
-[2017.05.30-17.12.32:632][  0]LightingResults: New page: Lighting Build
-[2017.05.30-17.12.34:242][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
-[2017.05.30-17.12.34:242][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.30-17.12.35:419][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
-[2017.05.30-17.12.35:419][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
-[2017.05.30-17.12.35:419][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
-[2017.05.30-17.12.35:967][  0]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-17.12.36:248][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.30-17.12.36:254][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.30-17.12.36:327][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.374ms to complete.
-[2017.05.30-17.12.36:327][  0]LogFileHelpers: Loading map 'ShadowField' took 3.776
-[2017.05.30-17.12.36:682][  0]LogCollectionManager: Loaded 0 collections in 0.002236 seconds
-[2017.05.30-17.12.36:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Desktop/GD Stuff/ShadowField/Saved/Collections/' took 0.01s
-[2017.05.30-17.12.36:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Desktop/GD Stuff/ShadowField/Content/Developers/Admin/Collections/' took 0.01s
-[2017.05.30-17.12.36:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Desktop/GD Stuff/ShadowField/Content/Collections/' took 0.01s
-[2017.05.30-17.12.36:797][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.05.30-17.12.36:815][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2244 classes and 450 folders.
-[2017.05.30-17.12.36:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.30-17.12.36:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.30-17.12.36:910][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.05.30-17.12.37:032][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.05.30-17.12.37:090][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.05.30-17.12.37:454][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.30-17.12.37:471][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.30-17.12.37:557][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.05.30-17.12.37:558][  0]LogLoad: (Engine Initialization) Total time: 31.43 seconds
-[2017.05.30-17.12.37:558][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
-[2017.05.30-17.12.37:558][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.05.30-17.12.37:898][  0]LogOcInput: OculusInput pre-init called
-[2017.05.30-17.12.37:930][  0]SourceControl: Info On branch Zach
-[2017.05.30-17.12.37:930][  0]SourceControl: Info Your branch is up-to-date with 'origin/Zach'.
-[2017.05.30-17.12.37:930][  0]SourceControl: Info You have unmerged paths.
-[2017.05.30-17.12.37:930][  0]SourceControl: Info   (fix conflicts and run "git commit")
-[2017.05.30-17.12.37:930][  0]SourceControl: Info   (use "git merge --abort" to abort the merge)
-[2017.05.30-17.12.37:930][  0]SourceControl: Info Changes to be committed:
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/Beardmat.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/Bodymat.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/Bottommat.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/Eyewearmat.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/Hairmat.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/IdleRun.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/NewAnimBlueprint.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixAnimBlueprint.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Beard_Diffuse.uasset
-[2017.05.30-17.12.37:930][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Beard_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Beard_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Beard_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Body_Diffuse.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Body_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Body_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Body_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Bottom_Diffuse.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Bottom_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Bottom_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Bottom_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Eyewear_Diffuse.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Eyewear_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Eyewear_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Eyewear_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Hair_Diffuse.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Hair_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Hair_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Hair_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_PhysicsAsset.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Shoes_Diffuse.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Shoes_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Shoes_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Shoes_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Skeleton.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Top_Diffuse.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Top_Normal.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Top_Opacity.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/PhoenixModel_Top_Specular.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/Shoesmat.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/Topmat.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/falling_idle.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/idle.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/jump.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/landing.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/left_strafe.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/left_strafe_walking.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/left_turn_90.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/right_strafe.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/right_strafe_walking.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/right_turn_90.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/standard_run.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	new file:   Content/Phoenix/walking.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info Unmerged paths:
-[2017.05.30-17.12.37:931][  0]SourceControl: Info   (use "git add <file>..." to mark resolution)
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Content/ThirdPersonBP/Maps/ShadowField.umap
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Intermediate/CachedAssetRegistry.bin
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Saved/AutoScreenshot.png
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Saved/Config/Windows/Editor.ini
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	both modified:   Saved/Logs/ShadowField.log
-[2017.05.30-17.12.37:931][  0]SourceControl: Info Changes not staged for commit:
-[2017.05.30-17.12.37:931][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.05.30-17.12.37:931][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	deleted:    Content/Phoenix/Beardmat.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	deleted:    Content/Phoenix/Bodymat.uasset
-[2017.05.30-17.12.37:931][  0]SourceControl: Info 	deleted:    Content/Phoenix/Bottommat.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/Eyewearmat.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/Hairmat.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/IdleRun.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/NewAnimBlueprint.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixAnimBlueprint.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Beard_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Beard_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Beard_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Beard_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Body_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Body_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Body_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Body_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Bottom_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Bottom_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Bottom_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Bottom_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Eyewear_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Eyewear_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Eyewear_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Eyewear_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Hair_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Hair_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Hair_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Hair_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_PhysicsAsset.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Shoes_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Shoes_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Shoes_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Shoes_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Skeleton.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Top_Diffuse.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Top_Normal.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Top_Opacity.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/PhoenixModel_Top_Specular.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/Shoesmat.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/Topmat.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/falling_idle.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/idle.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/jump.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/landing.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/left_strafe.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/left_strafe_walking.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/left_turn_90.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/right_strafe.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/right_strafe_walking.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/right_turn_90.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/standard_run.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	deleted:    Content/Phoenix/walking.uasset
-[2017.05.30-17.12.37:932][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2017.05.30-17.12.37:933][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.05.30-17.12.37:939][  0]LogSlate: Took 0.001824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.30-17.12.37:947][  0]LogSlate: Took 0.001827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.05.30-17.12.37:957][  0]LogSlate: Took 0.001590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.05.30-17.12.38:098][  0]LogSlate: Took 0.001779 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.30-17.12.38:160][  0]LogRenderer: Reallocating scene render targets to support 740x308 NumSamples 1 (Frame:2).
-[2017.05.30-17.12.39:935][  3]LogAssetRegistry: Asset discovery search completed in 19.4752 seconds
-[2017.05.30-17.12.39:935][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000016 seconds (found 0 objects)
-[2017.05.30-17.12.39:935][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2017.05.30-17.12.44:797][ 17]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
-[2017.05.30-17.12.44:797][ 17]LogSynthBenchmark:Display: ===============
-[2017.05.30-17.12.44:797][ 17]LogSynthBenchmark:Display: Main Processor:
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:          ... 0.051808 s/Run 'RayIntersect'
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:          ... 0.025813 s/Run 'Fractal'
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display: 
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   CPU Perf Index 0: 49.4 (weight 1.00)
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   CPU Perf Index 1: 110.8 (weight 1.50)
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:  
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display: Graphics:
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 520'
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   Vendor Id: 0x8086
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   Device Id: 0x1916
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   Device Revision: 0x7
-[2017.05.30-17.12.45:185][ 17]LogSynthBenchmark:Display:   GPU Memory: 128/0/3989 MB
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:   GPU first test: 0.03s
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.377 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.318 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.288 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.931 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.092 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.244 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
-[2017.05.30-17.12.45:347][ 17]LogSynthBenchmark:Display:          ... 0.492 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU second test: 0.26s
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.537 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.406 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.344 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 2.823 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.093 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.262 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.494 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Final Results:
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.537 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.406 s/GigaPix, Confidence=100% 'TexHeavy'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.344 s/GigaPix, Confidence=100% 'DepTexHeavy'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 2.823 s/GigaPix, Confidence=100% 'FillOnly'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.093 s/GigaPix, Confidence=100% 'Bandwidth'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.262 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... 0.494 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display: 
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 0: 11.7 (weight 1.00)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 1: 5.5 (weight 0.10)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 2: 8.9 (weight 0.10)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 3: 11.1 (weight 3.00)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 4: 8.7 (weight 1.00)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 5: 17.1 (weight 0.00)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPU Perf Index 6: 28.0 (weight 0.00)
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   CPUIndex: 86.3
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:   GPUIndex: 10.6
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display: 
-[2017.05.30-17.12.45:704][ 17]LogSynthBenchmark:Display:          ... Total Time: 0.906726 sec
-[2017.05.30-17.13.38:249][555]LogHttp:Warning: 000001A8DE051600: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2017.05.30-17.13.38:250][555]LogHttp:Warning: 000001A8DE051600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2017.05.30-17.13.38:251][555]LogHttp:Warning: 000001A8DE051600: libcurl info message cache 1 (Closing connection 1)
-[2017.05.30-17.14.38:343][735]LogHttp:Warning: 000001A8DE050580: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2017.05.30-17.14.38:343][735]LogHttp:Warning: 000001A8DE050580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2017.05.30-17.14.38:343][735]LogHttp:Warning: 000001A8DE050580: libcurl info message cache 1 (Closing connection 2)
-[2017.05.30-17.19.44:590][860]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.30-17.19.45:102][860]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.30-17.19.45:276][860]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
-[2017.05.30-17.19.46:172][860]LogSlate: Took 0.001950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.05.30-17.19.46:668][861]LogSlate: Took 0.001314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.30-17.27.02:661][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.30-17.27.02:661][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.30-17.27.02:670][  0]LogInit: Computer: LEVIATHAN
+[2017.05.30-17.27.02:670][  0]LogInit: User: Chris
+[2017.05.30-17.27.02:670][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.05.30-17.27.02:670][  0]LogInit: High frequency timer resolution =3.320318 MHz
+[2017.05.30-17.27.02:670][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.05.30-17.27.02:670][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.30-17.27.02:670][  0]LogMemory: Process Physical Memory: 264.16 MB used, 264.16 MB peak
+[2017.05.30-17.27.02:670][  0]LogMemory: Process Virtual Memory: 269.00 MB used, 269.00 MB peak
+[2017.05.30-17.27.02:670][  0]LogMemory: Physical Memory: 9499.68 MB used,  23168.34 MB free, 32668.02 MB total
+[2017.05.30-17.27.02:670][  0]LogMemory: Virtual Memory: 639.04 MB used,  23168.34 MB free, 134217728.00 MB total
+[2017.05.30-17.27.02:969][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.30-17.27.04:034][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.30-17.27.04:797][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.05.30-17.27.04:797][  0]LogD3D11RHI:       8110/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.30-17.27.04:799][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.30-17.27.04:799][  0]LogD3D11RHI:       0/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.30-17.27.04:799][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.30-17.27.04:806][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.30-17.27.04:806][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.30-17.27.04:806][  0]LogWindows: EnumDisplayDevices:
+[2017.05.30-17.27.04:806][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.05.30-17.27.04:806][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.05.30-17.27.04:806][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.30-17.27.04:806][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.30-17.27.04:807][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.30-17.27.04:807][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.05.30-17.27.04:807][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.05.30-17.27.04:807][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.05.30-17.27.04:807][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.30-17.27.05:527][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.30-17.27.05:527][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.30-17.27.05:586][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.30-17.27.05:636][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Chris/Documents/GitHub/ShadowField/Intermediate/Shaders/WorkingDirectory/15704/).
+[2017.05.30-17.27.05:637][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/31710B654B90E41C874BB38C16D6BC92/'.
+[2017.05.30-17.27.05:637][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.30-17.27.07:355][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.30-17.27.07:452][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.30-17.27.07:538][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.30-17.27.07:617][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.30-17.27.07:689][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.30-17.27.07:763][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.30-17.27.07:833][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.30-17.27.07:904][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.30-17.27.07:980][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.30-17.27.08:084][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.30-17.27.08:189][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.30-17.27.08:259][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.30-17.27.08:330][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.30-17.27.08:404][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.30-17.27.08:476][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.30-17.27.08:622][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.30-17.27.08:622][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.30-17.27.08:676][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.30-17.27.09:020][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.30-17.27.09:149][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.30-17.27.09:330][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.30-17.27.09:492][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.30-17.27.09:643][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.30-17.27.09:731][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.30-17.27.09:731][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.30-17.27.10:552][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.30-17.27.10:685][  0]LogDerivedDataCache: Loaded boot cache 0.13s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.30-17.27.10:685][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.30-17.27.10:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/GitHub/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.30-17.27.10:685][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.30-17.27.10:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/GitHub/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.30-17.27.10:685][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.30-17.27.10:705][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.30-17.27.10:718][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.30-17.27.10:740][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.30-17.27.10:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.30-17.27.10:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.30-17.27.11:537][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.30-17.27.11:551][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.30-17.27.11:857][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.30-17.27.11:926][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.30-17.27.12:018][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.30-17.27.12:018][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.30-17.27.12:018][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.30-17.27.12:857][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: shadowfield, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2966221921
+[2017.05.30-17.27.12:920][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.05.30-17.27.12:977][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032774 seconds
+[2017.05.30-17.27.12:982][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.30-17.27.12:982][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.30-17.27.12:982][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.30-17.27.13:054][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.30-17.27.17:138][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.30-17.27.17:209][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.30-17.27.17:932][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.30-17.27.18:547][  0]SourceControl: Info Source control is disabled
+[2017.05.30-17.27.22:353][  0]LogEngine: Initializing Engine...
+[2017.05.30-17.27.22:355][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.30-17.27.22:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.30-17.27.22:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.30-17.27.22:752][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.30-17.27.22:795][  0]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.30-17.27.22:820][  0]LogInit: FAudioDevice initialized.
+[2017.05.30-17.27.22:848][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.30-17.27.22:854][  0]LogInit: Texture streaming: Enabled
+[2017.05.30-17.27.23:001][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.30-17.27.23:156][  0]LogInit: Transaction tracking system initialized
+[2017.05.30-17.27.23:760][  0]BlueprintLog: New page: Editor Load
+[2017.05.30-17.27.25:429][  0]LocalizationService: Info Localization service is disabled
+[2017.05.30-17.27.26:586][  0]LogConsoleResponse:Display: 
+[2017.05.30-17.27.26:767][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.30-17.27.26:768][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.30-17.27.26:850][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/' took 0.02s
+[2017.05.30-17.27.28:731][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.30-17.27.28:733][  0]LightingResults: New page: Lighting Build
+[2017.05.30-17.27.28:793][  0]MapCheck: New page: Map Check
+[2017.05.30-17.27.28:793][  0]LightingResults: New page: Lighting Build
+[2017.05.30-17.27.30:451][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.05.30-17.27.30:451][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.30-17.27.31:020][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2017.05.30-17.27.31:020][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2017.05.30-17.27.31:020][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
+[2017.05.30-17.27.31:378][  0]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-17.27.31:527][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.30-17.27.31:529][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.30-17.27.31:689][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 159.891ms to complete.
+[2017.05.30-17.27.31:689][  0]LogFileHelpers: Loading map 'ShadowField' took 2.959
+[2017.05.30-17.27.31:986][  0]LogCollectionManager: Loaded 0 collections in 0.002062 seconds
+[2017.05.30-17.27.32:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
+[2017.05.30-17.27.32:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Developers/Chris/Collections/' took 0.01s
+[2017.05.30-17.27.32:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
+[2017.05.30-17.27.32:097][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.05.30-17.27.32:108][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2245 classes and 453 folders.
+[2017.05.30-17.27.32:187][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.30-17.27.32:309][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.30-17.27.32:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.05.30-17.27.32:490][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.30-17.27.32:505][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.30-17.27.32:607][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.30-17.27.32:608][  0]LogLoad: (Engine Initialization) Total time: 33.12 seconds
+[2017.05.30-17.27.32:608][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.05.30-17.27.32:608][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.30-17.27.32:954][  0]LogOcInput: OculusInput pre-init called
+[2017.05.30-17.27.32:985][  0]SourceControl: Info On branch Allen
+[2017.05.30-17.27.32:985][  0]SourceControl: Info Your branch is up-to-date with 'origin/Allen'.
+[2017.05.30-17.27.32:985][  0]SourceControl: Info Changes not staged for commit:
+[2017.05.30-17.27.32:985][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.30-17.27.32:985][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.30-17.27.32:985][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.30-17.27.32:985][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.30-17.27.32:985][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.30-17.27.32:985][  0]SourceControl: Info 	modified:   Saved/Logs/ShadowField.log
+[2017.05.30-17.27.32:985][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.30-17.27.32:986][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.30-17.27.32:992][  0]LogSlate: Took 0.001449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.30-17.27.33:001][  0]LogSlate: Took 0.001502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.30-17.27.33:012][  0]LogSlate: Took 0.001408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.30-17.27.33:192][  0]LogSlate: Took 0.001445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.30-17.27.33:268][  0]LogRenderer: Reallocating scene render targets to support 1244x624 NumSamples 1 (Frame:2).
+[2017.05.30-17.27.33:711][  2]LogAssetRegistry: Asset discovery search completed in 20.8126 seconds
+[2017.05.30-17.27.33:711][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
+[2017.05.30-17.27.33:711][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.05.30-17.27.41:932][580]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-17.27.41:942][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.27.41:942][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-17.27.41:944][580]PIE: New page: PIE session: ShadowField (May 30, 2017, 3:27:41 AM)
+[2017.05.30-17.27.41:944][580]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-17.27.42:022][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078094s)
+[2017.05.30-17.27.42:023][580]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-17.27.42:023][580]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2017.05.30-17.27.42:024][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.079682s)
+[2017.05.30-17.27.42:063][580]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.30-17.27.42:071][580]LogInit: FAudioDevice initialized.
+[2017.05.30-17.27.42:162][580]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-17.27.42:169][580]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-10.27.42
+[2017.05.30-17.27.42:172][580]LogWorld: Bringing up level for play took: 0.006356
+[2017.05.30-17.27.42:234][580]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.30-17.27.42:243][580]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 1.107
+[2017.05.30-17.27.42:244][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.27.42:287][580]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:590).
+[2017.05.30-17.27.47:467][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.27.47:512][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.28.05:351][534]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-17.28.05:361][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.28.05:361][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-17.28.05:362][534]PIE: New page: PIE session: ShadowField (May 30, 2017, 3:28:05 AM)
+[2017.05.30-17.28.05:362][534]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2017.05.30-17.28.05:424][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061922s)
+[2017.05.30-17.28.05:424][534]LogAIModule: Creating AISystem for world ShadowField
+[2017.05.30-17.28.05:424][534]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2017.05.30-17.28.05:424][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.062871s)
+[2017.05.30-17.28.05:446][534]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.30-17.28.05:454][534]LogInit: FAudioDevice initialized.
+[2017.05.30-17.28.05:511][534]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.30-17.28.05:516][534]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-10.28.05
+[2017.05.30-17.28.05:516][534]LogWorld: Bringing up level for play took: 0.003785
+[2017.05.30-17.28.05:520][534]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.384
+[2017.05.30-17.28.05:523][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.28.09:343][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.28.09:400][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.05.30-17.28.19:935][ 60]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.05.30-17.28.24:066][396]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2017.05.30-17.28.42:062][984]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.30-17.28.42:141][984]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.30-17.28.42:219][984]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.05.30-17.28.42:372][984]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.30-17.28.42:855][984]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.30-17.28.43:246][984]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.30-17.28.43:404][984]LogSlate: Took 0.001508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.30-17.28.43:552][985]LogSlate: Took 0.001304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.30-17.37.48:743][408]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.05.30-17.38.27:223][665]LogRenderer: Reallocating scene render targets to support 1296x756 NumSamples 1 (Frame:26627).
+[2017.05.30-17.38.27:288][666]LogRenderer: Reallocating scene render targets to support 1300x756 NumSamples 1 (Frame:26629).
+[2017.05.30-17.38.27:462][668]LogRenderer: Reallocating scene render targets to support 1308x756 NumSamples 1 (Frame:26633).

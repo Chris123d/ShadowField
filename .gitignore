@@ -73,3 +73,7 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*.uasset
+Content/RealisticTrees1/Materials/Trees/Flatland/MI_FlatlandBark.uasset
+*.uasset
+Content/RealisticTrees1/Materials/Trees/Flatland/M_FlatlandBarkLOD.uasset

@@ -1,9 +1,9 @@
-﻿Log file open, 05/30/17 11:40:38
+﻿Log file open, 06/09/17 21:06:03
 LogInit:Display: Running engine for game: ShadowField
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-106153449) SRandInit(-106153449).
+LogInit:Display: RandInit(-719021987) SRandInit(-719021987).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.103427
+LogStats: Stats thread started at 0.099190
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,520 +48,469 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.30-18.40.39:227][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.30-18.40.39:227][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.30-18.40.39:234][  0]LogInit: Computer: LEVIATHAN
-[2017.05.30-18.40.39:234][  0]LogInit: User: Chris
-[2017.05.30-18.40.39:234][  0]LogInit: CPU Page size=65536, Cores=6
-[2017.05.30-18.40.39:234][  0]LogInit: High frequency timer resolution =3.320318 MHz
-[2017.05.30-18.40.39:234][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.05.30-18.40.39:234][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.30-18.40.39:234][  0]LogMemory: Process Physical Memory: 264.20 MB used, 264.20 MB peak
-[2017.05.30-18.40.39:234][  0]LogMemory: Process Virtual Memory: 269.06 MB used, 269.06 MB peak
-[2017.05.30-18.40.39:234][  0]LogMemory: Physical Memory: 9851.39 MB used,  22816.63 MB free, 32668.02 MB total
-[2017.05.30-18.40.39:234][  0]LogMemory: Virtual Memory: 639.04 MB used,  22816.63 MB free, 134217728.00 MB total
-[2017.05.30-18.40.39:340][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.05.30-18.40.40:041][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.30-18.40.40:817][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2017.05.30-18.40.40:817][  0]LogD3D11RHI:       8110/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.05.30-18.40.40:818][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.30-18.40.40:818][  0]LogD3D11RHI:       0/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.30-18.40.40:818][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.30-18.40.40:825][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.30-18.40.40:825][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.30-18.40.40:825][  0]LogWindows: EnumDisplayDevices:
-[2017.05.30-18.40.40:825][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2017.05.30-18.40.40:825][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2017.05.30-18.40.40:825][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.05.30-18.40.40:825][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.05.30-18.40.40:826][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.05.30-18.40.40:826][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2017.05.30-18.40.40:826][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
-[2017.05.30-18.40.40:826][  0]LogD3D11RHI:      Driver Date: 5-17-2017
-[2017.05.30-18.40.40:826][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.30-18.40.41:502][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2017.05.30-18.40.41:502][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.30-18.40.41:537][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.30-18.40.41:582][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Chris/Documents/GitHub/ShadowField/Intermediate/Shaders/WorkingDirectory/7444/).
-[2017.05.30-18.40.41:582][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/4F9E392D4E5C82CAAB695398B76F9E6D/'.
-[2017.05.30-18.40.41:582][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.30-18.40.42:713][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.30-18.40.42:781][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.30-18.40.42:844][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.30-18.40.42:911][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.30-18.40.42:998][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.30-18.40.43:060][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.30-18.40.43:124][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.30-18.40.43:192][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.30-18.40.43:246][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.30-18.40.43:308][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.30-18.40.43:370][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.30-18.40.43:431][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.30-18.40.43:492][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.30-18.40.43:557][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.30-18.40.43:618][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.30-18.40.43:740][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.30-18.40.43:740][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.30-18.40.43:789][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.30-18.40.43:897][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.30-18.40.43:932][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.30-18.40.43:995][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.30-18.40.44:055][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.30-18.40.44:121][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.30-18.40.44:193][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.30-18.40.44:193][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.30-18.40.44:715][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.30-18.40.44:776][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.30-18.40.44:776][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.30-18.40.44:776][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/GitHub/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.30-18.40.44:776][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.30-18.40.44:776][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/GitHub/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.30-18.40.44:776][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.30-18.40.44:792][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.30-18.40.44:804][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.30-18.40.44:816][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.30-18.40.44:817][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.30-18.40.44:817][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.30-18.40.45:118][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.30-18.40.45:120][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.30-18.40.45:352][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.30-18.40.45:415][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.30-18.40.45:474][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.30-18.40.45:474][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.30-18.40.45:474][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.30-18.40.46:142][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: shadowfield, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2966221921
-[2017.05.30-18.40.46:191][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
-[2017.05.30-18.40.46:242][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028252 seconds
-[2017.05.30-18.40.46:247][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.05.30-18.40.46:247][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2017.05.30-18.40.46:247][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.30-18.40.46:311][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.30-18.40.48:285][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.30-18.40.48:328][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.30-18.40.48:903][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.30-18.40.49:385][  0]SourceControl: Info Source control is disabled
-[2017.05.30-18.40.51:917][  0]LogEngine: Initializing Engine...
-[2017.05.30-18.40.51:917][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.30-18.40.52:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.30-18.40.52:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.30-18.40.52:185][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.30-18.40.52:206][  0]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.30-18.40.52:218][  0]LogInit: FAudioDevice initialized.
-[2017.05.30-18.40.52:248][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.30-18.40.52:253][  0]LogInit: Texture streaming: Enabled
-[2017.05.30-18.40.52:350][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.05.30-18.40.52:458][  0]LogInit: Transaction tracking system initialized
-[2017.05.30-18.40.52:884][  0]BlueprintLog: New page: Editor Load
-[2017.05.30-18.40.53:923][  0]LocalizationService: Info Localization service is disabled
-[2017.05.30-18.40.54:754][  0]LogConsoleResponse:Display: 
-[2017.05.30-18.40.54:892][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.30-18.40.54:892][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.30-18.40.55:775][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/' took 0.02s
-[2017.05.30-18.40.56:417][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.30-18.40.56:418][  0]LightingResults: New page: Lighting Build
-[2017.05.30-18.40.56:466][  0]MapCheck: New page: Map Check
-[2017.05.30-18.40.56:466][  0]LightingResults: New page: Lighting Build
-[2017.05.30-18.40.57:101][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
-[2017.05.30-18.40.57:101][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.30-18.40.57:161][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
-[2017.05.30-18.40.57:161][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
-[2017.05.30-18.40.57:161][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
-[2017.05.30-18.40.57:676][  0]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-18.40.57:743][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.30-18.40.57:743][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.30-18.40.57:890][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 146.781ms to complete.
-[2017.05.30-18.40.57:890][  0]LogFileHelpers: Loading map 'ShadowField' took 1.472
-[2017.05.30-18.40.58:114][  0]LogCollectionManager: Loaded 0 collections in 0.001632 seconds
-[2017.05.30-18.40.58:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
-[2017.05.30-18.40.58:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Developers/Chris/Collections/' took 0.01s
-[2017.05.30-18.40.58:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
-[2017.05.30-18.40.58:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.05.30-18.40.58:223][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2245 classes and 453 folders.
-[2017.05.30-18.40.58:296][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.05.30-18.40.58:353][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.05.30-18.40.58:406][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.05.30-18.40.58:451][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.30-18.40.58:457][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.30-18.40.58:530][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.05.30-18.40.58:530][  0]LogLoad: (Engine Initialization) Total time: 21.68 seconds
-[2017.05.30-18.40.58:530][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
-[2017.05.30-18.40.58:530][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.05.30-18.40.58:539][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.30-18.40.58:541][  0]LogOcInput: OculusInput pre-init called
-[2017.05.30-18.40.58:561][  0]SourceControl: Info On branch MR_ALlEN
-[2017.05.30-18.40.58:561][  0]SourceControl: Info Your branch is up-to-date with 'origin/MR_ALlEN'.
-[2017.05.30-18.40.58:561][  0]SourceControl: Info Changes not staged for commit:
-[2017.05.30-18.40.58:561][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2017.05.30-18.40.58:561][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.05.30-18.40.58:561][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.05.30-18.40.58:561][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2017.05.30-18.40.58:561][  0]SourceControl: Info 	modified:   Saved/Logs/ShadowField.log
-[2017.05.30-18.40.58:561][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.05.30-18.40.58:561][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.30-18.40.58:563][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.30-18.40.58:567][  0]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.05.30-18.40.58:571][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.05.30-18.40.58:698][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.30-18.40.58:779][  0]LogRenderer: Reallocating scene render targets to support 1308x472 NumSamples 1 (Frame:2).
-[2017.05.30-18.40.58:926][  1]LogAssetRegistry: Asset discovery search completed in 12.7573 seconds
-[2017.05.30-18.40.58:926][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2017.05.30-18.40.58:926][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
-[2017.05.30-18.41.00:593][120]LogRenderer: Reallocating scene render targets to support 1308x476 NumSamples 1 (Frame:127).
-[2017.05.30-18.41.00:670][120]LogRenderer: Reallocating scene render targets to support 1308x592 NumSamples 1 (Frame:129).
-[2017.05.30-18.41.00:808][122]LogRenderer: Reallocating scene render targets to support 1308x668 NumSamples 1 (Frame:131).
-[2017.05.30-18.41.00:899][123]LogRenderer: Reallocating scene render targets to support 1308x680 NumSamples 1 (Frame:133).
-[2017.05.30-18.41.01:010][124]LogRenderer: Reallocating scene render targets to support 1308x692 NumSamples 1 (Frame:135).
-[2017.05.30-18.41.11:102][184]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.05.30-18.41.11:111][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.41.11:111][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.30-18.41.11:111][184]PIE: New page: PIE session: ShadowField (May 30, 2017, 4:41:11 AM)
-[2017.05.30-18.41.11:111][184]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
-[2017.05.30-18.41.11:182][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070793s)
-[2017.05.30-18.41.11:183][184]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-18.41.11:183][184]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2017.05.30-18.41.11:183][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.071792s)
-[2017.05.30-18.41.11:215][184]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.30-18.41.11:222][184]LogInit: FAudioDevice initialized.
-[2017.05.30-18.41.11:306][184]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.05.30-18.41.11:311][184]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-11.41.11
-[2017.05.30-18.41.11:311][184]LogWorld: Bringing up level for play took: 0.003924
-[2017.05.30-18.41.11:362][184]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.05.30-18.41.11:366][184]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.23
-[2017.05.30-18.41.11:366][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.41.11:407][184]LogRenderer: Reallocating scene render targets to support 1308x756 NumSamples 1 (Frame:1211).
-[2017.05.30-18.41.54:811][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.41.54:862][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.11:112][935]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.05.30-18.42.11:121][935]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.11:121][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.30-18.42.11:121][935]PIE: New page: PIE session: ShadowField (May 30, 2017, 4:42:11 AM)
-[2017.05.30-18.42.11:122][935]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
-[2017.05.30-18.42.11:187][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064878s)
-[2017.05.30-18.42.11:187][935]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-18.42.11:188][935]LogPlayLevel: PIE: World Init took: (0.000739s)
-[2017.05.30-18.42.11:188][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.065826s)
-[2017.05.30-18.42.11:208][935]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.30-18.42.11:219][935]LogInit: FAudioDevice initialized.
-[2017.05.30-18.42.11:270][935]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.05.30-18.42.11:274][935]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-11.42.11
-[2017.05.30-18.42.11:275][935]LogWorld: Bringing up level for play took: 0.003619
-[2017.05.30-18.42.11:278][935]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.142
-[2017.05.30-18.42.11:279][935]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.15:247][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.15:291][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.17:919][638]LogMaterial: Missing cached shader map for material PP_OutlineColored, compiling. 
-[2017.05.30-18.42.17:922][638]LogTemp:Display: Added material ShaderMap 0x000001FFD1A08480 with Material 0x000001FF9C94AB00 to ShaderMapsBeingCompiled
-[2017.05.30-18.42.17:932][638]LogTemp:Display: Kicking off shader compilation for PP_OutlineColored, GameThreadShaderMap 0x000001FFD1A08480
-[2017.05.30-18.42.19:287][753]LogTemp:Display: Finished compile of shader map 0x000001FFD1A08480
-[2017.05.30-18.42.19:287][753]LogTemp:Display: Shader map PP_OutlineColored complete, GameThreadShaderMap 0x000001FFD1A08480, marking material PP_OutlineColored as finished
-[2017.05.30-18.42.19:287][753]LogTemp:Display: Marking material as finished 0x000001FF9C94AB00
-[2017.05.30-18.42.20:875][904]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.05.30-18.42.20:884][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.20:884][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.30-18.42.20:884][904]PIE: New page: PIE session: ShadowField (May 30, 2017, 4:42:20 AM)
-[2017.05.30-18.42.20:884][904]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
-[2017.05.30-18.42.20:949][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064219s)
-[2017.05.30-18.42.20:949][904]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-18.42.20:949][904]LogPlayLevel: PIE: World Init took: (0.000792s)
-[2017.05.30-18.42.20:950][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.065232s)
-[2017.05.30-18.42.20:970][904]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.30-18.42.20:977][904]LogInit: FAudioDevice initialized.
-[2017.05.30-18.42.21:032][904]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.05.30-18.42.21:037][904]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-11.42.21
-[2017.05.30-18.42.21:037][904]LogWorld: Bringing up level for play took: 0.004416
-[2017.05.30-18.42.21:041][904]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.094
-[2017.05.30-18.42.21:042][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.23:070][128]LogBlueprintUserMessages: [gatheringObject_16] Activating
-[2017.05.30-18.42.23:814][217]LogBlueprintUserMessages: [gatheringObject_16] Deactivating
-[2017.05.30-18.42.24:375][284]LogBlueprintUserMessages: [gatheringObject_16] Activating
-[2017.05.30-18.42.25:034][363]LogBlueprintUserMessages: [gatheringObject_16] Deactivating
-[2017.05.30-18.42.26:598][549]LogBlueprintUserMessages: [gatheringObject_16] Activating
-[2017.05.30-18.42.27:865][699]LogBlueprintUserMessages: [gatheringObject_16] Deactivating
-[2017.05.30-18.42.28:765][805]LogBlueprintUserMessages: [gatheringObject_16] Activating
-[2017.05.30-18.42.29:367][867]LogBlueprintUserMessages: [gatheringObject_16] Deactivating
-[2017.05.30-18.42.30:667][952]LogBlueprintUserMessages: [gatheringObject_16] Activating
-[2017.05.30-18.42.31:360][993]LogBlueprintUserMessages: [gatheringObject_16] Deactivating
-[2017.05.30-18.42.39:593][767]LogBlueprintUserMessages: [gatheringObject_16] Activating
-[2017.05.30-18.42.40:376][855]LogBlueprintUserMessages: [gatheringObject_16] Deactivating
-[2017.05.30-18.42.43:688][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.43:756][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.42.44:676][239]Cmd: TRANSACTION UNDO
-[2017.05.30-18.42.44:676][239]LogEditorTransaction: Undo Move Actors
-[2017.05.30-18.42.44:699][239]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.30-18.42.45:091][265]Cmd: TRANSACTION UNDO
-[2017.05.30-18.42.45:091][265]LogEditorTransaction: Undo Create Actors
-[2017.05.30-18.46.11:918][435]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2017.05.30-18.46.19:076][808]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.30-18.46.19:137][808]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
-[2017.05.30-18.46.19:138][808]LogTemp:Display: Added material ShaderMap 0x000001FF9E396780 with Material 0x000001FFD409F600 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.19:167][808]LogTemp:Display: Kicking off shader compilation for Bodymat, GameThreadShaderMap 0x000001FF9E396780
-[2017.05.30-18.46.19:349][808]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
-[2017.05.30-18.46.19:350][808]LogTemp:Display: Added material ShaderMap 0x000002003E576780 with Material 0x000001FFD409F600 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.19:380][808]LogTemp:Display: Kicking off shader compilation for Bodymat, GameThreadShaderMap 0x000002003E576780
-[2017.05.30-18.46.19:380][808]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.46.19:408][808]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.05.30-18.46.19:409][808]LogTemp:Display: Added material ShaderMap 0x0000020040133580 with Material 0x0000020040197A00 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.19:412][808]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000020040133580
-[2017.05.30-18.46.19:414][808]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2017.05.30-18.46.19:415][808]LogTemp:Display: Added material ShaderMap 0x0000020040131D00 with Material 0x0000020040196200 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.19:418][808]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x0000020040131D00
-[2017.05.30-18.46.19:420][808]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2017.05.30-18.46.19:421][808]LogTemp:Display: Added material ShaderMap 0x0000020040130480 with Material 0x0000020040195F00 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.19:424][808]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000020040130480
-[2017.05.30-18.46.19:426][808]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2017.05.30-18.46.19:427][808]LogTemp:Display: Added material ShaderMap 0x000001FFC5602780 with Material 0x0000020040195600 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.19:431][808]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000001FFC5602780
-[2017.05.30-18.46.19:444][808]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.05.30-18.46.21:752][869]LogTemp:Display: Finished compile of shader map 0x0000020040133580
-[2017.05.30-18.46.21:752][869]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000020040133580, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
-[2017.05.30-18.46.21:752][869]LogTemp:Display: Marking material as finished 0x0000020040197A00
-[2017.05.30-18.46.21:810][870]LogTemp:Display: Removed shader map 0x0000020040131D00 from material 0x0000020040196200
-[2017.05.30-18.46.21:810][870]LogTemp:Display: Removed shader map 0x0000020040130480 from material 0x0000020040195F00
-[2017.05.30-18.46.21:810][870]LogTemp:Display: Removed shader map 0x000001FFC5602780 from material 0x0000020040195600
-[2017.05.30-18.46.21:927][870]LogTemp:Display: Finished compile of shader map 0x000002003E576780
-[2017.05.30-18.46.21:928][870]LogTemp:Display: Shader map Bodymat complete, GameThreadShaderMap 0x000002003E576780, marking material Bodymat as finished
-[2017.05.30-18.46.21:928][870]LogTemp:Display: Marking material as finished 0x000001FFD409F600
-[2017.05.30-18.46.21:931][870]LogTemp:Display: Finished compile of shader map 0x0000020040131D00
-[2017.05.30-18.46.21:931][870]LogTemp:Display: Finished compile of shader map 0x0000020040130480
-[2017.05.30-18.46.21:954][871]LogTemp:Display: Finished compile of shader map 0x000001FFC5602780
-[2017.05.30-18.46.38:014][673]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.38:015][673]LogTemp:Display: Added material ShaderMap 0x0000020005AA6780 with Material 0x000001FFD40A2700 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.38:050][673]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x0000020005AA6780
-[2017.05.30-18.46.38:147][673]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.38:148][673]LogTemp:Display: Added material ShaderMap 0x000001FF9C0B8480 with Material 0x000001FFD40A2700 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.38:176][673]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x000001FF9C0B8480
-[2017.05.30-18.46.38:176][673]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.46.38:205][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.05.30-18.46.38:206][673]LogTemp:Display: Added material ShaderMap 0x00000200059BAB00 with Material 0x000001FFD3847700 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.38:210][673]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000200059BAB00
-[2017.05.30-18.46.38:211][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2017.05.30-18.46.38:212][673]LogTemp:Display: Added material ShaderMap 0x00000200059B8F00 with Material 0x000001FFD3845300 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.38:215][673]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x00000200059B8F00
-[2017.05.30-18.46.38:217][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2017.05.30-18.46.38:218][673]LogTemp:Display: Added material ShaderMap 0x0000020034F6F200 with Material 0x000001FFD3845600 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.38:221][673]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000020034F6F200
-[2017.05.30-18.46.38:223][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2017.05.30-18.46.38:223][673]LogTemp:Display: Added material ShaderMap 0x0000020034F6D980 with Material 0x000001FFD3846200 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.38:226][673]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x0000020034F6D980
-[2017.05.30-18.46.41:412][782]LogTemp:Display: Finished compile of shader map 0x00000200059BAB00
-[2017.05.30-18.46.41:412][782]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x00000200059BAB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
-[2017.05.30-18.46.41:412][782]LogTemp:Display: Marking material as finished 0x000001FFD3847700
-[2017.05.30-18.46.41:453][784]LogTemp:Display: Finished compile of shader map 0x00000200059B8F00
-[2017.05.30-18.46.41:453][784]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x00000200059B8F00, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
-[2017.05.30-18.46.41:453][784]LogTemp:Display: Marking material as finished 0x000001FFD3845300
-[2017.05.30-18.46.41:548][786]LogTemp:Display: Finished compile of shader map 0x000001FF9C0B8480
-[2017.05.30-18.46.41:548][786]LogTemp:Display: Shader map Topmat complete, GameThreadShaderMap 0x000001FF9C0B8480, marking material Topmat as finished
-[2017.05.30-18.46.41:548][786]LogTemp:Display: Marking material as finished 0x000001FFD40A2700
-[2017.05.30-18.46.41:574][787]LogTemp:Display: Finished compile of shader map 0x0000020034F6F200
-[2017.05.30-18.46.41:574][787]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x0000020034F6F200, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
-[2017.05.30-18.46.41:574][787]LogTemp:Display: Marking material as finished 0x000001FFD3845600
-[2017.05.30-18.46.41:613][789]LogTemp:Display: Finished compile of shader map 0x0000020034F6D980
-[2017.05.30-18.46.41:613][789]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x0000020034F6D980, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
-[2017.05.30-18.46.41:613][789]LogTemp:Display: Marking material as finished 0x000001FFD3846200
-[2017.05.30-18.46.41:684][795]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.41:684][795]LogTemp:Display: Added material ShaderMap 0x000001FFCF0A8100 with Material 0x000001FFD40A2700 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.41:704][795]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x000001FFCF0A8100
-[2017.05.30-18.46.41:708][795]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.41:709][795]LogTemp:Display: Added material ShaderMap 0x000001FFE9F58480 with Material 0x000001FFD40A2700 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.41:737][795]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x000001FFE9F58480
-[2017.05.30-18.46.41:737][795]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.46.42:127][807]LogTemp:Display: Finished compile of shader map 0x000001FFCF0A8100
-[2017.05.30-18.46.42:127][807]LogTemp:Display: Shader map Topmat complete, GameThreadShaderMap 0x000001FFCF0A8100, marking material Topmat as finished
-[2017.05.30-18.46.42:127][807]LogTemp:Display: Marking material as finished 0x000001FFD40A2700
-[2017.05.30-18.46.43:380][845]LogMaterialEditor: Applying material Topmat
-[2017.05.30-18.46.44:096][845]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.44:097][845]LogTemp:Display: Added material ShaderMap 0x0000020049DBC800 with Material 0x000001FFD40A2700 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.44:125][845]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x0000020049DBC800
-[2017.05.30-18.46.44:126][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.46.44:175][845]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.44:177][845]LogTemp:Display: Added material ShaderMap 0x000001FF9E967580 with Material 0x000001FF9E96F400 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.44:227][845]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x000001FF9E967580
-[2017.05.30-18.46.44:234][845]LogMaterial: Missing cached shader map for material Topmat, compiling. 
-[2017.05.30-18.46.44:235][845]LogTemp:Display: Added material ShaderMap 0x000002004C51C100 with Material 0x000001FF9E96F400 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.44:289][845]LogTemp:Display: Kicking off shader compilation for Topmat, GameThreadShaderMap 0x000002004C51C100
-[2017.05.30-18.46.44:293][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.46.44:309][845]LogTemp:Display: Removed shader map 0x000001FF9E396780 from material 0x000001FFD409F600
-[2017.05.30-18.46.44:320][845]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
-[2017.05.30-18.46.44:321][845]LogTemp:Display: Added material ShaderMap 0x000002004BD49D00 with Material 0x000001FF9E31D600 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.45:743][845]LogTemp:Display: Finished compile of shader map 0x000002004BD49D00
-[2017.05.30-18.46.45:743][845]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Topmat complete, GameThreadShaderMap 0x000002004BD49D00, marking material FDebugViewModeMaterialProxy Topmat as finished
-[2017.05.30-18.46.45:743][845]LogTemp:Display: Marking material as finished 0x000001FF9E31D600
-[2017.05.30-18.46.45:748][845]TextureStreamingBuild:Display: Compiling optional shaders took 1.438 seconds.
-[2017.05.30-18.46.45:768][845]LogTemp:Display: Finished compile of shader map 0x000001FFE9F58480
-[2017.05.30-18.46.45:768][845]LogTemp:Display: Shader map Topmat complete, GameThreadShaderMap 0x000001FFE9F58480, marking material Topmat as finished
-[2017.05.30-18.46.45:768][845]LogTemp:Display: Marking material as finished 0x000001FFD40A2700
-[2017.05.30-18.46.45:824][846]LogTemp:Display: Finished compile of shader map 0x0000020049DBC800
-[2017.05.30-18.46.45:824][846]LogTemp:Display: Shader map Topmat complete, GameThreadShaderMap 0x0000020049DBC800, marking material Topmat as finished
-[2017.05.30-18.46.45:824][846]LogTemp:Display: Marking material as finished 0x000001FFD40A2700
-[2017.05.30-18.46.46:425][865]LogMaterialEditor: Saving and Compiling material Topmat
-[2017.05.30-18.46.48:280][865]LogTemp:Display: Finished compile of shader map 0x000002004C51C100
-[2017.05.30-18.46.48:280][865]LogTemp:Display: Shader map Topmat complete, GameThreadShaderMap 0x000002004C51C100, marking material Topmat as finished
-[2017.05.30-18.46.48:280][865]LogTemp:Display: Marking material as finished 0x000001FF9E96F400
-[2017.05.30-18.46.48:285][865]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.30-18.46.48:301][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Phoenix/Topmat" FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/Topmat.uasset" SILENT=true
-[2017.05.30-18.46.48:318][865]LogSavePackage: Save=14.36ms
-[2017.05.30-18.46.48:318][865]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/TopmatF4AB260545CD878158D2659FE4A19943.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/Topmat.uasset'
-[2017.05.30-18.46.48:322][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/Topmat.uasset
-[2017.05.30-18.46.48:328][865]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 93 instructions
-[2017.05.30-18.46.48:328][865]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.05.30-18.46.48:328][865]MaterialEditorStats: Info Texture samplers: 5/16
-[2017.05.30-18.46.56:916][246]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.46.56:917][246]LogTemp:Display: Added material ShaderMap 0x000002004710FC80 with Material 0x000001FFB71D3880 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.56:958][246]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x000002004710FC80
-[2017.05.30-18.46.57:063][246]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.46.57:063][246]LogTemp:Display: Added material ShaderMap 0x000001FFD3C28480 with Material 0x000001FFB71D3880 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.57:102][246]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x000001FFD3C28480
-[2017.05.30-18.46.57:103][246]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.46.57:156][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.05.30-18.46.57:157][246]LogTemp:Display: Added material ShaderMap 0x00000200470EAB00 with Material 0x0000020006140D00 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.57:160][246]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000200470EAB00
-[2017.05.30-18.46.57:224][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2017.05.30-18.46.57:225][246]LogTemp:Display: Added material ShaderMap 0x00000200470E8F00 with Material 0x000002004008D000 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.57:229][246]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x00000200470E8F00
-[2017.05.30-18.46.57:231][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2017.05.30-18.46.57:232][246]LogTemp:Display: Added material ShaderMap 0x000001FFCF0CD980 with Material 0x000002004008CA00 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.57:236][246]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000001FFCF0CD980
-[2017.05.30-18.46.57:238][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2017.05.30-18.46.57:239][246]LogTemp:Display: Added material ShaderMap 0x000001FFCF0CC100 with Material 0x000002004008EB00 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.57:243][246]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000001FFCF0CC100
-[2017.05.30-18.46.59:836][328]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.46.59:837][328]LogTemp:Display: Added material ShaderMap 0x0000020049DBEB00 with Material 0x000001FFB71D3880 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.59:875][328]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x0000020049DBEB00
-[2017.05.30-18.46.59:882][328]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.46.59:884][328]LogTemp:Display: Added material ShaderMap 0x0000020051CE1980 with Material 0x000001FFB71D3880 to ShaderMapsBeingCompiled
-[2017.05.30-18.46.59:921][328]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x0000020051CE1980
-[2017.05.30-18.46.59:921][328]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.47.00:173][335]LogTemp:Display: Finished compile of shader map 0x00000200470EAB00
-[2017.05.30-18.47.00:173][335]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x00000200470EAB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
-[2017.05.30-18.47.00:173][335]LogTemp:Display: Marking material as finished 0x0000020006140D00
-[2017.05.30-18.47.00:341][339]LogTemp:Display: Finished compile of shader map 0x00000200470E8F00
-[2017.05.30-18.47.00:341][339]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x00000200470E8F00, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
-[2017.05.30-18.47.00:342][339]LogTemp:Display: Marking material as finished 0x000002004008D000
-[2017.05.30-18.47.00:434][343]LogTemp:Display: Finished compile of shader map 0x000001FFD3C28480
-[2017.05.30-18.47.00:434][343]LogTemp:Display: Shader map Shoesmat complete, GameThreadShaderMap 0x000001FFD3C28480, marking material Shoesmat as finished
-[2017.05.30-18.47.00:434][343]LogTemp:Display: Marking material as finished 0x000001FFB71D3880
-[2017.05.30-18.47.00:496][344]LogTemp:Display: Finished compile of shader map 0x000001FFCF0CC100
-[2017.05.30-18.47.00:496][344]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x000001FFCF0CC100, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
-[2017.05.30-18.47.00:496][344]LogTemp:Display: Marking material as finished 0x000002004008EB00
-[2017.05.30-18.47.00:717][352]LogTemp:Display: Finished compile of shader map 0x000001FFCF0CD980
-[2017.05.30-18.47.00:717][352]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x000001FFCF0CD980, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
-[2017.05.30-18.47.00:717][352]LogTemp:Display: Marking material as finished 0x000002004008CA00
-[2017.05.30-18.47.00:969][359]LogMaterialEditor: Applying material Shoesmat
-[2017.05.30-18.47.01:921][359]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.47.01:922][359]LogTemp:Display: Added material ShaderMap 0x000002003EB19980 with Material 0x000001FFB71D3880 to ShaderMapsBeingCompiled
-[2017.05.30-18.47.01:976][359]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x000002003EB19980
-[2017.05.30-18.47.01:976][359]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.47.02:005][359]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.47.02:006][359]LogTemp:Display: Added material ShaderMap 0x000001FF9ED74B80 with Material 0x000001FF9E97EC80 to ShaderMapsBeingCompiled
-[2017.05.30-18.47.02:052][359]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x000001FF9ED74B80
-[2017.05.30-18.47.02:058][359]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
-[2017.05.30-18.47.02:059][359]LogTemp:Display: Added material ShaderMap 0x00000200521A9980 with Material 0x000001FF9E97EC80 to ShaderMapsBeingCompiled
-[2017.05.30-18.47.02:108][359]LogTemp:Display: Kicking off shader compilation for Shoesmat, GameThreadShaderMap 0x00000200521A9980
-[2017.05.30-18.47.02:112][359]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.05.30-18.47.02:138][359]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Shoesmat, compiling. 
-[2017.05.30-18.47.02:139][359]LogTemp:Display: Added material ShaderMap 0x000001FF9E2F1D00 with Material 0x000001FF9E31CD00 to ShaderMapsBeingCompiled
-[2017.05.30-18.47.03:474][359]LogTemp:Display: Finished compile of shader map 0x000001FF9E2F1D00
-[2017.05.30-18.47.03:474][359]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Shoesmat complete, GameThreadShaderMap 0x000001FF9E2F1D00, marking material FDebugViewModeMaterialProxy Shoesmat as finished
-[2017.05.30-18.47.03:474][359]LogTemp:Display: Marking material as finished 0x000001FF9E31CD00
-[2017.05.30-18.47.03:478][359]TextureStreamingBuild:Display: Compiling optional shaders took 1.349 seconds.
-[2017.05.30-18.47.03:500][359]LogTemp:Display: Finished compile of shader map 0x0000020051CE1980
-[2017.05.30-18.47.03:500][359]LogTemp:Display: Shader map Shoesmat complete, GameThreadShaderMap 0x0000020051CE1980, marking material Shoesmat as finished
-[2017.05.30-18.47.03:500][359]LogTemp:Display: Marking material as finished 0x000001FFB71D3880
-[2017.05.30-18.47.03:563][360]LogTemp:Display: Finished compile of shader map 0x000002003EB19980
-[2017.05.30-18.47.03:563][360]LogTemp:Display: Shader map Shoesmat complete, GameThreadShaderMap 0x000002003EB19980, marking material Shoesmat as finished
-[2017.05.30-18.47.03:563][360]LogTemp:Display: Marking material as finished 0x000001FFB71D3880
-[2017.05.30-18.47.04:061][375]LogMaterialEditor: Saving and Compiling material Shoesmat
-[2017.05.30-18.47.05:917][375]LogTemp:Display: Finished compile of shader map 0x00000200521A9980
-[2017.05.30-18.47.05:917][375]LogTemp:Display: Shader map Shoesmat complete, GameThreadShaderMap 0x00000200521A9980, marking material Shoesmat as finished
-[2017.05.30-18.47.05:917][375]LogTemp:Display: Marking material as finished 0x000001FF9E97EC80
-[2017.05.30-18.47.05:940][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Phoenix/Shoesmat" FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/Shoesmat.uasset" SILENT=true
-[2017.05.30-18.47.05:956][375]LogSavePackage: Save=12.88ms
-[2017.05.30-18.47.05:956][375]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/Shoesmat62EABA0E43068999F7C7DA83CF60B553.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/Shoesmat.uasset'
-[2017.05.30-18.47.05:960][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/Phoenix/Shoesmat.uasset
-[2017.05.30-18.47.05:967][375]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 93 instructions
-[2017.05.30-18.47.05:967][375]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.05.30-18.47.05:967][375]MaterialEditorStats: Info Texture samplers: 5/16
-[2017.05.30-18.47.37:775][907]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.05.30-18.47.37:784][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.47.37:784][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.30-18.47.37:784][907]PIE: New page: PIE session: ShadowField (May 30, 2017, 4:47:37 AM)
-[2017.05.30-18.47.37:785][907]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
-[2017.05.30-18.47.37:856][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071721s)
-[2017.05.30-18.47.37:857][907]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-18.47.37:857][907]LogPlayLevel: PIE: World Init took: (0.000885s)
-[2017.05.30-18.47.37:857][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.072870s)
-[2017.05.30-18.47.37:906][907]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.30-18.47.37:913][907]LogInit: FAudioDevice initialized.
-[2017.05.30-18.47.37:966][907]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.05.30-18.47.37:971][907]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-11.47.37
-[2017.05.30-18.47.37:972][907]LogWorld: Bringing up level for play took: 0.003930
-[2017.05.30-18.47.37:976][907]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.84
-[2017.05.30-18.47.37:976][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.47.45:925][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.47.46:057][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.47.49:345][962]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2017.05.30-18.47.57:536][124]LogSavePackage: Save=665.67ms
-[2017.05.30-18.47.57:536][124]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Saved/ShadowFieldFFF1A8CF41F10695A50F38BCE0FAF136.tmp' to '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap'
-[2017.05.30-18.47.57:542][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap
-[2017.05.30-18.47.57:563][124]LogFileHelpers: Saving map 'ShadowField' took 0.889
-[2017.05.30-18.48.04:346][582]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2017.05.30-18.48.04:475][582]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Chris/Documents/GitHub/ShadowField/ShadowField.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.05.30-18.48.04:628][582]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.152 s
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: === Handled ensure: ===
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: 
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Chris/Documents/GitHub/ShadowField/ShadowField.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: Stack: 
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B27795E6
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B2529B82
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B253B666
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000B90FA6E8
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C8C43D22
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C8C43EB9
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000B1C01D2E
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000B1BBB4B5
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000B1BBAA8D
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000B1BCF274
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000008B37B851
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000008B38D1ED
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C8C49C5C
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000ABC97517
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000AC4A2156
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor.exe!0x000000000D75DEE3
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor.exe!0x000000000D74EB40
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor.exe!0x000000000D74EBBA
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor.exe!0x000000000D760A29
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: UE4Editor.exe!0x000000000D7622B6
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F6022774
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: ntdll.dll!0x00000000F8010D61
-[2017.05.30-18.48.04:628][582]LogOutputDevice:Error: 
-[2017.05.30-18.48.04:634][582]LogStats:                SubmitErrorReport -  0.000 s
-[2017.05.30-18.48.04:964][582]LogStats:                    SendNewReport -  0.331 s
-[2017.05.30-18.48.04:964][582]LogStats:             FDebug::EnsureFailed -  0.489 s
-[2017.05.30-18.48.28:816][582]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.05.30-18.48.28:970][582]SourceControl: Info [MR_ALlEN f0d737c] NewStuff
-[2017.05.30-18.48.28:970][582]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
-[2017.05.30-18.48.28:970][582]SourceControl: Info  rewrite Content/Phoenix/Shoesmat.uasset (98%)
-[2017.05.30-18.48.28:970][582]SourceControl: Info  rewrite Content/Phoenix/Topmat.uasset (98%)
-[2017.05.30-18.48.28:979][582]SourceControl: Info Commited [MR_ALlEN f0d737c] NewStuff.
-[2017.05.30-18.52.07:015][863]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.05.30-18.52.07:025][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.52.07:025][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.30-18.52.07:025][863]PIE: New page: PIE session: ShadowField (May 30, 2017, 4:52:07 AM)
-[2017.05.30-18.52.07:025][863]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
-[2017.05.30-18.52.07:092][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066803s)
-[2017.05.30-18.52.07:093][863]LogAIModule: Creating AISystem for world ShadowField
-[2017.05.30-18.52.07:093][863]LogPlayLevel: PIE: World Init took: (0.001102s)
-[2017.05.30-18.52.07:094][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.068168s)
-[2017.05.30-18.52.07:104][863]LogTemp:Display: Removed shader map 0x0000020005AA6780 from material 0x000001FFD40A2700
-[2017.05.30-18.52.07:104][863]LogTemp:Display: Removed shader map 0x000002004710FC80 from material 0x000001FFB71D3880
-[2017.05.30-18.52.07:104][863]LogTemp:Display: Removed shader map 0x0000020049DBEB00 from material 0x000001FFB71D3880
-[2017.05.30-18.52.07:123][863]LogInit: XAudio2 using 'Speakers (2- Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.30-18.52.07:132][863]LogInit: FAudioDevice initialized.
-[2017.05.30-18.52.07:185][863]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.05.30-18.52.07:190][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2017.05.30-11.52.07
-[2017.05.30-18.52.07:190][863]LogWorld: Bringing up level for play took: 0.004106
-[2017.05.30-18.52.07:195][863]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.059
-[2017.05.30-18.52.07:196][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.52.11:966][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
-[2017.05.30-18.52.12:010][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2017.06.10-04.06.04:107][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.10-04.06.04:107][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.10-04.06.04:114][  0]LogInit: Computer: LEVIATHAN
+[2017.06.10-04.06.04:114][  0]LogInit: User: Chris
+[2017.06.10-04.06.04:114][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.06.10-04.06.04:114][  0]LogInit: High frequency timer resolution =3.320311 MHz
+[2017.06.10-04.06.04:115][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.10-04.06.04:115][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.10-04.06.04:115][  0]LogMemory: Process Physical Memory: 263.20 MB used, 263.20 MB peak
+[2017.06.10-04.06.04:115][  0]LogMemory: Process Virtual Memory: 268.75 MB used, 268.75 MB peak
+[2017.06.10-04.06.04:115][  0]LogMemory: Physical Memory: 6542.32 MB used,  26125.70 MB free, 32668.02 MB total
+[2017.06.10-04.06.04:115][  0]LogMemory: Virtual Memory: 639.04 MB used,  26125.70 MB free, 134217728.00 MB total
+[2017.06.10-04.06.04:198][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.10-04.06.04:856][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.10-04.06.05:557][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.06.10-04.06.05:557][  0]LogD3D11RHI:       8110/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.10-04.06.05:559][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.10-04.06.05:559][  0]LogD3D11RHI:       0/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.10-04.06.05:559][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.10-04.06.05:564][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.10-04.06.05:564][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.10-04.06.05:564][  0]LogWindows: EnumDisplayDevices:
+[2017.06.10-04.06.05:564][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.06.10-04.06.05:565][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.06.10-04.06.05:565][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.10-04.06.05:565][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.10-04.06.05:565][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.10-04.06.05:565][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.06.10-04.06.05:565][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.10-04.06.05:565][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.10-04.06.05:565][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.10-04.06.06:246][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.06.10-04.06.06:246][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.10-04.06.06:279][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.10-04.06.06:325][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Chris/Documents/GitHub/ShadowField/Intermediate/Shaders/WorkingDirectory/13616/).
+[2017.06.10-04.06.06:325][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/368AABA44A0855C02B3687B78BF5DD1E/'.
+[2017.06.10-04.06.06:325][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.10-04.06.07:471][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.10-04.06.07:540][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.10-04.06.07:604][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.10-04.06.07:671][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.10-04.06.07:742][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.10-04.06.07:811][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.10-04.06.07:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.10-04.06.07:956][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.10-04.06.08:011][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.10-04.06.08:073][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.10-04.06.08:138][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.10-04.06.08:202][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.10-04.06.08:266][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.10-04.06.08:329][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.10-04.06.08:391][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.10-04.06.08:522][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.10-04.06.08:522][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.10-04.06.08:574][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.10-04.06.08:697][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.10-04.06.08:733][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.10-04.06.08:796][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.10-04.06.08:862][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.10-04.06.08:924][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.10-04.06.08:987][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.10-04.06.08:987][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.10-04.06.09:525][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.10-04.06.09:590][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.10-04.06.09:590][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.10-04.06.09:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/GitHub/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.10-04.06.09:590][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.10-04.06.09:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/GitHub/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.10-04.06.09:590][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.10-04.06.09:607][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.10-04.06.09:619][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.10-04.06.09:633][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.10-04.06.09:634][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.10-04.06.09:634][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.10-04.06.09:982][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.10-04.06.09:985][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.10-04.06.10:216][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.10-04.06.10:268][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.10-04.06.10:327][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.10-04.06.10:327][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.10-04.06.10:327][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.10-04.06.10:986][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: shadowfield, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2966221921
+[2017.06.10-04.06.11:040][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.06.10-04.06.11:154][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.076574 seconds
+[2017.06.10-04.06.11:160][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.10-04.06.11:160][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.10-04.06.11:160][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.10-04.06.11:225][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.10-04.06.13:181][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.10-04.06.13:233][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.10-04.06.13:783][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.10-04.06.14:273][  0]SourceControl: Info Source control is disabled
+[2017.06.10-04.06.16:570][  0]LogEngine: Initializing Engine...
+[2017.06.10-04.06.16:571][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.10-04.06.16:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.10-04.06.16:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.10-04.06.16:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.10-04.06.16:847][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.10-04.06.16:886][  0]LogInit: FAudioDevice initialized.
+[2017.06.10-04.06.16:915][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.10-04.06.16:921][  0]LogInit: Texture streaming: Enabled
+[2017.06.10-04.06.17:028][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.10-04.06.17:135][  0]LogInit: Transaction tracking system initialized
+[2017.06.10-04.06.17:549][  0]BlueprintLog: New page: Editor Load
+[2017.06.10-04.06.18:578][  0]LocalizationService: Info Localization service is disabled
+[2017.06.10-04.06.19:368][  0]LogConsoleResponse:Display: 
+[2017.06.10-04.06.19:502][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.10-04.06.19:502][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.10-04.06.20:381][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/' took 0.02s
+[2017.06.10-04.06.20:974][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.10-04.06.20:975][  0]LightingResults: New page: Lighting Build
+[2017.06.10-04.06.21:026][  0]MapCheck: New page: Map Check
+[2017.06.10-04.06.21:026][  0]LightingResults: New page: Lighting Build
+[2017.06.10-04.06.21:911][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.06.10-04.06.21:912][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.10-04.06.22:540][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2017.06.10-04.06.22:541][  0]LogLinker:Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2017.06.10-04.06.22:541][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
+[2017.06.10-04.06.22:749][  0]LogAIModule: Creating AISystem for world ShadowField
+[2017.06.10-04.06.22:897][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.10-04.06.22:897][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.10-04.06.23:033][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.295ms to complete.
+[2017.06.10-04.06.23:033][  0]LogFileHelpers: Loading map 'ShadowField' took 2.059
+[2017.06.10-04.06.23:226][  0]LogCollectionManager: Loaded 0 collections in 0.001959 seconds
+[2017.06.10-04.06.23:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
+[2017.06.10-04.06.23:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Developers/Chris/Collections/' took 0.01s
+[2017.06.10-04.06.23:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
+[2017.06.10-04.06.23:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.10-04.06.23:323][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2245 classes and 453 folders.
+[2017.06.10-04.06.23:395][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.10-04.06.23:458][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.10-04.06.23:513][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.10-04.06.23:561][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.10-04.06.23:568][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.10-04.06.23:642][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.10-04.06.23:643][  0]LogLoad: (Engine Initialization) Total time: 21.85 seconds
+[2017.06.10-04.06.23:643][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.06.10-04.06.23:643][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.10-04.06.23:990][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.10-04.06.23:996][  0]LogOcInput: OculusInput pre-init called
+[2017.06.10-04.06.24:017][  0]SourceControl: Info On branch MR_ALlEN
+[2017.06.10-04.06.24:017][  0]SourceControl: Info Your branch is up-to-date with 'origin/MR_ALlEN'.
+[2017.06.10-04.06.24:017][  0]SourceControl: Info Changes not staged for commit:
+[2017.06.10-04.06.24:017][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.06.10-04.06.24:017][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.10-04.06.24:017][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.06.10-04.06.24:017][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.06.10-04.06.24:017][  0]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.06.10-04.06.24:017][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.06.10-04.06.24:017][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.06.10-04.06.24:017][  0]SourceControl: Info 	modified:   Saved/Logs/ShadowField.log
+[2017.06.10-04.06.24:017][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.10-04.06.24:017][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.10-04.06.24:019][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.10-04.06.24:022][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.10-04.06.24:028][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.10-04.06.24:150][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.10-04.06.24:189][  0]LogRenderer: Reallocating scene render targets to support 1308x640 NumSamples 1 (Frame:2).
+[2017.06.10-04.06.24:353][  1]LogAssetRegistry: Asset discovery search completed in 13.3397 seconds
+[2017.06.10-04.06.24:353][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.06.10-04.06.24:353][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.06.10-04.06.41:424][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:436][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:450][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:462][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:476][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:489][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:502][474]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.10-04.06.41:511][474]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 498 MB total VRAM
+[2017.06.10-04.06.43:211][623]Cmd: TRANSACTION UNDO
+[2017.06.10-04.06.43:211][623]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.06.10-04.06.43:227][623]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.43:236][623]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.43:303][623]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.10-04.06.50:224][258]Cmd: TRANSACTION UNDO
+[2017.06.10-04.06.50:224][258]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.06.10-04.06.50:239][258]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.50:246][258]LogTexture:Display: Building textures: Texture2D_449 (BGRA8, 64X64) - 498 MB total VRAM
+[2017.06.10-04.06.50:252][258]LogTexture:Display: Building textures: Texture2D_451 (BGRA8, 64X64) - 498 MB total VRAM
+[2017.06.10-04.06.50:252][258]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.50:490][270]Cmd: TRANSACTION UNDO
+[2017.06.10-04.06.50:490][270]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.06.10-04.06.50:497][270]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.50:501][270]LogTexture:Display: Building textures: Texture2D_449 (BGRA8, 64X64) - 498 MB total VRAM
+[2017.06.10-04.06.50:504][270]LogTexture:Display: Building textures: Texture2D_451 (BGRA8, 64X64) - 498 MB total VRAM
+[2017.06.10-04.06.50:505][270]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.50:950][306]Cmd: TRANSACTION UNDO
+[2017.06.10-04.06.50:950][306]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.06.10-04.06.50:963][306]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.50:963][306]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.06.50:967][306]LogTexture:Display: Building textures: Texture2D_451 (BGRA8, 64X64) - 498 MB total VRAM
+[2017.06.10-04.06.50:973][306]LogTexture:Display: Building textures: Texture2D_449 (BGRA8, 64X64) - 498 MB total VRAM
+[2017.06.10-04.07.01:009][248]Cmd: TRANSACTION UNDO
+[2017.06.10-04.07.01:009][248]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.06.10-04.07.01:031][248]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.07.01:040][248]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.10-04.07.38:992][523]Cmd: QUIT_EDITOR
+[2017.06.10-04.07.39:032][523]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.10-04.07.39:054][523]LogExit: Preparing to exit.
+[2017.06.10-04.07.39:400][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/' was aborted.
+[2017.06.10-04.07.39:434][523]LogExit: Editor shut down
+[2017.06.10-04.07.39:434][523]LogExit: Transaction tracking system shut down
+[2017.06.10-04.07.39:516][523]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.10-04.07.39:516][523]LogExit: Object subsystem successfully closed.
+[2017.06.10-04.07.39:547][523]LogD3D11RHI: Shutdown
+[2017.06.10-04.07.39:547][523]LogD3D11RHI: CleanupD3DDevice
+[2017.06.10-04.07.39:700][523]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.10-04.07.39:731][523]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.10-04.07.39:731][523]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.10-04.07.39:731][523]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.10-04.07.39:731][523]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.10-04.07.39:731][523]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.10-04.07.39:732][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Collections/' was aborted.
+[2017.06.10-04.07.39:732][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Content/Developers/Chris/Collections/' was aborted.
+[2017.06.10-04.07.39:732][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/GitHub/ShadowField/Saved/Collections/' was aborted.
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.10-04.07.39:732][523]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.10-04.07.39:733][523]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.10-04.07.40:051][523]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.10-04.07.40:105][523]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.10-04.07.40:105][523]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.10-04.07.40:105][523]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.10-04.07.40:105][523]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.10-04.07.40:105][523]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.10-04.07.40:105][523]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.10-04.07.40:106][523]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.10-04.07.40:107][523]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.10-04.07.40:153][523]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.10-04.07.40:154][523]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.10-04.07.40:155][523]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.10-04.07.40:155][523]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.10-04.07.40:155][523]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.10-04.07.40:155][523]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.10-04.07.40:156][523]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.10-04.07.40:156][523]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.10-04.07.40:156][523]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.10-04.07.40:156][523]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.10-04.07.40:257][523]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.10-04.07.40:358][523]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.10-04.07.40:361][523]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.10-04.07.40:361][523]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.10-04.07.40:361][523]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.10-04.07.40:361][523]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.10-04.07.40:361][523]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.10-04.07.40:362][523]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.10-04.07.40:509][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.10-04.07.40:509][523]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Chris/Documents/GitHub/ShadowField/Content/' was aborted.
+[2017.06.10-04.07.40:509][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.10-04.07.40:510][523]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.10-04.07.40:510][523]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.10-04.07.40:510][523]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.10-04.07.40:510][523]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.10-04.07.40:511][523]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.10-04.07.40:511][523]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.10-04.07.40:511][523]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.10-04.07.40:511][523]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.10-04.07.40:511][523]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.10-04.07.40:703][523]LogDerivedDataCache: Shutdown
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.10-04.07.40:703][523]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.10-04.07.40:704][523]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.10-04.07.40:704][523]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.10-04.07.40:704][523]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.10-04.07.40:704][523]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3157770F-4E43-139F-A590-3CB670B9AF71%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=ab0c7b864ad56983ffc0a5b38213b067%7Cf8ccf1562c484920bde4bdb0d5186e1f%7Ce960b601-9302-4946-9b75-9838b448f97b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.10-04.07.40:734][523]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.10-04.07.40:742][523]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.10-04.07.40:742][523]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.10-04.07.40:742][523]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.10-04.07.40:742][523]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.10-04.07.40:742][523]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.10-04.07.40:743][523]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.10-04.07.40:745][523]LogExit: Exiting.
+[2017.06.10-04.07.40:747][523]Log file closed, 06/09/17 21:07:40

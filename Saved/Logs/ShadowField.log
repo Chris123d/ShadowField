@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 03/02/18 13:19:56
+=======
+﻿Log file open, 03/05/18 15:34:49
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,6 +13,7 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ShadowField
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(725077895) SRandInit(725077895).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
@@ -89,6 +94,12 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+=======
+LogInit: Display: RandInit(1823872701) SRandInit(1823872701).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.239054
+LogD3D11RHI: Aftermath initialized
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -98,7 +109,10 @@ LogPluginManager: Mounting plugin NullSourceCodeAccess
 LogPluginManager: Mounting plugin PerforceSourceControl
 LogPluginManager: Mounting plugin SubversionSourceControl
 LogPluginManager: Mounting plugin UObjectPlugin
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+=======
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
 LogPluginManager: Mounting plugin XCodeSourceCodeAccess
 LogPluginManager: Mounting plugin AssetManagerEditor
@@ -113,13 +127,19 @@ LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin HTML5Networking
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin ImgMedia
 LogPluginManager: Mounting plugin MediaCompositing
+=======
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogPluginManager: Mounting plugin MediaPlayerEditor
 LogPluginManager: Mounting plugin WmfMedia
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin ActorSequence
+=======
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin MatineeToLevelSequence
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
@@ -130,7 +150,10 @@ LogPluginManager: Mounting plugin OnlineSubsystemUtils
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidMoviePlayer
 LogPluginManager: Mounting plugin AndroidPermission
+<<<<<<< HEAD
 LogPluginManager: Mounting plugin AppleARKit
+=======
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogPluginManager: Mounting plugin AppleMoviePlayer
 LogPluginManager: Mounting plugin ArchVisCharacter
 LogPluginManager: Mounting plugin CableComponent
@@ -143,8 +166,11 @@ LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
 LogPluginManager: Mounting plugin MobilePatchingUtils
 LogPluginManager: Mounting plugin OculusVR
+<<<<<<< HEAD
 LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
 LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+=======
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
@@ -166,26 +192,42 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+<<<<<<< HEAD
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
 LogInit: Net CL: 3709383
+=======
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogDevObjectVersion: Number of dev versions registered: 16
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
 LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
 LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
 LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+<<<<<<< HEAD
 LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+=======
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
 LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
 LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
 LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
 LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+<<<<<<< HEAD
 LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+=======
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+<<<<<<< HEAD
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
 LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
@@ -1155,3 +1197,1276 @@ LogInit: Object subsystem initialized
 [2018.03.02-22.42.19:134][ 20]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CobbleStone_Pebble, compiling. 
 [2018.03.02-22.42.19:152][ 21]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
 [2018.03.02-22.42.19:166][ 21]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+=======
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.05-23.34.50:503][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.05-23.34.50:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.05-23.34.50:518][  0]LogInit: Computer: DESKTOP-DBC968G
+[2018.03.05-23.34.50:518][  0]LogInit: User: Leviathan
+[2018.03.05-23.34.50:518][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.03.05-23.34.50:518][  0]LogInit: High frequency timer resolution =3.320314 MHz
+[2018.03.05-23.34.50:518][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.05-23.34.50:518][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.05-23.34.50:518][  0]LogMemory: Process Physical Memory: 279.04 MB used, 279.04 MB peak
+[2018.03.05-23.34.50:518][  0]LogMemory: Process Virtual Memory: 282.85 MB used, 282.85 MB peak
+[2018.03.05-23.34.50:518][  0]LogMemory: Physical Memory: 6681.36 MB used,  25986.62 MB free, 32667.97 MB total
+[2018.03.05-23.34.50:518][  0]LogMemory: Virtual Memory: 715.66 MB used,  25986.62 MB free, 134217728.00 MB total
+[2018.03.05-23.34.50:626][  0]LogInit: Using OS detected language (en-US).
+[2018.03.05-23.34.50:626][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.05-23.34.50:631][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.05-23.34.51:337][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.05-23.34.51:398][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.03.05-23.34.51:398][  0]LogD3D11RHI:       8079/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.05-23.34.51:400][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.05-23.34.51:400][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.05-23.34.51:400][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.05-23.34.51:408][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.05-23.34.51:408][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.05-23.34.51:408][  0]LogWindows: EnumDisplayDevices:
+[2018.03.05-23.34.51:408][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.03.05-23.34.51:409][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.03.05-23.34.51:409][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.05-23.34.51:409][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.05-23.34.51:409][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.05-23.34.51:409][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.03.05-23.34.51:409][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.05-23.34.51:409][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.05-23.34.51:409][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.05-23.34.51:440][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.05-23.34.51:471][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.05-23.34.51:515][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../Documents/GitHub/ShadowField/Intermediate/Shaders/WorkingDirectory/52428/).
+[2018.03.05-23.34.51:516][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leviathan/AppData/Local/Temp/UnrealShaderWorkingDir/347EBBA142E7A8B3D557CB8BA1A140CE/'.
+[2018.03.05-23.34.51:516][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.05-23.34.52:784][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.05-23.34.52:825][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.05-23.34.52:865][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.05-23.34.52:906][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.05-23.34.52:947][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.05-23.34.52:987][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.05-23.34.53:028][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.05-23.34.53:068][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.05-23.34.53:103][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.05-23.34.53:143][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.05-23.34.53:181][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.05-23.34.53:221][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.05-23.34.53:261][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.05-23.34.53:300][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.05-23.34.53:340][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.05-23.34.53:420][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.05-23.34.53:420][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.05-23.34.53:451][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.05-23.34.53:526][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.05-23.34.53:547][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.05-23.34.53:587][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.05-23.34.53:626][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.05-23.34.53:666][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.05-23.34.53:705][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.05-23.34.53:705][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.05-23.34.54:041][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.05-23.34.54:132][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Leviathan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.05-23.34.54:132][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leviathan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.05-23.34.54:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documents/GitHub/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.05-23.34.54:132][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.05-23.34.54:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Documents/GitHub/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.05-23.34.54:133][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.05-23.34.54:147][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.05-23.34.54:160][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leviathan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.05-23.34.54:169][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.05-23.34.54:169][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.05-23.34.54:170][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.05-23.34.54:170][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.05-23.34.54:487][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.03.05-23.34.54:606][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.05-23.34.54:965][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.05-23.34.54:997][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.05-23.34.54:997][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.05-23.34.54:997][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.05-23.34.54:997][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.05-23.34.54:997][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.05-23.34.55:068][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.05-23.34.55:552][  0]LogNetVersion: ShadowField , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1384604517)
+[2018.03.05-23.34.55:761][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.043991 seconds
+[2018.03.05-23.34.55:766][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.05-23.34.55:766][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.05-23.34.55:766][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.05-23.34.55:811][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.05-23.34.58:203][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.05-23.34.58:235][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.05-23.34.58:763][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.05-23.34.59:114][  0]SourceControl: Source control is disabled
+[2018.03.05-23.34.59:656][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.05-23.34.59:856][  0]LogOcInput: OculusInput pre-init called
+[2018.03.05-23.35.00:065][  0]LogEngine: Initializing Engine...
+[2018.03.05-23.35.00:227][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.03.05-23.35.00:483][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.05-23.35.00:484][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.03.05-23.35.00:484][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.05-23.35.00:598][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.05-23.35.00:619][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.35.00:630][  0]LogInit: FAudioDevice initialized.
+[2018.03.05-23.35.00:690][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/Leviathan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.05-23.35.00:703][  0]LogInit: Texture streaming: Enabled
+[2018.03.05-23.35.00:772][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.05-23.35.00:798][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={5CE6B9F6-4529-4299-D67E-91B02156F700}
+[2018.03.05-23.35.00:976][  0]LogInit: Transaction tracking system initialized
+[2018.03.05-23.35.01:211][  0]BlueprintLog: New page: Editor Load
+[2018.03.05-23.35.01:878][  0]LocalizationService: Localization service is disabled
+[2018.03.05-23.35.02:444][  0]LogConsoleResponse: Display: 
+[2018.03.05-23.35.02:616][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.05-23.35.02:616][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.05-23.35.02:617][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.05-23.35.03:556][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/' took 0.03s
+[2018.03.05-23.35.03:605][  0]Cmd: MAP LOAD FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.05-23.35.03:606][  0]LightingResults: New page: Lighting Build
+[2018.03.05-23.35.03:648][  0]MapCheck: New page: Map Check
+[2018.03.05-23.35.03:648][  0]LightingResults: New page: Lighting Build
+[2018.03.05-23.35.04:783][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.05-23.35.04:987][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.03.05-23.35.04:987][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.03.05-23.35.04:987][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
+[2018.03.05-23.35.06:453][  0]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.35.06:532][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.05-23.35.06:673][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.05-23.35.06:770][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.981ms to complete.
+[2018.03.05-23.35.06:770][  0]LogFileHelpers: Loading map 'ShadowField' took 3.164
+[2018.03.05-23.35.07:001][  0]LogCollectionManager: Loaded 0 collections in 0.001208 seconds
+[2018.03.05-23.35.07:115][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
+[2018.03.05-23.35.07:115][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/Developers/Leviathan/Collections/' took 0.01s
+[2018.03.05-23.35.07:115][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
+[2018.03.05-23.35.07:115][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.05-23.35.07:136][  0]LogContentBrowser: Native class hierarchy populated in 0.0210 seconds. Added 2386 classes and 500 folders.
+[2018.03.05-23.35.07:215][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.03.05-23.35.07:301][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.03.05-23.35.07:356][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.03.05-23.35.07:535][  0]LogSlate: Took 0.000660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.05-23.35.07:539][  0]LogSlate: Took 0.000476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.05-23.35.07:546][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.05-23.35.07:654][  0]LogRenderer: Reallocating scene render targets to support 904x464 Format 10 NumSamples 1 (Frame:1).
+[2018.03.05-23.35.07:937][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.05-23.35.07:937][  0]LogLoad: (Engine Initialization) Total time: 19.20 seconds
+[2018.03.05-23.35.07:937][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.05-23.35.07:938][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.05-23.35.08:308][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.05-23.35.08:375][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.05-23.35.10:058][  7]LogAssetRegistry: Asset discovery search completed in 15.5931 seconds
+[2018.03.05-23.35.10:062][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.05-23.35.10:063][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
+[2018.03.05-23.35.25:575][735]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.03.05-23.35.25:575][735]LogTexture: Display: Building textures: T_Burn1 (RGBA16F, 2048X2048)
+[2018.03.05-23.35.25:575][735]LogMaterial: Missing cached shader map for material M_Burn1, compiling. 
+[2018.03.05-23.35.32:165][377]Cmd: TRANSACTION UNDO
+[2018.03.05-23.35.32:165][377]LogEditorTransaction: Undo Create Actors
+[2018.03.05-23.35.32:188][377]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.05-23.35.44:081][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01'
+[2018.03.05-23.35.44:082][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Barn_Wood_01.uasset.
+[2018.03.05-23.35.44:082][667]LoadErrors: Error: /Game/Forest/Materials/Barn_Wood_01 : Can't find file for asset. /Game/Forest/Textures/Barn_Wood_01
+[2018.03.05-23.35.44:082][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01_NRM'
+[2018.03.05-23.35.44:082][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01_NRM' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Barn_Wood_01.uasset.
+[2018.03.05-23.35.44:082][667]LoadErrors: Error: /Game/Forest/Materials/Barn_Wood_01 : Can't find file for asset. /Game/Forest/Textures/Barn_Wood_01_NRM
+[2018.03.05-23.35.44:083][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01_SPEC'
+[2018.03.05-23.35.44:083][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Barn_Wood_01.uasset.
+[2018.03.05-23.35.44:083][667]LoadErrors: Error: /Game/Forest/Materials/Barn_Wood_01 : Can't find file for asset. /Game/Forest/Textures/Barn_Wood_01_SPEC
+[2018.03.05-23.35.44:083][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01'
+[2018.03.05-23.35.44:084][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Barn_Wood_01.uasset.
+[2018.03.05-23.35.44:084][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01_NRM'
+[2018.03.05-23.35.44:084][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01_NRM' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Barn_Wood_01.uasset.
+[2018.03.05-23.35.44:084][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01_SPEC'
+[2018.03.05-23.35.44:084][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Barn_Wood_01.uasset.
+[2018.03.05-23.35.44:088][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01'
+[2018.03.05-23.35.44:088][667]LoadErrors: Failed to load /Game/Forest/Textures/Barn_Wood_01.Barn_Wood_01 Referenced by Barn_Wood_01
+[2018.03.05-23.35.44:089][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01' while loading NULL.
+[2018.03.05-23.35.44:089][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01_NRM'
+[2018.03.05-23.35.44:089][667]LoadErrors: Failed to load /Game/Forest/Textures/Barn_Wood_01_NRM.Barn_Wood_01_NRM Referenced by Barn_Wood_01
+[2018.03.05-23.35.44:089][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01_NRM' while loading NULL.
+[2018.03.05-23.35.44:090][667]LogLinker: Warning: Can't find file '/Game/Forest/Textures/Barn_Wood_01_SPEC'
+[2018.03.05-23.35.44:090][667]LoadErrors: Failed to load /Game/Forest/Textures/Barn_Wood_01_SPEC.Barn_Wood_01_SPEC Referenced by Barn_Wood_01
+[2018.03.05-23.35.44:090][667]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/Barn_Wood_01_SPEC' while loading NULL.
+[2018.03.05-23.35.44:164][667]LogActorFactory: Actor Factory created Barn_Roof_Support_01
+[2018.03.05-23.35.44:898][748]LogActorFactory: Actor Factory created Barn_Roof_Support_01
+[2018.03.05-23.35.48:742][193]Cmd: TRANSACTION UNDO
+[2018.03.05-23.35.48:742][193]LogEditorTransaction: Undo Create Actors
+[2018.03.05-23.35.49:912][274]LogActorFactory: Actor Factory created Barn_Wall_Half_02
+[2018.03.05-23.35.50:382][322]LogActorFactory: Actor Factory created Barn_Wall_Half_02
+[2018.03.05-23.35.59:581][301]Cmd: TRANSACTION UNDO
+[2018.03.05-23.35.59:581][301]LogEditorTransaction: Undo Move Actors
+[2018.03.05-23.36.01:541][512]Cmd: DELETE
+[2018.03.05-23.36.01:541][512]Cmd: ACTOR DELETE
+[2018.03.05-23.36.01:542][512]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.05-23.36.01:564][512]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.03.05-23.36.02:232][574]LogActorFactory: Actor Factory created Barn_Wall_Half_Win_01
+[2018.03.05-23.36.03:181][681]LogActorFactory: Actor Factory created Barn_Wall_Half_Win_01
+[2018.03.05-23.36.04:012][778]Cmd: DELETE
+[2018.03.05-23.36.04:012][778]Cmd: ACTOR DELETE
+[2018.03.05-23.36.04:012][778]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.05-23.36.04:032][778]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.05-23.36.05:411][931]LogActorFactory: Actor Factory created Barn_Wall_Quart_01
+[2018.03.05-23.36.06:082][  7]LogActorFactory: Actor Factory created Barn_Wall_Quart_01
+[2018.03.05-23.36.06:797][ 90]Cmd: DELETE
+[2018.03.05-23.36.06:797][ 90]Cmd: ACTOR DELETE
+[2018.03.05-23.36.06:797][ 90]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.05-23.36.06:817][ 90]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.05-23.36.07:866][190]LogActorFactory: Actor Factory created Barn_Roof_01
+[2018.03.05-23.36.08:573][269]LogActorFactory: Actor Factory created Barn_Roof_01
+[2018.03.05-23.36.10:357][426]Cmd: DELETE
+[2018.03.05-23.36.10:357][426]Cmd: ACTOR DELETE
+[2018.03.05-23.36.10:358][426]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.05-23.36.10:383][426]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.03.05-23.36.11:325][526]LogActorFactory: Actor Factory created Barn_Roof_Support_01
+[2018.03.05-23.36.12:176][622]LogActorFactory: Actor Factory created Barn_Roof_Support_01
+[2018.03.05-23.36.12:874][702]Cmd: DELETE
+[2018.03.05-23.36.12:875][702]Cmd: ACTOR DELETE
+[2018.03.05-23.36.12:875][702]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.05-23.36.12:901][702]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.03.05-23.36.17:768][266]LogLinker: Warning: Can't find file '/Game/Forest/Textures/ground_plants_01_SPEC'
+[2018.03.05-23.36.17:768][266]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/ground_plants_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/000_Parent_Alpha_Mat.uasset.
+[2018.03.05-23.36.17:768][266]LoadErrors: Error: /Game/Forest/Materials/000_Parent_Alpha_Mat : Can't find file for asset. /Game/Forest/Textures/ground_plants_01_SPEC
+[2018.03.05-23.36.17:769][266]LogLinker: Warning: Can't find file '/Game/Forest/Textures/ground_plants_01_SPEC'
+[2018.03.05-23.36.17:769][266]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/ground_plants_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/000_Parent_Alpha_Mat.uasset.
+[2018.03.05-23.36.17:771][266]LogLinker: Warning: Can't find file '/Game/Forest/Textures/ground_plants_01_SPEC'
+[2018.03.05-23.36.17:771][266]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/ground_plants_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Ground_Plants_02.uasset.
+[2018.03.05-23.36.17:771][266]LoadErrors: Error: /Game/Forest/Materials/Ground_Plants_02 : Can't find file for asset. /Game/Forest/Textures/ground_plants_01_SPEC
+[2018.03.05-23.36.17:772][266]LogLinker: Warning: Can't find file '/Game/Forest/Textures/ground_plants_01_SPEC'
+[2018.03.05-23.36.17:772][266]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/ground_plants_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/Forest/Materials/Ground_Plants_02.uasset.
+[2018.03.05-23.36.17:777][266]LogLinker: Warning: Can't find file '/Game/Forest/Textures/ground_plants_01_SPEC'
+[2018.03.05-23.36.17:777][266]LoadErrors: Failed to load /Game/Forest/Textures/ground_plants_01_SPEC.ground_plants_01_SPEC Referenced by MaterialExpressionTextureSampleParameter2D_8
+[2018.03.05-23.36.17:777][266]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/ground_plants_01_SPEC' while loading NULL.
+[2018.03.05-23.36.17:778][266]LogLinker: Warning: Can't find file '/Game/Forest/Textures/ground_plants_01_SPEC'
+[2018.03.05-23.36.17:778][266]LoadErrors: Failed to load /Game/Forest/Textures/ground_plants_01_SPEC.ground_plants_01_SPEC Referenced by Ground_Plants_02
+[2018.03.05-23.36.17:778][266]LogLinker: Warning: Can't find file for asset '/Game/Forest/Textures/ground_plants_01_SPEC' while loading NULL.
+[2018.03.05-23.36.17:870][266]LogMaterial: Missing cached shader map for material 000_Parent_Alpha_Mat, compiling. 
+[2018.03.05-23.36.17:892][266]LogMaterial: Warning: Failed to compile Material /Game/Forest/Materials/000_Parent_Alpha_Mat.000_Parent_Alpha_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.05-23.36.17:892][266]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.03.05-23.36.17:895][266]LogMaterial: Missing cached shader map for material 000_Parent_Alpha_Mat, compiling. 
+[2018.03.05-23.36.17:896][266]LogMaterial: Warning: Failed to compile Material Instance /Game/Forest/Materials/Ground_Plants_02.Ground_Plants_02 with Base 000_Parent_Alpha_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.05-23.36.17:896][266]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.03.05-23.36.17:914][266]LogActorFactory: Actor Factory created Long_Field_Grass_02
+[2018.03.05-23.36.18:334][315]LogActorFactory: Actor Factory created Long_Field_Grass_02
+[2018.03.05-23.36.21:624][706]Cmd: TRANSACTION UNDO
+[2018.03.05-23.36.21:624][706]LogEditorTransaction: Undo Create Actors
+[2018.03.05-23.36.34:973][293]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.36.35:877][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.35:895][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.36.36:042][293]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:36:35 AM)
+[2018.03.05-23.36.36:056][293]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.36.36:165][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108308s)
+[2018.03.05-23.36.36:166][293]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.36.36:166][293]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2018.03.05-23.36.36:179][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.129121s)
+[2018.03.05-23.36.36:222][293]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.36.36:226][293]LogInit: FAudioDevice initialized.
+[2018.03.05-23.36.36:410][293]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.36.36:557][293]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.36.36
+[2018.03.05-23.36.36:593][293]LogWorld: Bringing up level for play took: 0.051254
+[2018.03.05-23.36.36:844][293]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
+[2018.03.05-23.36.36:957][293]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.637
+[2018.03.05-23.36.36:957][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.41:031][736]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.36.41:943][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.42:045][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.53:113][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.36.53:131][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.53:131][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.36.53:131][ 29]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:36:53 AM)
+[2018.03.05-23.36.53:131][ 29]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.36.53:174][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043482s)
+[2018.03.05-23.36.53:175][ 29]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.36.53:175][ 29]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2018.03.05-23.36.53:176][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.044740s)
+[2018.03.05-23.36.53:215][ 29]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.36.53:219][ 29]LogInit: FAudioDevice initialized.
+[2018.03.05-23.36.53:305][ 29]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.36.53:315][ 29]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.36.53
+[2018.03.05-23.36.53:316][ 29]LogWorld: Bringing up level for play took: 0.009287
+[2018.03.05-23.36.53:319][ 29]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.999
+[2018.03.05-23.36.53:319][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.54:631][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.54:675][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.36.57:379][446]Cmd: TRANSACTION UNDO
+[2018.03.05-23.36.57:380][446]LogEditorTransaction: Undo Create Actors
+[2018.03.05-23.36.59:989][664]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.05-23.37.00:394][664]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_ActorTag.Enum_ActorTag' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.05-23.37.00:395][664]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_BehaviorType.Enum_BehaviorType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.05-23.37.00:397][664]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_IdleType.Enum_IdleType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.05-23.37.00:398][664]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_MessageTag.Enum_MessageTag' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.05-23.37.00:401][664]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_OperationType.Enum_OperationType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.05-23.37.00:404][664]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_PatrolType.Enum_PatrolType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.05-23.37.00:681][664]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 113 classes and 0 folders.
+[2018.03.05-23.37.02:186][664]LogSlate: Took 0.012119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.05-23.37.02:652][665]LogSlate: Took 0.008845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.05-23.37.21:024][592]BlueprintLog: New page: Compile ShadowField
+[2018.03.05-23.37.22:681][754]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.37.22:704][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.22:704][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.37.22:704][754]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:37:22 AM)
+[2018.03.05-23.37.22:704][754]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.37.22:748][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043618s)
+[2018.03.05-23.37.22:749][754]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.37.22:749][754]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2018.03.05-23.37.22:749][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.045124s)
+[2018.03.05-23.37.22:796][754]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.37.22:800][754]LogInit: FAudioDevice initialized.
+[2018.03.05-23.37.22:833][754]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.37.22:838][754]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.37.22
+[2018.03.05-23.37.22:838][754]LogWorld: Bringing up level for play took: 0.004445
+[2018.03.05-23.37.22:840][754]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.52
+[2018.03.05-23.37.22:840][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.24:742][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.24:778][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.26:825][171]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.37.26:846][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.26:846][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.37.26:846][171]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:37:26 AM)
+[2018.03.05-23.37.26:847][171]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.37.26:888][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041383s)
+[2018.03.05-23.37.26:889][171]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.37.26:889][171]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2018.03.05-23.37.26:889][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.042351s)
+[2018.03.05-23.37.26:937][171]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.37.26:941][171]LogInit: FAudioDevice initialized.
+[2018.03.05-23.37.26:968][171]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.37.26:972][171]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.37.26
+[2018.03.05-23.37.26:972][171]LogWorld: Bringing up level for play took: 0.004169
+[2018.03.05-23.37.26:974][171]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.654
+[2018.03.05-23.37.26:974][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.37:389][389]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.37.37:840][437]LogBlueprintUserMessages: [gatheringObject_192] Deactivating
+[2018.03.05-23.37.57:998][609]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.37.59:588][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.37.59:632][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.38.28:835][ 47]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.03.05-23.38.33:559][606]Cmd: ACTOR SELECT ALL
+[2018.03.05-23.38.49:481][283]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.03.05-23.38.50:067][341]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.03.05-23.39.04:731][ 13]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.39.12:733][401]Cmd: TRANSACTION UNDO
+[2018.03.05-23.39.12:733][401]LogEditorTransaction: Undo Move Actors
+[2018.03.05-23.39.31:067][200]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.39.31:997][244]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.39.36:500][456]Cmd: TRANSACTION UNDO
+[2018.03.05-23.39.36:500][456]LogEditorTransaction: Undo Move Actors
+[2018.03.05-23.39.40:778][616]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.39.40:798][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.40:798][616]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.05-23.39.40:801][616]LogPlayLevel: [PlayLevel] Compiling ShadowField before play...
+[2018.03.05-23.39.40:830][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 32 ms (1 blueprints)
+[2018.03.05-23.39.40:831][616]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:39:40 AM)
+[2018.03.05-23.39.40:831][616]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.39.40:876][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045418s)
+[2018.03.05-23.39.40:877][616]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.39.40:877][616]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2018.03.05-23.39.40:877][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.046409s)
+[2018.03.05-23.39.40:960][616]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.39.40:966][616]LogInit: FAudioDevice initialized.
+[2018.03.05-23.39.41:000][616]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.39.41:006][616]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.39.41
+[2018.03.05-23.39.41:006][616]LogWorld: Bringing up level for play took: 0.005334
+[2018.03.05-23.39.41:008][616]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.688
+[2018.03.05-23.39.41:009][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.47:206][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.47:307][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.48:800][410]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.39.48:818][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.48:818][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.39.48:819][410]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:39:48 AM)
+[2018.03.05-23.39.48:819][410]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.39.48:874][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055178s)
+[2018.03.05-23.39.48:875][410]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.39.48:875][410]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2018.03.05-23.39.48:876][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.056940s)
+[2018.03.05-23.39.48:955][410]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.39.48:959][410]LogInit: FAudioDevice initialized.
+[2018.03.05-23.39.48:988][410]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.39.48:993][410]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.39.48
+[2018.03.05-23.39.48:994][410]LogWorld: Bringing up level for play took: 0.005733
+[2018.03.05-23.39.48:997][410]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.677
+[2018.03.05-23.39.48:997][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.51:012][643]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.39.51:473][698]LogBlueprintUserMessages: [gatheringObject_192] Deactivating
+[2018.03.05-23.39.59:662][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.39.59:739][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.01:342][689]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.40.01:473][690]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (RainFall)
+[2018.03.05-23.40.02:577][744]Cmd: TRANSACTION UNDO
+[2018.03.05-23.40.02:577][744]LogEditorTransaction: Undo Clicking on Components
+[2018.03.05-23.40.04:233][820]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.40.21:570][533]BlueprintLog: New page: Compile ShadowField
+[2018.03.05-23.40.23:255][598]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.40.23:274][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.23:275][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.40.23:275][598]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:40:23 AM)
+[2018.03.05-23.40.23:275][598]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.40.23:344][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068534s)
+[2018.03.05-23.40.23:345][598]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.40.23:346][598]LogPlayLevel: PIE: World Init took: (0.001787s)
+[2018.03.05-23.40.23:346][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.070794s)
+[2018.03.05-23.40.23:424][598]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.40.23:428][598]LogInit: FAudioDevice initialized.
+[2018.03.05-23.40.23:463][598]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.40.23:468][598]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.40.23
+[2018.03.05-23.40.23:468][598]LogWorld: Bringing up level for play took: 0.004516
+[2018.03.05-23.40.23:470][598]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 1.15
+[2018.03.05-23.40.23:470][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.27:371][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.27:444][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.31:157][125]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.40.31:263][126]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (RainFall)
+[2018.03.05-23.40.37:857][406]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2018.03.05-23.40.51:628][142]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.03.05-23.40.53:675][295]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.40.53:694][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.53:694][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.40.53:695][295]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:40:53 AM)
+[2018.03.05-23.40.53:695][295]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.40.53:741][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046484s)
+[2018.03.05-23.40.53:742][295]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.40.53:742][295]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.03.05-23.40.53:742][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.047511s)
+[2018.03.05-23.40.53:790][295]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.40.53:794][295]LogInit: FAudioDevice initialized.
+[2018.03.05-23.40.53:826][295]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.40.53:830][295]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.40.53
+[2018.03.05-23.40.53:831][295]LogWorld: Bringing up level for play took: 0.004272
+[2018.03.05-23.40.53:832][295]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.488
+[2018.03.05-23.40.53:832][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.55:164][442]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.40.56:017][542]LogBlueprintUserMessages: [gatheringObject_192] Deactivating
+[2018.03.05-23.40.58:657][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.40.58:701][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.05:469][ 22]BlueprintLog: New page: Compile ShadowField
+[2018.03.05-23.41.06:627][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.41.06:646][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.06:646][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.41.06:646][ 59]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:41:06 AM)
+[2018.03.05-23.41.06:646][ 59]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.41.06:709][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063252s)
+[2018.03.05-23.41.06:710][ 59]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.41.06:711][ 59]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2018.03.05-23.41.06:711][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.064790s)
+[2018.03.05-23.41.06:755][ 59]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.41.06:759][ 59]LogInit: FAudioDevice initialized.
+[2018.03.05-23.41.06:792][ 59]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.41.06:802][ 59]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.41.06
+[2018.03.05-23.41.06:803][ 59]LogWorld: Bringing up level for play took: 0.010196
+[2018.03.05-23.41.06:806][ 59]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.486
+[2018.03.05-23.41.06:807][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.08:167][194]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.41.09:412][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.09:453][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.10:942][373]LogCascade: Quitting Cascade. FXSystem=0x00000221E9EB1B20
+[2018.03.05-23.41.22:252][134]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.41.22:270][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.22:270][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.41.22:271][134]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:41:22 AM)
+[2018.03.05-23.41.22:271][134]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.41.22:319][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048126s)
+[2018.03.05-23.41.22:319][134]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.41.22:320][134]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.03.05-23.41.22:320][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.049108s)
+[2018.03.05-23.41.22:374][134]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.41.22:378][134]LogInit: FAudioDevice initialized.
+[2018.03.05-23.41.22:411][134]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.41.22:416][134]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.41.22
+[2018.03.05-23.41.22:429][134]LogWorld: Bringing up level for play took: 0.017301
+[2018.03.05-23.41.22:430][134]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.111
+[2018.03.05-23.41.22:431][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.23:075][207]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.41.23:520][260]LogBlueprintUserMessages: [gatheringObject_192] Deactivating
+[2018.03.05-23.41.47:898][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.47:942][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.41.59:045][988]LogEditorViewport: Clicking on Actor (LMB): Emitter (RainFallPS)
+[2018.03.05-23.42.03:098][306]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2018.03.05-23.42.04:326][400]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.03.05-23.44.10:739][430]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.05-23.44.11:159][430]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2018.03.05-23.44.15:475][568]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.44.15:512][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.15:512][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.44.15:512][568]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:44:15 AM)
+[2018.03.05-23.44.15:512][568]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.44.15:565][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052927s)
+[2018.03.05-23.44.15:566][568]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.44.15:566][568]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2018.03.05-23.44.15:567][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.054155s)
+[2018.03.05-23.44.15:653][568]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.44.15:657][568]LogInit: FAudioDevice initialized.
+[2018.03.05-23.44.15:693][568]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.44.15:698][568]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.44.15
+[2018.03.05-23.44.15:698][568]LogWorld: Bringing up level for play took: 0.004422
+[2018.03.05-23.44.15:700][568]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.62
+[2018.03.05-23.44.15:700][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.18:050][838]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.44.18:285][865]LogBlueprintUserMessages: [gatheringObject_192] Deactivating
+[2018.03.05-23.44.21:468][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.21:552][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.36:707][914]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.44.36:727][914]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.36:727][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.44.36:727][914]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:44:36 AM)
+[2018.03.05-23.44.36:727][914]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.44.36:775][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048338s)
+[2018.03.05-23.44.36:776][914]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.44.36:776][914]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.03.05-23.44.36:776][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.049372s)
+[2018.03.05-23.44.36:851][914]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.44.36:856][914]LogInit: FAudioDevice initialized.
+[2018.03.05-23.44.36:883][914]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.44.36:887][914]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.44.36
+[2018.03.05-23.44.36:888][914]LogWorld: Bringing up level for play took: 0.004310
+[2018.03.05-23.44.36:889][914]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.57
+[2018.03.05-23.44.36:890][914]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.40:862][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.44.40:948][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.45.47:294][865]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.03.05-23.46.03:324][ 92]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.03.05-23.46.03:867][143]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.03.05-23.46.04:000][153]Cmd: EDCALLBACK SURFPROPS
+[2018.03.05-23.46.06:453][414]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.03.05-23.47.01:851][ 78]LogSavePackage: Save=976.36ms
+[2018.03.05-23.47.01:851][ 78]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ShadowField_Auto1476F1EDB4AC28E0989A6B285AEA4363F.tmp' to '../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto1.umap'
+[2018.03.05-23.47.01:852][ 78]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto1.umap
+[2018.03.05-23.47.01:860][ 78]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.05-23.47.01:862][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 1.124
+[2018.03.05-23.47.01:862][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.124
+[2018.03.05-23.47.01:866][ 78]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.03.05-23.47.01:883][ 78]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.03.05-23.47.01:883][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.03.05-23.47.02:053][ 78]LogSavePackage: Save=158.95ms
+[2018.03.05-23.47.02:053][ 78]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ThirdPersonCharacter_Auto1E127C2CC49A16EA2795BE4B62248F998.tmp' to '../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.03.05-23.47.02:054][ 78]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2018.03.05-23.47.02:054][ 78]LogFileHelpers: Auto-saving content packages took 0.190
+[2018.03.05-23.47.51:623][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:623][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.uasset.
+[2018.03.05-23.47.51:623][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:623][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.uasset.
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.uasset.
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.uasset.
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:624][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:625][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:626][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:627][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:627][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.uasset.
+[2018.03.05-23.47.51:907][767]LogBlueprint: Error: [Compiler BTT_MoveToBlackboard] In use pin  Skipped  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.03.05-23.47.51:970][767]LogBlueprint: Warning: [Compiler BTT_MoveToBlackboard] [0783.23] Compile of BTT_MoveToBlackboard failed. 1 Fatal Issue(s) 0 Warning(s) [in 240 ms] (/Game/AIBehaviorToolkit/Blueprints/BehaviorTree/Tasks/BTT_MoveToBlackboard.BTT_MoveToBlackboard)
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.uasset.
+[2018.03.05-23.47.51:979][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.uasset.
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.uasset.
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:979][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.uasset.
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.uasset.
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:980][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:980][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:981][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:982][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.uasset.
+[2018.03.05-23.47.51:989][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.uasset.
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.uasset.
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:989][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.uasset.
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.uasset.
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:990][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:991][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.uasset.
+[2018.03.05-23.47.51:993][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.uasset.
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.uasset.
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:993][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.uasset.
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.uasset.
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:994][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:995][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:996][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.uasset.
+[2018.03.05-23.47.51:998][767]LoadErrors: Error: /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.uasset.
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.uasset.
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:998][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.uasset.
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.uasset.
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.51:999][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:000][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:001][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:001][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:001][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:001][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:001][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Documents/GitHub/ShadowField/Content/AIBehaviorToolkit/Blueprints/BehaviorTree/BT_GenericAI.uasset.
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:034][767]LoadErrors: Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by EQS_FindLineOfSight
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:034][767]LoadErrors: Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2018.03.05-23.47.52:034][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:037][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:037][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:037][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:037][767]LoadErrors: Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by EQS_InvestigateArea
+[2018.03.05-23.47.52:037][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:038][767]LoadErrors: Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by EQS_RandLocationAroundTarget
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:038][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:038][767]LoadErrors: Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by EQS_FindHidingSpot
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:039][767]LoadErrors: Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by EQS_FindRandomLocation
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:039][767]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.05-23.47.52:040][767]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.05-23.47.52:555][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_1': EnvironmentQueryGraphNode_Option /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.EQS_FindLineOfSight:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_0': EnvironmentQueryGraphNode_Root /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindLineOfSight.EQS_FindLineOfSight:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_1': EnvironmentQueryGraphNode_Option /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.EQS_FindHidingSpot:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_0': EnvironmentQueryGraphNode_Root /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindHidingSpot.EQS_FindHidingSpot:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_1': EnvironmentQueryGraphNode_Option /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.EQS_FindRandomLocation:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_0': EnvironmentQueryGraphNode_Root /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_FindRandomLocation.EQS_FindRandomLocation:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_1': EnvironmentQueryGraphNode_Option /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.EQS_InvestigateArea:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_0': EnvironmentQueryGraphNode_Root /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_InvestigateArea.EQS_InvestigateArea:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_1': EnvironmentQueryGraphNode_Option /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.EQS_RandLocationAroundTarget:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_0
+[2018.03.05-23.47.52:556][767]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EdGraphPin_0': EnvironmentQueryGraphNode_Root /Game/AIBehaviorToolkit/Blueprints/EQS/EQS_RandLocationAroundTarget.EQS_RandLocationAroundTarget:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2018.03.05-23.48.04:272][761]LogEditorTransaction: Undo Add Component
+[2018.03.05-23.48.12:836][389]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.03.05-23.48.19:811][822]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.20:927][935]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.21:590][999]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.22:291][ 67]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.22:734][110]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.23:192][153]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.24:904][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2018.03.05-23.48.27:983][632]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.29:091][743]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.32:020][982]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.03.05-23.48.33:500][125]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.34:132][185]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.34:815][253]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.05-23.48.35:663][327]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.35:663][327]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.36:036][354]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.36:036][354]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.36:330][372]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.36:330][372]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.36:573][385]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.36:573][385]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.36:913][406]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.36:913][406]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.37:162][421]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.37:162][421]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.37:407][437]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.37:407][437]LogEditorTransaction: Undo Select Brush Surface
+[2018.03.05-23.48.37:651][453]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.37:651][453]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.37:905][470]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.37:905][470]LogEditorTransaction: Undo Select Brush Surface
+[2018.03.05-23.48.38:121][483]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.38:121][483]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.38:340][497]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.38:340][497]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.38:592][515]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.38:592][515]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.38:882][537]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.38:882][537]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.48.39:176][560]Cmd: TRANSACTION UNDO
+[2018.03.05-23.48.39:176][560]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.05-23.49.36:686][156]LogEditorTransaction: Undo Paste clipboard contents
+[2018.03.05-23.49.39:280][337]Cmd: EDIT COPY
+[2018.03.05-23.50.12:271][416]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerBox /Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.TriggerBox_1) from referencer (K2Node_ActorBoundEvent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_ActorBoundEvent_0).  Import failed...
+[2018.03.05-23.50.12:271][416]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.TriggerBox_1''
+[2018.03.05-23.51.31:052][157]LogEditorTransaction: Undo Add Variable
+[2018.03.05-23.52.51:210][812]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.03.05-23.53.26:130][547]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.03.05-23.53.27:389][680]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.03.05-23.53.31:825][123]LogEditorActor: Deleted Actor: TriggerBox
+[2018.03.05-23.53.31:896][123]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2018.03.05-23.54.28:281][927]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.05-23.54.38:355][267]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.54.38:386][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.54.38:386][267]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.05-23.54.38:389][267]LogPlayLevel: [PlayLevel] Compiling ShadowField before play...
+[2018.03.05-23.54.38:425][267]LogPlayLevel: PlayLevel: Blueprint regeneration took 38 ms (1 blueprints)
+[2018.03.05-23.54.46:652][267]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:54:46 AM)
+[2018.03.05-23.54.46:652][267]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.54.46:711][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058647s)
+[2018.03.05-23.54.46:712][267]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.54.46:713][267]LogPlayLevel: PIE: World Init took: (0.001815s)
+[2018.03.05-23.54.46:713][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.060895s)
+[2018.03.05-23.54.46:764][267]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.54.46:768][267]LogInit: FAudioDevice initialized.
+[2018.03.05-23.54.46:796][267]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.54.46:801][267]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.54.46
+[2018.03.05-23.54.46:801][267]LogWorld: Bringing up level for play took: 0.004432
+[2018.03.05-23.54.46:803][267]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 8.483
+[2018.03.05-23.54.46:803][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.54.47:540][330]LogBlueprintUserMessages: [gatheringObject_192] Activating
+[2018.03.05-23.54.48:327][422]LogBlueprintUserMessages: [gatheringObject_192] Deactivating
+[2018.03.05-23.54.49:834][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.54.49:873][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.54.55:729][129]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.05-23.55.10:486][465]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-23.55.10:504][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.55.10:504][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-23.55.10:504][465]PIE: New page: PIE session: ShadowField (Mar 5, 2018, 7:55:10 AM)
+[2018.03.05-23.55.10:505][465]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.03.05-23.55.10:549][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044087s)
+[2018.03.05-23.55.10:549][465]LogAIModule: Creating AISystem for world ShadowField
+[2018.03.05-23.55.10:549][465]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2018.03.05-23.55.10:550][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.045139s)
+[2018.03.05-23.55.10:603][465]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-23.55.10:607][465]LogInit: FAudioDevice initialized.
+[2018.03.05-23.55.10:638][465]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.05-23.55.10:643][465]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.03.05-15.55.10
+[2018.03.05-23.55.10:643][465]LogWorld: Bringing up level for play took: 0.004259
+[2018.03.05-23.55.10:645][465]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.325
+[2018.03.05-23.55.10:652][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.55.13:459][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.55.13:528][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.03.05-23.55.17:632][181]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.05-23.55.22:527][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.05-23.55.23:327][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.05-23.55.23:833][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.05-23.55.26:098][980]LogEditorViewport: Clicking on Actor (LMB): flashlightInventPickupBP_C (flashlightInventPickupBP)
+[2018.03.05-23.55.37:506][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Billboard_02'
+[2018.03.05-23.55.37:506][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Billboard_02' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/Billboard_02.uasset.
+[2018.03.05-23.55.37:506][273]LoadErrors: Error: /Game/RedwoodForest/Materials/Billboard_02 : Can't find file for asset. /Game/RedwoodForest/Textures/Billboard_02
+[2018.03.05-23.55.37:507][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Billboard_02'
+[2018.03.05-23.55.37:507][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Billboard_02' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/Billboard_02.uasset.
+[2018.03.05-23.55.37:511][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Dead_Ground_01'
+[2018.03.05-23.55.37:512][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Dead_Ground_01' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:512][273]LoadErrors: Error: /Game/RedwoodForest/Materials/000_Parent_Trunk_Disp : Can't find file for asset. /Game/RedwoodForest/Textures/Dead_Ground_01
+[2018.03.05-23.55.37:512][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Dead_Ground_01_NRM'
+[2018.03.05-23.55.37:512][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Dead_Ground_01_NRM' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:512][273]LoadErrors: Error: /Game/RedwoodForest/Materials/000_Parent_Trunk_Disp : Can't find file for asset. /Game/RedwoodForest/Textures/Dead_Ground_01_NRM
+[2018.03.05-23.55.37:516][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01'
+[2018.03.05-23.55.37:516][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:517][273]LoadErrors: Error: /Game/RedwoodForest/Materials/000_Parent_Trunk_Disp : Can't find file for asset. /Game/RedwoodForest/Textures/Redwood_Base_01
+[2018.03.05-23.55.37:517][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01_NRM'
+[2018.03.05-23.55.37:517][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01_NRM' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:517][273]LoadErrors: Error: /Game/RedwoodForest/Materials/000_Parent_Trunk_Disp : Can't find file for asset. /Game/RedwoodForest/Textures/Redwood_Base_01_NRM
+[2018.03.05-23.55.37:517][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01_SPEC'
+[2018.03.05-23.55.37:517][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:517][273]LoadErrors: Error: /Game/RedwoodForest/Materials/000_Parent_Trunk_Disp : Can't find file for asset. /Game/RedwoodForest/Textures/Redwood_Base_01_SPEC
+[2018.03.05-23.55.37:519][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Dead_Ground_01'
+[2018.03.05-23.55.37:519][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Dead_Ground_01' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:519][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Dead_Ground_01_NRM'
+[2018.03.05-23.55.37:519][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Dead_Ground_01_NRM' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:520][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01'
+[2018.03.05-23.55.37:520][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:520][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01_NRM'
+[2018.03.05-23.55.37:520][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01_NRM' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:520][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01_SPEC'
+[2018.03.05-23.55.37:520][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01_SPEC' while loading ../../../../Documents/GitHub/ShadowField/Content/RedwoodForest/Materials/000_Parent_Trunk_Disp.uasset.
+[2018.03.05-23.55.37:531][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01_NRM'
+[2018.03.05-23.55.37:531][273]LoadErrors: Failed to load /Game/RedwoodForest/Textures/Redwood_Base_01_NRM.Redwood_Base_01_NRM Referenced by MaterialExpressionTextureSampleParameter2D_10
+[2018.03.05-23.55.37:531][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01_NRM' while loading NULL.
+[2018.03.05-23.55.37:532][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01_SPEC'
+[2018.03.05-23.55.37:532][273]LoadErrors: Failed to load /Game/RedwoodForest/Textures/Redwood_Base_01_SPEC.Redwood_Base_01_SPEC Referenced by MaterialExpressionTextureSampleParameter2D_11
+[2018.03.05-23.55.37:532][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01_SPEC' while loading NULL.
+[2018.03.05-23.55.37:532][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Redwood_Base_01'
+[2018.03.05-23.55.37:532][273]LoadErrors: Failed to load /Game/RedwoodForest/Textures/Redwood_Base_01.Redwood_Base_01 Referenced by MaterialExpressionTextureSampleParameter2D_24
+[2018.03.05-23.55.37:532][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Redwood_Base_01' while loading NULL.
+[2018.03.05-23.55.37:532][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Dead_Ground_01'
+[2018.03.05-23.55.37:532][273]LoadErrors: Failed to load /Game/RedwoodForest/Textures/Dead_Ground_01.Dead_Ground_01 Referenced by MaterialExpressionTextureSampleParameter2D_27
+[2018.03.05-23.55.37:532][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Dead_Ground_01' while loading NULL.
+[2018.03.05-23.55.37:533][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Dead_Ground_01_NRM'
+[2018.03.05-23.55.37:533][273]LoadErrors: Failed to load /Game/RedwoodForest/Textures/Dead_Ground_01_NRM.Dead_Ground_01_NRM Referenced by MaterialExpressionTextureSampleParameter2D_32
+[2018.03.05-23.55.37:533][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Dead_Ground_01_NRM' while loading NULL.
+[2018.03.05-23.55.37:537][273]LogLinker: Warning: Can't find file '/Game/RedwoodForest/Textures/Billboard_02'
+[2018.03.05-23.55.37:537][273]LoadErrors: Failed to load /Game/RedwoodForest/Textures/Billboard_02.Billboard_02 Referenced by Billboard_02
+[2018.03.05-23.55.37:537][273]LogLinker: Warning: Can't find file for asset '/Game/RedwoodForest/Textures/Billboard_02' while loading NULL.
+[2018.03.05-23.55.37:557][273]LogMaterial: Missing cached shader map for material 000_Parent_Trunk_Disp, compiling. 
+[2018.03.05-23.55.37:558][273]LogMaterial: Warning: Failed to compile Material /Game/RedwoodForest/Materials/000_Parent_Trunk_Disp.000_Parent_Trunk_Disp for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.05-23.55.37:558][273]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.03.05-23.55.37:558][273]LogMaterial: Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.03.05-23.55.37:561][273]LogMaterial: Missing cached shader map for material 000_Parent_Trunk_Disp, compiling. 
+[2018.03.05-23.55.37:561][273]LogMaterial: Warning: Failed to compile Material Instance /Game/RedwoodForest/Materials/Redwood_03.Redwood_03 with Base 000_Parent_Trunk_Disp for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.05-23.55.37:561][273]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.03.05-23.55.37:561][273]LogMaterial: Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.03.05-23.55.37:562][273]LogStaticMesh: Building static mesh Redwood_03...
+[2018.03.05-23.55.38:908][273]LogStaticMesh: Built static mesh [1.35s] /Game/RedwoodForest/Assets/Trees/Redwood_03.Redwood_03
+[2018.03.05-23.55.39:543][273]LogRenderer: Reallocating scene render targets to support 904x708 Format 10 NumSamples 1 (Frame:1).
+[2018.03.05-23.56.00:211][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2018.03.05-23.56.00:415][192]LogSavePackage: Save=194.55ms
+[2018.03.05-23.56.00:415][192]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ThirdPersonCharacter5BF2A5D4454A6646F16F1FBDF113F055.tmp' to '../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.05-23.56.00:423][192]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.05-23.56.00:546][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ShadowField" FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.05-23.56.01:513][192]LogSavePackage: Save=913.30ms
+[2018.03.05-23.56.01:513][192]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ShadowField97D5847F45607E565CC2F78990931119.tmp' to '../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap'
+[2018.03.05-23.56.01:518][192]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap
+[2018.03.05-23.56.01:568][192]LogFileHelpers: Saving map 'ShadowField' took 1.142
+[2018.03.05-23.56.01:667][192]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.05-23.56.02:066][193]Cmd: QUIT_EDITOR
+[2018.03.05-23.56.02:292][193]LogExit: Preparing to exit.
+[2018.03.05-23.56.02:867][193]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Content/' was aborted.
+[2018.03.05-23.56.02:948][193]LogExit: Editor shut down
+[2018.03.05-23.56.02:955][193]LogExit: Transaction tracking system shut down
+[2018.03.05-23.56.03:142][193]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.05-23.56.03:142][193]LogDirectoryWatcher: A directory notification for '../../../../Documents/GitHub/ShadowField/Content/' was aborted.
+[2018.03.05-23.56.03:142][193]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.05-23.56.03:142][193]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.05-23.56.03:142][193]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.05-23.56.03:312][193]LogExit: Object subsystem successfully closed.
+[2018.03.05-23.56.03:357][193]LogD3D11RHI: Shutdown
+[2018.03.05-23.56.03:357][193]LogD3D11RHI: CleanupD3DDevice
+[2018.03.05-23.56.03:589][193]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.05-23.56.03:629][193]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (542)
+[2018.03.05-23.56.03:629][193]LogModuleManager: Shutting down and abandoning module DistCurveEditor (540)
+[2018.03.05-23.56.03:629][193]LogModuleManager: Shutting down and abandoning module Cascade (538)
+[2018.03.05-23.56.03:629][193]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.03.05-23.56.03:629][193]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.03.05-23.56.03:631][193]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.03.05-23.56.03:631][193]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.03.05-23.56.03:631][193]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.03.05-23.56.03:631][193]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.03.05-23.56.03:631][193]LogDirectoryWatcher: A directory notification for 'D:/UE_4.17/FeaturePacks/' was aborted.
+[2018.03.05-23.56.03:632][193]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.03.05-23.56.03:632][193]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.03.05-23.56.03:632][193]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.03.05-23.56.03:632][193]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Content/Collections/' was aborted.
+[2018.03.05-23.56.03:632][193]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Content/Developers/Leviathan/Collections/' was aborted.
+[2018.03.05-23.56.03:632][193]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Saved/Collections/' was aborted.
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.03.05-23.56.03:633][193]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.03.05-23.56.03:634][193]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.03.05-23.56.03:634][193]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.03.05-23.56.03:634][193]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.03.05-23.56.03:634][193]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.03.05-23.56.03:680][193]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.03.05-23.56.03:681][193]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.03.05-23.56.03:733][193]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.03.05-23.56.03:733][193]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.03.05-23.56.03:733][193]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.03.05-23.56.03:733][193]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.03.05-23.56.03:733][193]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.03.05-23.56.03:734][193]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.03.05-23.56.03:734][193]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.03.05-23.56.03:734][193]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.03.05-23.56.03:734][193]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.03.05-23.56.03:734][193]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.03.05-23.56.03:751][193]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.03.05-23.56.03:754][193]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.03.05-23.56.03:755][193]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.03.05-23.56.03:755][193]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.03.05-23.56.03:933][193]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.03.05-23.56.03:934][193]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.03.05-23.56.03:935][193]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.03.05-23.56.04:036][193]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.03.05-23.56.04:136][193]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.03.05-23.56.04:136][193]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.03.05-23.56.04:136][193]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.03.05-23.56.04:136][193]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.03.05-23.56.04:137][193]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.03.05-23.56.04:137][193]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.03.05-23.56.04:139][193]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.03.05-23.56.04:139][193]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.03.05-23.56.04:139][193]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.03.05-23.56.04:139][193]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.03.05-23.56.04:145][193]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.03.05-23.56.04:146][193]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.03.05-23.56.04:146][193]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.03.05-23.56.04:146][193]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.03.05-23.56.04:146][193]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.03.05-23.56.04:150][193]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.03.05-23.56.04:150][193]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.03.05-23.56.04:150][193]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.03.05-23.56.04:150][193]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.03.05-23.56.04:151][193]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.03.05-23.56.04:153][193]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.05-23.56.04:166][193]LogDerivedDataCache: Shutdown
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.05-23.56.04:166][193]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.05-23.56.04:167][193]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.05-23.56.04:168][193]LogOnline: Display: Unloading online subsystem: NULL
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.05-23.56.04:168][193]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.05-23.56.04:168][193]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.05-23.56.04:168][193]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B55C362F6-43FB-2F47-1024-4DA47A14B101%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=3180eddf4f51a64b47cf889a0c0e30bc%7Cf8ccf1562c484920bde4bdb0d5186e1f%7C2647454a-e22c-492a-b3fe-fd8165de4d60&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.05-23.56.04:203][193]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.05-23.56.04:206][193]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.05-23.56.04:212][193]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.05-23.56.04:221][193]LogExit: Exiting.
+[2018.03.05-23.56.04:251][193]Log file closed, 03/05/18 15:56:04
+>>>>>>> acafca5f7e8d04324bfe4269c100e7f7ce9b00ab

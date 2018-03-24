@@ -50,6 +50,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
+Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -70,36 +71,7 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-<<<<<<< HEAD
-Saved/Config/Windows/EditorPerProjectUserSettings.ini
-Saved/AutoScreenshot.png
-Saved/Logs/ShadowField.log
-Saved/Config/Windows/Engine.ini
-Saved/Config/Windows/Editor.ini
-Intermediate/CachedAssetRegistry.bin
-=======
-Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
-Intermediate/CachedAssetRegistry.bin
-Saved/AutoScreenshot.png
-Saved/Config/Windows/EditorPerProjectUserSettings.ini
-Saved/Logs/ShadowField.log
-Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
-Intermediate/CachedAssetRegistry.bin
-Saved/AutoScreenshot.png
-Saved/Config/Windows/EditorPerProjectUserSettings.ini
-Saved/Logs/ShadowField.log
->>>>>>> master
-Content/ThirdPersonBP/Maps/ShadowField_BuiltData.uasset
-Intermediate/CachedAssetRegistry.bin
-Saved/AutoScreenshot.png
-Saved/Config/Windows/EditorPerProjectUserSettings.ini
-Saved/Logs/ShadowField.log
-Saved/AutoScreenshot.png
-Saved/AutoScreenshot.png
-Intermediate/AssetRegistryCache/1d5167fa.bin
-Intermediate/AssetRegistryCache/2657c409.bin
-Intermediate/AssetRegistryCache/1d5167fa.bin
-Saved/Logs/ShadowField.log

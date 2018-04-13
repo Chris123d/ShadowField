@@ -1,4 +1,4 @@
-﻿Log file open, 04/12/18 14:13:59
+﻿Log file open, 04/12/18 16:53:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ShadowField
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1718503535) SRandInit(1718503535).
+LogInit: Display: RandInit(-897709666) SRandInit(-897709666).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.696467
+LogStats: Stats thread started at 0.427344
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -170,7 +170,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  6.025s to configure plugins.
+LogStreaming: Display: Took  1.963s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -221,190 +221,1239 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.013s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.12-21.14.07:627][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.12-21.14.07:627][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.12-21.14.07:813][  0]LogInit: Computer: DESKTOP-DBC968G
-[2018.04.12-21.14.07:813][  0]LogInit: User: Leviathan
-[2018.04.12-21.14.07:813][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.04.12-21.14.07:813][  0]LogInit: High frequency timer resolution =3.320312 MHz
-[2018.04.12-21.14.07:813][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.04.12-21.14.07:813][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.12-21.14.07:813][  0]LogMemory: Process Physical Memory: 275.63 MB used, 275.63 MB peak
-[2018.04.12-21.14.07:813][  0]LogMemory: Process Virtual Memory: 271.39 MB used, 271.39 MB peak
-[2018.04.12-21.14.07:813][  0]LogMemory: Physical Memory: 6694.65 MB used,  25973.32 MB free, 32667.97 MB total
-[2018.04.12-21.14.07:813][  0]LogMemory: Virtual Memory: 714.14 MB used,  25973.32 MB free, 134217728.00 MB total
-[2018.04.12-21.14.08:487][  0]LogInit: Using OS detected language (en-US).
-[2018.04.12-21.14.08:487][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.12-21.14.08:801][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.12-21.14.09:781][  0]LogStreaming: Display: Took  1.259s to EndInitTextLocalization.
-[2018.04.12-21.14.09:801][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.12-21.14.10:950][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.04.12-21.14.10:950][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.04.12-21.14.15:381][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.12-21.14.15:468][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.04.12-21.14.15:468][  0]LogD3D11RHI:       8079/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.04.12-21.14.15:470][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.12-21.14.15:470][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.12-21.14.15:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.12-21.14.15:477][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.12-21.14.15:477][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.12-21.14.15:477][  0]LogWindows: EnumDisplayDevices:
-[2018.04.12-21.14.15:477][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2018.04.12-21.14.15:477][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.04.12-21.14.15:478][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.12-21.14.15:478][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.12-21.14.15:478][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.12-21.14.15:478][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.04.12-21.14.15:478][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.12-21.14.15:478][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.12-21.14.15:478][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.04.12-21.14.15:513][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.12-21.14.15:513][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.12-21.14.15:801][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.12-21.14.15:958][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../Documents/GitHub/ShadowField/Intermediate/Shaders/WorkingDirectory/10536/).
-[2018.04.12-21.14.15:963][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leviathan/AppData/Local/Temp/UnrealShaderWorkingDir/79301FBD4AACAC72FA1BC5AD8CD406CE/'.
-[2018.04.12-21.14.17:622][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.12-21.14.17:649][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.12-21.14.17:665][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.12-21.14.17:678][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.12-21.14.17:740][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.12-21.14.17:757][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.12-21.14.17:772][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.12-21.14.17:784][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.12-21.14.17:790][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.12-21.14.17:801][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.12-21.14.17:813][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.12-21.14.17:824][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.12-21.14.17:836][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.04.12-21.14.17:847][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.12-21.14.17:858][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.12-21.14.17:882][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.12-21.14.17:882][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.12-21.14.17:982][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.12-21.14.17:984][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.12-21.14.18:180][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.12-21.14.18:228][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.12-21.14.18:245][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.12-21.14.18:260][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.12-21.14.18:271][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.12-21.14.18:319][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.12-21.14.18:319][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.12-21.14.19:441][  0]LogXGEController: Cleaning working directory: C:/Users/Leviathan/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.04.12-21.14.19:442][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.04.12-21.14.19:462][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.04.12-21.14.19:462][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.12-21.14.22:281][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.12-21.14.22:507][  0]LogDerivedDataCache: Loaded boot cache 0.22s 74MB C:/Users/Leviathan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.12-21.14.22:507][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leviathan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.04.12-21.14.22:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documents/GitHub/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.12-21.14.22:507][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.12-21.14.22:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Documents/GitHub/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.12-21.14.22:507][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.12-21.14.22:612][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.12-21.14.22:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leviathan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.12-21.14.22:655][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.12-21.14.22:713][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.12-21.14.22:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.12-21.14.22:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.12-21.14.29:267][  0]LogAssetRegistry: FAssetRegistry took 0.0453 seconds to start up
-[2018.04.12-21.14.33:562][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.12-21.14.37:518][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.12-21.14.37:623][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.12-21.14.37:636][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.12-21.14.37:646][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.12-21.14.37:646][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.12-21.14.37:646][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.12-21.14.38:761][  0]LogNetVersion: ShadowField , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2023336792)
-[2018.04.12-21.14.44:292][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.178339 seconds
-[2018.04.12-21.14.44:319][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.04.12-21.14.44:319][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.04.12-21.14.44:319][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.12-21.15.11:430][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.12-21.15.11:484][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.12-21.15.12:564][  0]SourceControl: Source control is disabled
-[2018.04.12-21.15.14:658][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.12-21.15.14:911][  0]LogOcInput: OculusInput pre-init called
-[2018.04.12-21.15.15:684][  0]LogEngine: Initializing Engine...
-[2018.04.12-21.15.16:958][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.04.12-21.15.17:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.12-21.15.17:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2018.04.12-21.15.17:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.12-21.15.18:293][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.12-21.15.18:416][  0]LogInit: XAudio2 using 'Speakers (Wireless Stereo Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.12-21.15.18:427][  0]LogInit: FAudioDevice initialized.
-[2018.04.12-21.15.18:480][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/Leviathan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.12-21.15.18:490][  0]LogInit: Texture streaming: Enabled
-[2018.04.12-21.15.18:584][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.12-21.15.18:891][  0]LogInit: Transaction tracking system initialized
-[2018.04.12-21.15.20:230][  0]BlueprintLog: New page: Editor Load
-[2018.04.12-21.15.22:223][  0]LocalizationService: Localization service is disabled
-[2018.04.12-21.15.23:354][  0]LogConsoleResponse: Display: 
-[2018.04.12-21.15.28:237][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/' took 0.05s
-[2018.04.12-21.15.28:237][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.12-21.15.28:237][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.12-21.15.28:237][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.12-21.15.28:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.12-21.15.28:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.04.12-21.15.28:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.12-21.15.33:977][  0]Cmd: MAP LOAD FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.12-21.15.34:040][  0]LightingResults: New page: Lighting Build
-[2018.04.12-21.15.34:257][  0]MapCheck: New page: Map Check
-[2018.04.12-21.15.34:257][  0]LightingResults: New page: Lighting Build
-[2018.04.12-21.16.28:198][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [31.805746ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.04.12-21.16.29:116][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
-[2018.04.12-21.16.29:116][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
-[2018.04.12-21.16.29:116][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
-[2018.04.12-21.16.31:982][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [10.923371ms] /Game/Phoenix/PhoenixModel.PhoenixModel
-[2018.04.12-21.16.32:204][  0]LogAIModule: Creating AISystem for world ShadowField
-[2018.04.12-21.16.33:435][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.12-21.16.33:547][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.12-21.16.33:672][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 125.119ms to complete.
-[2018.04.12-21.16.33:672][  0]LogFileHelpers: Loading map 'ShadowField' took 59.719
-[2018.04.12-21.16.35:013][  0]LogCollectionManager: Loaded 0 collections in 0.001109 seconds
-[2018.04.12-21.16.35:449][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
-[2018.04.12-21.16.35:449][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/Developers/Leviathan/Collections/' took 0.01s
-[2018.04.12-21.16.35:449][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
-[2018.04.12-21.16.35:449][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.04.12-21.16.35:493][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2452 classes and 558 folders.
-[2018.04.12-21.16.35:624][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.04.12-21.16.39:698][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.04.12-21.16.40:110][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.04.12-21.16.43:072][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.04.12-21.16.43:072][  0]LogLoad: (Engine Initialization) Total time: 177.66 seconds
-[2018.04.12-21.16.43:072][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.12-21.16.43:673][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.12-21.16.43:771][  0]LogSlate: Took 0.016283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.12-21.16.43:826][  0]LogSlate: Took 0.053181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.12-21.16.43:877][  0]LogSlate: Took 0.021980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.12-21.16.44:657][  0]LogRenderer: Reallocating scene render targets to support 1276x564 Format 10 NumSamples 1 (Frame:1).
-[2018.04.12-21.16.44:657][  0]LogSlate: Took 0.034411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.12-21.16.45:535][  3]LogAssetRegistry: Asset discovery search completed in 136.2898 seconds
-[2018.04.12-21.16.45:542][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.12-21.16.45:542][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
-[2018.04.12-21.20.07:286][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.12-21.20.07:360][825]LogRenderer: Reallocating scene render targets to support 1276x568 Format 10 NumSamples 1 (Frame:223).
-[2018.04.12-21.20.07:472][828]LogRenderer: Reallocating scene render targets to support 1276x600 Format 10 NumSamples 1 (Frame:227).
-[2018.04.12-21.20.07:519][829]LogRenderer: Reallocating scene render targets to support 1276x632 Format 10 NumSamples 1 (Frame:229).
-[2018.04.12-21.20.07:577][830]LogRenderer: Reallocating scene render targets to support 1276x656 Format 10 NumSamples 1 (Frame:231).
-[2018.04.12-21.20.07:631][831]LogRenderer: Reallocating scene render targets to support 1276x676 Format 10 NumSamples 1 (Frame:233).
-[2018.04.12-21.20.07:734][833]LogRenderer: Reallocating scene render targets to support 1276x696 Format 10 NumSamples 1 (Frame:237).
-[2018.04.12-21.20.11:948][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.12-21.20.34:590][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.12-21.22.37:075][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.12-21.30.47:771][327]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.12-21.30.49:148][349]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_ActorTag.Enum_ActorTag' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.04.12-21.30.49:172][349]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_BehaviorType.Enum_BehaviorType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.04.12-21.30.49:194][349]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_IdleType.Enum_IdleType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.04.12-21.30.49:212][349]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_MessageTag.Enum_MessageTag' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.04.12-21.30.49:230][349]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_OperationType.Enum_OperationType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.04.12-21.30.49:244][349]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_PatrolType.Enum_PatrolType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.04.12-21.30.49:396][349]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
-[2018.04.12-21.30.50:656][349]LogSlate: Took 0.020972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.12-21.30.51:219][350]LogSlate: Took 0.015792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.12-21.31.08:227][691]LogSlate: Window 'ShadowField - Level Blueprint Editor' being destroyed
-[2018.04.12-21.31.08:230][691]LogSlate: Window 'ShadowField - Level Blueprint Editor' being destroyed
-[2018.04.12-21.32.23:908][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.12-23.44.54:476][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.53.13:631][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.12-23.53.13:631][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.12-23.53.13:654][  0]LogInit: Computer: DESKTOP-DBC968G
+[2018.04.12-23.53.13:654][  0]LogInit: User: Leviathan
+[2018.04.12-23.53.13:654][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.04.12-23.53.13:654][  0]LogInit: High frequency timer resolution =3.320312 MHz
+[2018.04.12-23.53.13:654][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.12-23.53.13:654][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.12-23.53.13:654][  0]LogMemory: Process Physical Memory: 276.22 MB used, 276.22 MB peak
+[2018.04.12-23.53.13:654][  0]LogMemory: Process Virtual Memory: 275.70 MB used, 275.70 MB peak
+[2018.04.12-23.53.13:654][  0]LogMemory: Physical Memory: 9465.72 MB used,  23202.25 MB free, 32667.97 MB total
+[2018.04.12-23.53.13:654][  0]LogMemory: Virtual Memory: 718.14 MB used,  23202.25 MB free, 134217728.00 MB total
+[2018.04.12-23.53.13:837][  0]LogInit: Using OS detected language (en-US).
+[2018.04.12-23.53.13:837][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.12-23.53.13:897][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.12-23.53.14:378][  0]LogStreaming: Display: Took  0.541s to EndInitTextLocalization.
+[2018.04.12-23.53.14:378][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.12-23.53.14:443][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.12-23.53.14:443][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.12-23.53.16:872][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.12-23.53.16:958][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.12-23.53.16:958][  0]LogD3D11RHI:       8079/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.12-23.53.16:960][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.12-23.53.16:961][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.12-23.53.16:961][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.12-23.53.16:967][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.12-23.53.16:967][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.12-23.53.16:967][  0]LogWindows: EnumDisplayDevices:
+[2018.04.12-23.53.16:967][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.04.12-23.53.16:967][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.12-23.53.16:967][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.12-23.53.16:967][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.12-23.53.16:967][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.12-23.53.16:967][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.12-23.53.16:967][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.12-23.53.16:967][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.12-23.53.16:967][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.04.12-23.53.16:999][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.12-23.53.16:999][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.12-23.53.17:066][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.12-23.53.17:111][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../Documents/GitHub/ShadowField/Intermediate/Shaders/WorkingDirectory/12012/).
+[2018.04.12-23.53.17:112][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leviathan/AppData/Local/Temp/UnrealShaderWorkingDir/F814C29947C24A8119B357906CBDFA43/'.
+[2018.04.12-23.53.17:717][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.12-23.53.17:730][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.12-23.53.17:743][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.12-23.53.17:756][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.12-23.53.17:773][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.12-23.53.17:786][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.12-23.53.17:799][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.12-23.53.17:812][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.12-23.53.17:818][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.12-23.53.17:830][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.12-23.53.17:842][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.12-23.53.17:854][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.12-23.53.17:866][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.12-23.53.17:879][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.12-23.53.17:891][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.12-23.53.17:915][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.12-23.53.17:915][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.12-23.53.17:931][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.12-23.53.17:932][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.12-23.53.17:992][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.12-23.53.18:008][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.12-23.53.18:021][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.12-23.53.18:033][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.12-23.53.18:045][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.12-23.53.18:066][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.12-23.53.18:066][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.12-23.53.18:371][  0]LogXGEController: Cleaning working directory: C:/Users/Leviathan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.12-23.53.18:371][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.12-23.53.18:371][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.12-23.53.18:371][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.12-23.53.19:903][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.12-23.53.19:982][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Leviathan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.12-23.53.19:982][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leviathan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.12-23.53.19:982][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documents/GitHub/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.12-23.53.19:982][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.12-23.53.19:983][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Documents/GitHub/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.12-23.53.19:983][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.12-23.53.20:003][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.12-23.53.20:016][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leviathan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.12-23.53.20:027][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.12-23.53.20:027][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.12-23.53.20:120][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.12-23.53.20:120][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.12-23.53.22:387][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.04.12-23.53.22:716][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.12-23.53.22:979][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.12-23.53.22:982][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.12-23.53.22:982][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.12-23.53.22:982][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.12-23.53.22:982][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.12-23.53.22:982][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.12-23.53.23:037][  0]LogNetVersion: ShadowField , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2023336792)
+[2018.04.12-23.53.23:938][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.092160 seconds
+[2018.04.12-23.53.23:946][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.12-23.53.23:946][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.04.12-23.53.23:946][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.12-23.53.27:698][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.12-23.53.27:731][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.12-23.53.28:187][  0]SourceControl: Source control is disabled
+[2018.04.12-23.53.29:236][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.12-23.53.29:469][  0]LogOcInput: OculusInput pre-init called
+[2018.04.12-23.53.29:609][  0]LogEngine: Initializing Engine...
+[2018.04.12-23.53.29:708][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.04.12-23.53.29:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.12-23.53.29:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.04.12-23.53.29:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.12-23.53.30:066][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.12-23.53.30:087][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.12-23.53.30:094][  0]LogInit: FAudioDevice initialized.
+[2018.04.12-23.53.30:145][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/Leviathan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.12-23.53.30:158][  0]LogInit: Texture streaming: Enabled
+[2018.04.12-23.53.30:175][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.12-23.53.30:175][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={9679DEE4-46F3-4787-4AE0-A4819C2DF6FE}
+[2018.04.12-23.53.30:187][  0]LogInit: Transaction tracking system initialized
+[2018.04.12-23.53.30:205][  0]BlueprintLog: New page: Editor Load
+[2018.04.12-23.53.30:268][  0]LocalizationService: Localization service is disabled
+[2018.04.12-23.53.30:374][  0]LogConsoleResponse: Display: 
+[2018.04.12-23.53.30:696][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.12-23.53.30:696][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.12-23.53.30:696][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.12-23.53.30:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.12-23.53.30:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.04.12-23.53.30:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.12-23.53.31:180][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/' took 0.04s
+[2018.04.12-23.53.31:181][  0]Cmd: MAP LOAD FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.12-23.53.31:184][  0]LightingResults: New page: Lighting Build
+[2018.04.12-23.53.31:186][  0]MapCheck: New page: Map Check
+[2018.04.12-23.53.31:186][  0]LightingResults: New page: Lighting Build
+[2018.04.12-23.53.36:624][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.04.12-23.53.36:624][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.04.12-23.53.36:625][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
+[2018.04.12-23.53.36:651][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [12.560266ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.04.12-23.53.36:954][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [10.982402ms] /Game/Phoenix/PhoenixModel.PhoenixModel
+[2018.04.12-23.53.37:597][  0]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.12-23.53.38:179][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.12-23.53.38:197][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.12-23.53.38:333][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136.218ms to complete.
+[2018.04.12-23.53.38:333][  0]LogFileHelpers: Loading map 'ShadowField' took 7.153
+[2018.04.12-23.53.38:499][  0]LogCollectionManager: Loaded 0 collections in 0.001851 seconds
+[2018.04.12-23.53.38:544][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
+[2018.04.12-23.53.38:544][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/Developers/Leviathan/Collections/' took 0.01s
+[2018.04.12-23.53.38:544][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
+[2018.04.12-23.53.38:544][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.12-23.53.38:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2452 classes and 558 folders.
+[2018.04.12-23.53.38:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.12-23.53.38:875][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.12-23.53.38:880][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.12-23.53.39:068][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.12-23.53.39:068][  0]LogLoad: (Engine Initialization) Total time: 30.05 seconds
+[2018.04.12-23.53.39:068][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.12-23.53.39:111][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.12-23.53.39:116][  0]LogSlate: Took 0.003571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.12-23.53.39:120][  0]LogSlate: Took 0.003161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.12-23.53.39:129][  0]LogSlate: Took 0.003845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.12-23.53.39:298][  0]LogSlate: Took 0.004408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.12-23.53.39:335][  1]LogRenderer: Reallocating scene render targets to support 1276x564 Format 10 NumSamples 1 (Frame:1).
+[2018.04.12-23.53.39:583][  3]LogAssetRegistry: Asset discovery search completed in 17.2180 seconds
+[2018.04.12-23.53.39:587][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.12-23.53.39:587][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2018.04.12-23.53.49:007][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.53.54:635][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.54.01:096][304]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring'
+[2018.04.12-23.54.01:096][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset.
+[2018.04.12-23.54.01:096][304]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring
+[2018.04.12-23.54.01:096][304]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.54.01:096][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset.
+[2018.04.12-23.54.01:096][304]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Snowflake
+[2018.04.12-23.54.01:096][304]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring'
+[2018.04.12-23.54.01:096][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset.
+[2018.04.12-23.54.01:097][304]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.54.01:097][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset.
+[2018.04.12-23.54.01:097][304]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/V_Snow_Vector'
+[2018.04.12-23.54.01:097][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/V_Snow_Vector' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset.
+[2018.04.12-23.54.01:097][304]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring : Can't find file for asset. /Game/Assets/ParticleEffects/V_Snow_Vector
+[2018.04.12-23.54.01:097][304]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/V_Snow_Vector'
+[2018.04.12-23.54.01:097][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/V_Snow_Vector' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset.
+[2018.04.12-23.54.01:099][304]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring'
+[2018.04.12-23.54.01:099][304]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring.M_Cloud_Particle_Ring Referenced by ParticleModuleRequired_0
+[2018.04.12-23.54.01:099][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Cloud_Particle_Ring' while loading NULL.
+[2018.04.12-23.54.01:099][304]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.54.01:099][304]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/M_Snowflake.M_Snowflake Referenced by ParticleModuleRequired_2
+[2018.04.12-23.54.01:099][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading NULL.
+[2018.04.12-23.54.01:100][304]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/V_Snow_Vector'
+[2018.04.12-23.54.01:100][304]LoadErrors: Failed to load /Game/Assets/ParticleEffects/V_Snow_Vector.V_Snow_Vector Referenced by ParticleModuleVectorFieldLocal_0
+[2018.04.12-23.54.01:100][304]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/V_Snow_Vector' while loading NULL.
+[2018.04.12-23.54.01:155][304]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.04.12-23.54.01:157][304]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.12-23.54.01:683][304]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2018.04.12-23.54.10:341][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.54.10:453][971]LogSlate: Window 'P_Cloud_Ring' being destroyed
+[2018.04.12-23.54.10:456][971]LogSlate: Window 'P_Cloud_Ring' being destroyed
+[2018.04.12-23.54.10:456][971]LogCascade: Quitting Cascade. FXSystem=0x000001DC8FB9B880
+[2018.04.12-23.54.17:533][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.54.35:163][663]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.12-23.54.38:304][998]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Cloud_Ring)
+[2018.04.12-23.54.41:593][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.54.48:066][ 76]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.54.48:066][ 76]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap.uasset.
+[2018.04.12-23.54.48:066][ 76]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Snowflake
+[2018.04.12-23.54.48:066][ 76]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.54.48:066][ 76]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap.uasset.
+[2018.04.12-23.54.48:068][ 76]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.54.48:068][ 76]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading NULL.
+[2018.04.12-23.54.57:278][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.55.10:608][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.12-23.55.29:407][123]LogSlate: Window 'P_Cloud_Ring' being destroyed
+[2018.04.12-23.55.29:410][123]LogSlate: Window 'P_Cloud_Ring' being destroyed
+[2018.04.12-23.55.29:411][123]LogCascade: Quitting Cascade. FXSystem=0x000001DD52692200
+[2018.04.12-23.55.31:985][411]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Cloud_Ring)
+[2018.04.12-23.55.32:432][458]Cmd: DELETE
+[2018.04.12-23.55.32:432][458]Cmd: ACTOR DELETE
+[2018.04.12-23.55.32:776][458]LogEditorActor: Deleted Actor: Emitter
+[2018.04.12-23.55.32:799][458]LogEditorActor: Deleted 1 Actors (0.301 secs)
+[2018.04.12-23.55.33:693][549]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.12-23.55.34:354][622]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.12-23.55.36:007][809]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.04.12-23.55.37:654][996]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Hang_Glider_Clouds_Cheap)
+[2018.04.12-23.55.38:785][120]Cmd: DELETE
+[2018.04.12-23.55.38:785][120]Cmd: ACTOR DELETE
+[2018.04.12-23.55.38:797][120]LogEditorActor: Deleted Actor: Emitter
+[2018.04.12-23.55.38:807][120]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.12-23.55.59:779][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.56.41:429][256]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Birds'
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Birds' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:432][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Birds : Can't find file for asset. /Game/Assets/Audio/A_Birds
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Circling'
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Circling' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:432][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Birds : Can't find file for asset. /Game/Assets/ParticleEffects/P_BirdsClose_Circling
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Flying'
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Flying' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:432][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Birds : Can't find file for asset. /Game/Assets/ParticleEffects/P_BirdsClose_Flying
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling'
+[2018.04.12-23.56.41:432][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:433][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Birds : Can't find file for asset. /Game/Assets/ParticleEffects/P_BirdsDistant_Circling
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying'
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:433][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Birds : Can't find file for asset. /Game/Assets/ParticleEffects/P_BirdsDistant_Flying
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Circling'
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Circling' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Flying'
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Flying' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling'
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:433][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying'
+[2018.04.12-23.56.41:434][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:434][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Birds'
+[2018.04.12-23.56.41:434][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Birds' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Birds.uasset.
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Birds'
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Birds' while loading NULL.
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Circling'
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Circling' while loading NULL.
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Flying'
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Flying' while loading NULL.
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling'
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling' while loading NULL.
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying'
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying' while loading NULL.
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Circling'
+[2018.04.12-23.56.41:435][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Circling' while loading NULL.
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Flying'
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Flying' while loading NULL.
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling'
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling' while loading NULL.
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying'
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying' while loading NULL.
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Birds'
+[2018.04.12-23.56.41:436][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Birds' while loading NULL.
+[2018.04.12-23.56.41:438][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling'
+[2018.04.12-23.56.41:438][256]LoadErrors: Failed to load /Game/Assets/ParticleEffects/P_BirdsDistant_Circling.P_BirdsDistant_Circling Referenced by EdGraphPin_1234
+[2018.04.12-23.56.41:438][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling' while loading NULL.
+[2018.04.12-23.56.41:439][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Circling'
+[2018.04.12-23.56.41:439][256]LoadErrors: Failed to load /Game/Assets/ParticleEffects/P_BirdsClose_Circling.P_BirdsClose_Circling Referenced by EdGraphPin_1258
+[2018.04.12-23.56.41:439][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Circling' while loading NULL.
+[2018.04.12-23.56.41:439][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying'
+[2018.04.12-23.56.41:439][256]LoadErrors: Failed to load /Game/Assets/ParticleEffects/P_BirdsDistant_Flying.P_BirdsDistant_Flying Referenced by EdGraphPin_1280
+[2018.04.12-23.56.41:439][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Flying' while loading NULL.
+[2018.04.12-23.56.41:440][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Flying'
+[2018.04.12-23.56.41:440][256]LoadErrors: Failed to load /Game/Assets/ParticleEffects/P_BirdsClose_Flying.P_BirdsClose_Flying Referenced by EdGraphPin_1292
+[2018.04.12-23.56.41:440][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Flying' while loading NULL.
+[2018.04.12-23.56.41:442][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsClose_Circling'
+[2018.04.12-23.56.41:442][256]LoadErrors: Failed to load /Game/Assets/ParticleEffects/P_BirdsClose_Circling.P_BirdsClose_Circling Referenced by ParticleSystemComponent_6
+[2018.04.12-23.56.41:442][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsClose_Circling' while loading NULL.
+[2018.04.12-23.56.41:453][256]LogLinker: Warning: Can't find file '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling'
+[2018.04.12-23.56.41:453][256]LoadErrors: Failed to load /Game/Assets/ParticleEffects/P_BirdsDistant_Circling.P_BirdsDistant_Circling Referenced by ParticleSystemComponent_14
+[2018.04.12-23.56.41:453][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/ParticleEffects/P_BirdsDistant_Circling' while loading NULL.
+[2018.04.12-23.56.41:454][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Birds'
+[2018.04.12-23.56.41:454][256]LoadErrors: Failed to load /Game/Assets/Audio/A_Birds.A_Birds Referenced by AudioComponent_8
+[2018.04.12-23.56.41:454][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Birds' while loading NULL.
+[2018.04.12-23.56.41:475][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:475][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset.
+[2018.04.12-23.56.41:475][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Boost_Ring : Can't find file for asset. /Game/Assets/Blueprints/BP_Hang_Glider
+[2018.04.12-23.56.41:477][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:477][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset.
+[2018.04.12-23.56.41:477][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Cloud_Ring'
+[2018.04.12-23.56.41:477][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Cloud_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset.
+[2018.04.12-23.56.41:477][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Boost_Ring : Can't find file for asset. /Game/Assets/Blueprints/Effects/P_Cloud_Ring
+[2018.04.12-23.56.41:477][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Ring'
+[2018.04.12-23.56.41:477][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset.
+[2018.04.12-23.56.41:477][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Boost_Ring : Can't find file for asset. /Game/Assets/Blueprints/Meshes/SM_Ring
+[2018.04.12-23.56.41:478][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Cloud_Ring'
+[2018.04.12-23.56.41:478][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Cloud_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset.
+[2018.04.12-23.56.41:478][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Ring'
+[2018.04.12-23.56.41:478][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset.
+[2018.04.12-23.56.41:482][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:482][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Cloud_Ring'
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Cloud_Ring' while loading NULL.
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Ring'
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Ring' while loading NULL.
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Cloud_Ring'
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Cloud_Ring' while loading NULL.
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Ring'
+[2018.04.12-23.56.41:483][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Ring' while loading NULL.
+[2018.04.12-23.56.41:487][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:487][256]LoadErrors: Failed to load /Game/Assets/Blueprints/BP_Hang_Glider.BP_Hang_Glider_C Referenced by K2Node_DynamicCast_121
+[2018.04.12-23.56.41:487][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:487][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:487][256]LoadErrors: Failed to load /Game/Assets/Blueprints/BP_Hang_Glider.BP_Hang_Glider_C Referenced by EdGraphPin_5447
+[2018.04.12-23.56.41:487][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:491][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:491][256]LoadErrors: Failed to load /Game/Assets/Blueprints/BP_Hang_Glider.BP_Hang_Glider_C Referenced by K2Node_CallFunction_174215
+[2018.04.12-23.56.41:491][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:491][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:491][256]LoadErrors: Failed to load /Game/Assets/Blueprints/BP_Hang_Glider.BP_Hang_Glider_C Referenced by EdGraphPin_5475
+[2018.04.12-23.56.41:492][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:495][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Ring'
+[2018.04.12-23.56.41:496][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Meshes/SM_Ring.SM_Ring Referenced by StaticMeshComponent_123
+[2018.04.12-23.56.41:496][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Ring' while loading NULL.
+[2018.04.12-23.56.41:496][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Cloud_Ring'
+[2018.04.12-23.56.41:496][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Effects/P_Cloud_Ring.P_Cloud_Ring Referenced by ParticleSystemComponent_4
+[2018.04.12-23.56.41:496][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Cloud_Ring' while loading NULL.
+[2018.04.12-23.56.41:505][256]LogBlueprint: Error: [Compiler BP_Boost_Ring] In use pin  <Unnamed>  no longer exists on node  Speed Boost . Please refresh node or break links to remove pin.
+[2018.04.12-23.56.41:518][256]LogBlueprint: Error: [Compiler BP_Boost_Ring] In use pin  Target  no longer exists on node  Speed Boost . Please refresh node or break links to remove pin.
+[2018.04.12-23.56.41:539][256]LogBlueprint: Error: [Compiler BP_Boost_Ring] Could not find a function named "Speed boost" in 'BP_Boost_Ring'.
+Make sure 'BP_Boost_Ring' has been compiled for  Speed Boost
+[2018.04.12-23.56.41:565][256]LogBlueprint: Error: [Compiler BP_Boost_Ring] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.04.12-23.56.41:565][256]LogBlueprint: Error: [Compiler BP_Boost_Ring] In use pin  As BP Hang Glider  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.04.12-23.56.41:565][256]LogBlueprint: Error: [Compiler BP_Boost_Ring] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.04.12-23.56.41:568][256]LogBlueprint: Warning: [Compiler BP_Boost_Ring] [0212.55] Compile of BP_Boost_Ring failed. 6 Fatal Issue(s) 0 Warning(s) [in 71 ms] (/Game/LandscapeMountains/Blueprints/BP_Boost_Ring.BP_Boost_Ring)
+[2018.04.12-23.56.41:591][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/C_Impact_Shake'
+[2018.04.12-23.56.41:591][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/C_Impact_Shake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:591][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/Effects/C_Impact_Shake
+[2018.04.12-23.56.41:593][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/C_Pitch_Curve'
+[2018.04.12-23.56.41:593][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/C_Pitch_Curve' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:593][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/C_Pitch_Curve
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Gust'
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Gust' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:596][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Audio/A_Gust
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Crash'
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Crash' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:596][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Audio/A_Hang_Glider_Crash
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Wind'
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Wind' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:596][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Audio/A_Hang_Glider_Wind
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/C_Pitch_Curve'
+[2018.04.12-23.56.41:596][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/C_Pitch_Curve' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/C_Impact_Shake'
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/C_Impact_Shake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds'
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:597][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap'
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:597][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider'
+[2018.04.12-23.56.41:597][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:597][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/BP_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/Meshes/SM_Hang_Glider
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds'
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap'
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Gust'
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Gust' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Crash'
+[2018.04.12-23.56.41:598][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Crash' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:599][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Wind'
+[2018.04.12-23.56.41:599][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Wind' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:599][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider'
+[2018.04.12-23.56.41:599][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset.
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/C_Impact_Shake'
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/C_Impact_Shake' while loading NULL.
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/C_Pitch_Curve'
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/C_Pitch_Curve' while loading NULL.
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Gust'
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Gust' while loading NULL.
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Crash'
+[2018.04.12-23.56.41:640][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Crash' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Wind'
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Wind' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/C_Pitch_Curve'
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/C_Pitch_Curve' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/C_Impact_Shake'
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/C_Impact_Shake' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds'
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap'
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider'
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:641][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds'
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds' while loading NULL.
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap'
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap' while loading NULL.
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Gust'
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Gust' while loading NULL.
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Crash'
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Crash' while loading NULL.
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Wind'
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Wind' while loading NULL.
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider'
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:642][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/C_Pitch_Curve'
+[2018.04.12-23.56.41:643][256]LoadErrors: Failed to load /Game/Assets/Blueprints/C_Pitch_Curve.C_Pitch_Curve Referenced by Default__BP_Hang_Glider_C
+[2018.04.12-23.56.41:643][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/C_Pitch_Curve' while loading NULL.
+[2018.04.12-23.56.41:668][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/C_Impact_Shake'
+[2018.04.12-23.56.41:668][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Effects/C_Impact_Shake.C_Impact_Shake Referenced by EdGraphPin_1443
+[2018.04.12-23.56.41:669][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/C_Impact_Shake' while loading NULL.
+[2018.04.12-23.56.41:688][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap'
+[2018.04.12-23.56.41:688][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap.P_Hang_Glider_Clouds_Cheap Referenced by EdGraphPin_1484
+[2018.04.12-23.56.41:688][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap' while loading NULL.
+[2018.04.12-23.56.41:689][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Crash'
+[2018.04.12-23.56.41:689][256]LoadErrors: Failed to load /Game/Assets/Audio/A_Hang_Glider_Crash.A_Hang_Glider_Crash Referenced by EdGraphPin_1497
+[2018.04.12-23.56.41:689][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Crash' while loading NULL.
+[2018.04.12-23.56.41:691][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Gust'
+[2018.04.12-23.56.41:691][256]LoadErrors: Failed to load /Game/Assets/Audio/A_Gust.A_Gust Referenced by EdGraphPin_1524
+[2018.04.12-23.56.41:691][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Gust' while loading NULL.
+[2018.04.12-23.56.41:692][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider'
+[2018.04.12-23.56.41:692][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Meshes/SM_Hang_Glider.SM_Hang_Glider Referenced by StaticMeshComponent_0
+[2018.04.12-23.56.41:692][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Meshes/SM_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:692][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds'
+[2018.04.12-23.56.41:693][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds.P_Hang_Glider_Clouds Referenced by ParticleSystemComponent_0
+[2018.04.12-23.56.41:693][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Effects/P_Hang_Glider_Clouds' while loading NULL.
+[2018.04.12-23.56.41:693][256]LogLinker: Warning: Can't find file '/Game/Assets/Audio/A_Hang_Glider_Wind'
+[2018.04.12-23.56.41:693][256]LoadErrors: Failed to load /Game/Assets/Audio/A_Hang_Glider_Wind.A_Hang_Glider_Wind Referenced by AudioComponent_2
+[2018.04.12-23.56.41:693][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Audio/A_Hang_Glider_Wind' while loading NULL.
+[2018.04.12-23.56.41:792][256]LogBlueprint: Warning: [Compiler BP_Hang_Glider] InputAction Event references unknown Action 'Camera toggle' for  InputAction Camera toggle
+[2018.04.12-23.56.41:792][256]LogBlueprint: Warning: [Compiler BP_Hang_Glider] InputAction Event references unknown Action 'Restart' for  InputAction Restart
+[2018.04.12-23.56.41:804][256]LogBlueprint: Warning: [Compiler BP_Hang_Glider] [0212.78] Compile of BP_Hang_Glider successful, but with 2 Warning(s) [in 109 ms] (/Game/LandscapeMountains/Blueprints/BP_Hang_Glider.BP_Hang_Glider)
+[2018.04.12-23.56.41:931][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:931][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/HangGlider_Gameinfo.uasset.
+[2018.04.12-23.56.41:932][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/HangGlider_Gameinfo : Can't find file for asset. /Game/Assets/Blueprints/BP_Hang_Glider
+[2018.04.12-23.56.41:932][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_HUD'
+[2018.04.12-23.56.41:932][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_HUD' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/HangGlider_Gameinfo.uasset.
+[2018.04.12-23.56.41:932][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/HangGlider_Gameinfo : Can't find file for asset. /Game/Assets/Blueprints/BP_HUD
+[2018.04.12-23.56.41:933][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:933][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/HangGlider_Gameinfo.uasset.
+[2018.04.12-23.56.41:933][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_HUD'
+[2018.04.12-23.56.41:933][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_HUD' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/HangGlider_Gameinfo.uasset.
+[2018.04.12-23.56.41:934][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:934][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:934][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_HUD'
+[2018.04.12-23.56.41:934][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_HUD' while loading NULL.
+[2018.04.12-23.56.41:934][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:934][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:935][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_HUD'
+[2018.04.12-23.56.41:935][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_HUD' while loading NULL.
+[2018.04.12-23.56.41:935][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_Hang_Glider'
+[2018.04.12-23.56.41:935][256]LoadErrors: Failed to load /Game/Assets/Blueprints/BP_Hang_Glider.BP_Hang_Glider_C Referenced by Default__HangGlider_Gameinfo_C
+[2018.04.12-23.56.41:935][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.41:935][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/BP_HUD'
+[2018.04.12-23.56.41:935][256]LoadErrors: Failed to load /Game/Assets/Blueprints/BP_HUD.BP_HUD_C Referenced by Default__HangGlider_Gameinfo_C
+[2018.04.12-23.56.41:935][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/BP_HUD' while loading NULL.
+[2018.04.12-23.56.41:941][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Cloud_Particle'
+[2018.04.12-23.56.41:941][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Cloud_Particle' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds.uasset.
+[2018.04.12-23.56.41:941][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Cloud_Particle
+[2018.04.12-23.56.41:941][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.56.41:941][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds.uasset.
+[2018.04.12-23.56.41:941][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Snowflake
+[2018.04.12-23.56.41:941][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Cloud_Particle'
+[2018.04.12-23.56.41:942][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Cloud_Particle' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds.uasset.
+[2018.04.12-23.56.41:942][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.56.41:942][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds.uasset.
+[2018.04.12-23.56.41:943][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Cloud_Particle'
+[2018.04.12-23.56.41:944][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/M_Cloud_Particle.M_Cloud_Particle Referenced by ParticleModuleRequired_0
+[2018.04.12-23.56.41:944][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Cloud_Particle' while loading NULL.
+[2018.04.12-23.56.41:944][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Snowflake'
+[2018.04.12-23.56.41:944][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Snowflake' while loading NULL.
+[2018.04.12-23.56.41:948][256]LogMaterial: Missing cached shader map for material M_Boost_Ring, compiling. 
+[2018.04.12-23.56.42:039][256]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.12-23.56.42:039][256]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.04.12-23.56.42:039][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:039][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle.uasset.
+[2018.04.12-23.56.42:039][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle : Can't find file for asset. /Game/Assets/Blueprints/Textures/Falloff
+[2018.04.12-23.56.42:040][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:040][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle.uasset.
+[2018.04.12-23.56.42:042][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:042][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Textures/Falloff.Falloff Referenced by MaterialExpressionTextureSample_4
+[2018.04.12-23.56.42:042][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading NULL.
+[2018.04.12-23.56.42:044][256]LogMaterial: Missing cached shader map for material M_Cloud_Particle, compiling. 
+[2018.04.12-23.56.42:061][256]LogMaterial: Warning: D:\Documents\GitHub\ShadowField\Content\LandscapeMountains\Blueprints\Materials\M_Cloud_Particle.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.12-23.56.42:061][256]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.12-23.56.42:062][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:062][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle_Ring.uasset.
+[2018.04.12-23.56.42:062][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle_Ring : Can't find file for asset. /Game/Assets/Blueprints/Textures/Falloff
+[2018.04.12-23.56.42:063][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:063][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle_Ring.uasset.
+[2018.04.12-23.56.42:064][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:064][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading NULL.
+[2018.04.12-23.56.42:066][256]LogMaterial: Missing cached shader map for material M_Cloud_Particle_Ring, compiling. 
+[2018.04.12-23.56.42:066][256]LogMaterial: Warning: D:\Documents\GitHub\ShadowField\Content\LandscapeMountains\Blueprints\Materials\M_Cloud_Particle_Ring.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.12-23.56.42:066][256]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.12-23.56.42:068][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/PM_Hang_Glider'
+[2018.04.12-23.56.42:068][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/PM_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset.
+[2018.04.12-23.56.42:068][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware : Can't find file for asset. /Game/Assets/Blueprints/Materials/PM_Hang_Glider
+[2018.04.12-23.56.42:068][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D'
+[2018.04.12-23.56.42:068][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset.
+[2018.04.12-23.56.42:068][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware : Can't find file for asset. /Game/Assets/Blueprints/Textures/T_Hang_Glider_D
+[2018.04.12-23.56.42:068][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M'
+[2018.04.12-23.56.42:068][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset.
+[2018.04.12-23.56.42:068][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware : Can't find file for asset. /Game/Assets/Blueprints/Textures/T_Hang_Glider_M
+[2018.04.12-23.56.42:069][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/PM_Hang_Glider'
+[2018.04.12-23.56.42:069][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/PM_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset.
+[2018.04.12-23.56.42:069][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D'
+[2018.04.12-23.56.42:069][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset.
+[2018.04.12-23.56.42:069][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M'
+[2018.04.12-23.56.42:069][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset.
+[2018.04.12-23.56.42:070][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/PM_Hang_Glider'
+[2018.04.12-23.56.42:070][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/PM_Hang_Glider.PM_Hang_Glider Referenced by M_Hang_Glider_Hardware
+[2018.04.12-23.56.42:070][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/PM_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.42:070][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D'
+[2018.04.12-23.56.42:070][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Textures/T_Hang_Glider_D.T_Hang_Glider_D Referenced by MaterialExpressionTextureSample_0
+[2018.04.12-23.56.42:071][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D' while loading NULL.
+[2018.04.12-23.56.42:071][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M'
+[2018.04.12-23.56.42:071][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Textures/T_Hang_Glider_M.T_Hang_Glider_M Referenced by MaterialExpressionTextureSample_2
+[2018.04.12-23.56.42:071][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M' while loading NULL.
+[2018.04.12-23.56.42:073][256]LogMaterial: Missing cached shader map for material M_Hang_Glider_Hardware, compiling. 
+[2018.04.12-23.56.42:073][256]LogMaterial: Warning: D:\Documents\GitHub\ShadowField\Content\LandscapeMountains\Blueprints\Materials\M_Hang_Glider_Hardware.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.12-23.56.42:073][256]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.12-23.56.42:074][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/PM_Hang_Glider'
+[2018.04.12-23.56.42:074][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/PM_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:075][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing : Can't find file for asset. /Game/Assets/Blueprints/Materials/PM_Hang_Glider
+[2018.04.12-23.56.42:075][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D'
+[2018.04.12-23.56.42:075][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:075][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing : Can't find file for asset. /Game/Assets/Blueprints/Textures/T_Hang_Glider_D
+[2018.04.12-23.56.42:075][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M'
+[2018.04.12-23.56.42:075][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:075][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing : Can't find file for asset. /Game/Assets/Blueprints/Textures/T_Hang_Glider_M
+[2018.04.12-23.56.42:075][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M'
+[2018.04.12-23.56.42:075][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:075][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing : Can't find file for asset. /Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/PM_Hang_Glider'
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/PM_Hang_Glider' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D'
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M'
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M'
+[2018.04.12-23.56.42:076][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset.
+[2018.04.12-23.56.42:077][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/PM_Hang_Glider'
+[2018.04.12-23.56.42:077][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/PM_Hang_Glider.PM_Hang_Glider Referenced by M_Hang_Glider_Wing
+[2018.04.12-23.56.42:078][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/PM_Hang_Glider' while loading NULL.
+[2018.04.12-23.56.42:078][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D'
+[2018.04.12-23.56.42:078][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_D' while loading NULL.
+[2018.04.12-23.56.42:078][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M'
+[2018.04.12-23.56.42:079][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Textures/T_Hang_Glider_M.T_Hang_Glider_M Referenced by MaterialExpressionTextureSample_3
+[2018.04.12-23.56.42:079][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Hang_Glider_M' while loading NULL.
+[2018.04.12-23.56.42:079][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M'
+[2018.04.12-23.56.42:079][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M.T_Tech_Hex_Tile_M Referenced by MaterialExpressionTextureSample_4
+[2018.04.12-23.56.42:079][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/T_Tech_Hex_Tile_M' while loading NULL.
+[2018.04.12-23.56.42:081][256]LogMaterial: Missing cached shader map for material M_Hang_Glider_Wing, compiling. 
+[2018.04.12-23.56.42:081][256]LogMaterial: Warning: D:\Documents\GitHub\ShadowField\Content\LandscapeMountains\Blueprints\Materials\M_Hang_Glider_Wing.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.12-23.56.42:081][256]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.12-23.56.42:082][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:083][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Snowflake.uasset.
+[2018.04.12-23.56.42:083][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Materials/M_Snowflake : Can't find file for asset. /Game/Assets/Blueprints/Textures/Falloff
+[2018.04.12-23.56.42:083][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:083][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Materials/M_Snowflake.uasset.
+[2018.04.12-23.56.42:084][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Textures/Falloff'
+[2018.04.12-23.56.42:084][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Textures/Falloff.Falloff Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2018.04.12-23.56.42:084][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Textures/Falloff' while loading NULL.
+[2018.04.12-23.56.42:085][256]LogMaterial: Missing cached shader map for material M_Snowflake, compiling. 
+[2018.04.12-23.56.42:086][256]LogMaterial: Warning: D:\Documents\GitHub\ShadowField\Content\LandscapeMountains\Blueprints\Materials\M_Snowflake.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.12-23.56.42:086][256]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.04.12-23.56.42:088][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware'
+[2018.04.12-23.56.42:088][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.uasset.
+[2018.04.12-23.56.42:088][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware
+[2018.04.12-23.56.42:088][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing'
+[2018.04.12-23.56.42:089][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.uasset.
+[2018.04.12-23.56.42:089][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing
+[2018.04.12-23.56.42:089][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware'
+[2018.04.12-23.56.42:089][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.uasset.
+[2018.04.12-23.56.42:089][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing'
+[2018.04.12-23.56.42:089][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.uasset.
+[2018.04.12-23.56.42:090][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware'
+[2018.04.12-23.56.42:090][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware.M_Hang_Glider_Hardware Referenced by SM_Hang_Glider
+[2018.04.12-23.56.42:090][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Hardware' while loading NULL.
+[2018.04.12-23.56.42:091][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing'
+[2018.04.12-23.56.42:091][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing.M_Hang_Glider_Wing Referenced by SM_Hang_Glider
+[2018.04.12-23.56.42:091][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Hang_Glider_Wing' while loading NULL.
+[2018.04.12-23.56.42:093][256]LogStaticMesh: Building static mesh SM_Hang_Glider...
+[2018.04.12-23.56.42:128][256]LogStaticMesh: Built static mesh [0.03s] /Game/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.SM_Hang_Glider
+[2018.04.12-23.56.42:140][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Boost_Ring'
+[2018.04.12-23.56.42:140][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Boost_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Meshes/SM_Ring.uasset.
+[2018.04.12-23.56.42:141][256]LoadErrors: Error: /Game/LandscapeMountains/Blueprints/Meshes/SM_Ring : Can't find file for asset. /Game/Assets/Blueprints/Materials/M_Boost_Ring
+[2018.04.12-23.56.42:141][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Boost_Ring'
+[2018.04.12-23.56.42:141][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Boost_Ring' while loading ../../../../Documents/GitHub/ShadowField/Content/LandscapeMountains/Blueprints/Meshes/SM_Ring.uasset.
+[2018.04.12-23.56.42:141][256]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/Materials/M_Boost_Ring'
+[2018.04.12-23.56.42:142][256]LoadErrors: Failed to load /Game/Assets/Blueprints/Materials/M_Boost_Ring.M_Boost_Ring Referenced by SM_Ring
+[2018.04.12-23.56.42:142][256]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/Materials/M_Boost_Ring' while loading NULL.
+[2018.04.12-23.56.42:142][256]LogStaticMesh: Building static mesh SM_Ring...
+[2018.04.12-23.56.42:147][256]LogStaticMesh: Built static mesh [0.01s] /Game/LandscapeMountains/Blueprints/Meshes/SM_Ring.SM_Ring
+[2018.04.12-23.56.43:434][256]LogTexture: Display: Building textures: Falloff (DXT1, 256X256)
+[2018.04.12-23.56.43:434][256]LogTexture: Display: Building textures: T_Hang_Glider_D (AutoDXT, 2048X2048)
+[2018.04.12-23.56.43:434][256]LogTexture: Display: Building textures: T_Hang_Glider_M (AutoDXT, 2048X2048)
+[2018.04.12-23.56.43:434][256]LogTexture: Display: Building textures: T_Tech_Hex_Tile_M (AutoDXT, 1024X1024)
+[2018.04.12-23.56.48:273][256]LogSlate: Window 'Delete Assets' being destroyed
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/BP_Birds.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/BP_HUD.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/C_Pitch_Curve.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Effects/C_Impact_Shake.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/HangGlider_Gameinfo.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/M_Boost_Ring.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle_Ring.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/M_Snowflake.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Materials/PM_Hang_Glider.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Meshes/SM_Ring.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Textures/Falloff.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Textures/T_Hang_Glider_D.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Textures/T_Hang_Glider_M.uasset'
+[2018.04.12-23.56.52:727][256]SourceControl: rm 'Content/LandscapeMountains/Blueprints/Textures/T_Tech_Hex_Tile_M.uasset'
+[2018.04.12-23.57.21:143][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodSpike_A7)
+[2018.04.12-23.57.30:726][601]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_WoodSpike_A7)
+[2018.04.12-23.57.31:316][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.12-23.57.40:368][564]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.12-23.58.02:436][757]LogSlate: Window 'Create Blueprint' being destroyed
+[2018.04.12-23.58.02:896][757]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_ActorTag.Enum_ActorTag' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.12-23.58.02:900][757]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_BehaviorType.Enum_BehaviorType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.12-23.58.02:905][757]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_IdleType.Enum_IdleType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.12-23.58.02:909][757]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_MessageTag.Enum_MessageTag' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.12-23.58.02:915][757]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_OperationType.Enum_OperationType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.12-23.58.02:920][757]LogClass: Warning: Enum '/Game/AIBehaviorToolkit/Blueprints/Enums/Enum_PatrolType.Enum_PatrolType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.12-23.58.03:094][757]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2018.04.12-23.58.14:092][239]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.12-23.58.21:064][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.12-23.58.21:096][719]LogSlate: Took 0.027771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.12-23.59.22:351][654]LogSlate: Took 0.013240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.13-00.00.30:788][788]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.04.13-00.00.30:788][788]LogTexture: Display: Building textures: T_FlareUp2 (RGBA16F, 2048X2048)
+[2018.04.13-00.00.30:788][788]LogMaterial: Missing cached shader map for material M_FlareUp2, compiling. 
+[2018.04.13-00.00.30:821][788]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.13-00.00.30:821][788]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.13-00.00.30:821][788]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.13-00.00.37:447][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.00.37:569][202]LogSlate: Window 'P_FlareUp2' being destroyed
+[2018.04.13-00.00.37:572][202]LogSlate: Window 'P_FlareUp2' being destroyed
+[2018.04.13-00.00.38:009][202]LogCascade: Quitting Cascade. FXSystem=0x000001DD7F7CDDA0
+[2018.04.13-00.00.40:869][288]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.04.13-00.00.40:869][288]LogTexture: Display: Building textures: T_FlamePetal2 (RGBA16F, 2048X2048)
+[2018.04.13-00.00.40:869][288]LogMaterial: Missing cached shader map for material M_FlamePetal2, compiling. 
+[2018.04.13-00.00.40:890][288]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.13-00.00.40:890][288]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.13-00.00.40:890][288]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.13-00.00.46:127][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.00.46:231][651]LogSlate: Window 'P_FlamePetal2' being destroyed
+[2018.04.13-00.00.46:235][651]LogSlate: Window 'P_FlamePetal2' being destroyed
+[2018.04.13-00.00.46:235][651]LogCascade: Quitting Cascade. FXSystem=0x000001DC93EBB2E0
+[2018.04.13-00.00.53:963][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FireBuilder/Particles/P_FlamePetal5" FILE="../../../../Documents/GitHub/ShadowField/Content/FireBuilder/Particles/P_FlamePetal5.uasset" SILENT=true
+[2018.04.13-00.00.54:993][310]LogSavePackage: Save=896.33ms
+[2018.04.13-00.00.54:993][310]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/P_FlamePetal500DB86654EBB3302028EE19AE9F637E6.tmp' to '../../../../Documents/GitHub/ShadowField/Content/FireBuilder/Particles/P_FlamePetal5.uasset'
+[2018.04.13-00.00.55:086][310]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/FireBuilder/Particles/P_FlamePetal5.uasset
+[2018.04.13-00.01.02:693][726]LogSlate: Window 'Save Content' being destroyed
+[2018.04.13-00.01.20:327][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrAllenDemoStuff/P_FlamePetal5" FILE="../../../../Documents/GitHub/ShadowField/Content/MrAllenDemoStuff/P_FlamePetal5.uasset" SILENT=true
+[2018.04.13-00.01.20:369][215]LogSavePackage: Save=38.44ms
+[2018.04.13-00.01.20:369][215]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/P_FlamePetal5AC1FB3694D4ADEED91BC7096940CBB00.tmp' to '../../../../Documents/GitHub/ShadowField/Content/MrAllenDemoStuff/P_FlamePetal5.uasset'
+[2018.04.13-00.01.20:374][215]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/MrAllenDemoStuff/P_FlamePetal5.uasset
+[2018.04.13-00.01.21:512][215]SourceControl: rm 'Content/FireBuilder/Particles/P_FlamePetal5.uasset'
+[2018.04.13-00.01.38:078][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.02.47:839][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.03.05:482][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.03.09:210][311]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.13-00.03.10:747][419]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.03.13:038][606]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.03.13:880][671]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.03.15:268][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.04.33:726][449]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.04.34:812][534]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.04.13-00.04.35:648][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.05.00:166][637]Cmd: TRANSACTION UNDO
+[2018.04.13-00.05.00:166][637]LogEditorTransaction: Undo Attach actors
+[2018.04.13-00.05.04:390][949]LogEditorTransaction: Undo Add Variable
+[2018.04.13-00.05.26:280][767]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.05.27:591][871]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.05.43:880][120]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.06.38:236][215]BlueprintLog: New page: Compile SM_WoodSpike_A
+[2018.04.13-00.08.04:186][682]LogSavePackage: Save=1007.93ms
+[2018.04.13-00.08.04:186][682]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ShadowField_Auto1C0D0CFC245E66F05DE8A45BEB360C570.tmp' to '../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto1.umap'
+[2018.04.13-00.08.04:187][682]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto1.umap
+[2018.04.13-00.08.04:219][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 1.320
+[2018.04.13-00.08.04:219][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.320
+[2018.04.13-00.08.04:222][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MrAllenDemoStuff/SM_WoodSpike_A] ([1] browsable assets)...
+[2018.04.13-00.08.04:234][682]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MrAllenDemoStuff/SM_WoodSpike_A.SM_WoodSpike_A]
+[2018.04.13-00.08.04:234][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/MrAllenDemoStuff/SM_WoodSpike_A]
+[2018.04.13-00.08.04:264][682]LogSavePackage: Save=27.17ms
+[2018.04.13-00.08.04:264][682]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/SM_WoodSpike_A_Auto1E7D46FC2416AE038A6F3A691E2A0FDC4.tmp' to '../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/MrAllenDemoStuff/SM_WoodSpike_A_Auto1.uasset'
+[2018.04.13-00.08.04:265][682]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Saved/Autosaves/Game/MrAllenDemoStuff/SM_WoodSpike_A_Auto1.uasset
+[2018.04.13-00.08.04:265][682]LogFileHelpers: Auto-saving content packages took 0.044
+[2018.04.13-00.10.55:302][302]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.11.09:579][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.11.13:934][745]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.11.17:526][984]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-00.11.17:598][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.11.17:632][984]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.13-00.11.17:637][984]LogPlayLevel: [PlayLevel] Compiling SM_WoodSpike_A before play...
+[2018.04.13-00.11.17:937][984]LogPlayLevel: PlayLevel: Blueprint regeneration took 305 ms (1 blueprints)
+[2018.04.13-00.11.18:051][984]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:11:17 AM)
+[2018.04.13-00.11.18:052][984]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.11.18:199][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147895s)
+[2018.04.13-00.11.18:200][984]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.11.18:210][984]LogPlayLevel: PIE: World Init took: (0.010888s)
+[2018.04.13-00.11.18:210][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.159141s)
+[2018.04.13-00.11.18:275][984]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.11.18:280][984]LogInit: FAudioDevice initialized.
+[2018.04.13-00.11.18:358][984]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.11.18:371][984]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.11.18
+[2018.04.13-00.11.18:470][984]LogWorld: Bringing up level for play took: 0.111596
+[2018.04.13-00.11.18:689][984]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.04.13-00.11.18:752][984]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 1.127
+[2018.04.13-00.11.18:753][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.11.36:247][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.11.36:434][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.11.38:767][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.11.51:510][273]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.13-00.11.53:602][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodSpike_A7)
+[2018.04.13-00.12.01:446][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.12.14:642][900]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.12.21:598][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ShadowField" FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.13-00.12.22:550][958]LogSavePackage: Save=926.77ms
+[2018.04.13-00.12.22:550][958]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ShadowFieldE3EFF64940B9588A66DF3CB85D430C63.tmp' to '../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap'
+[2018.04.13-00.12.22:608][958]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap
+[2018.04.13-00.12.22:664][958]LogFileHelpers: Saving map 'ShadowField' took 6.977
+[2018.04.13-00.12.24:263][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-00.12.24:285][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.12.24:285][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.12.24:285][ 61]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:12:24 AM)
+[2018.04.13-00.12.24:285][ 61]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.12.24:343][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058176s)
+[2018.04.13-00.12.24:345][ 61]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.12.24:345][ 61]LogPlayLevel: PIE: World Init took: (0.001425s)
+[2018.04.13-00.12.24:345][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.059915s)
+[2018.04.13-00.12.24:390][ 61]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.12.24:394][ 61]LogInit: FAudioDevice initialized.
+[2018.04.13-00.12.24:429][ 61]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.12.24:444][ 61]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.12.24
+[2018.04.13-00.12.24:445][ 61]LogWorld: Bringing up level for play took: 0.015318
+[2018.04.13-00.12.24:449][ 61]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.824
+[2018.04.13-00.12.24:449][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.12.37:020][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.12.37:075][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.12.39:979][422]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.12.41:075][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.12.53:486][349]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.04.13-00.12.53:486][349]LogTexture: Display: Building textures: T_FireLoop3 (RGBA16F, 2048X2048)
+[2018.04.13-00.12.53:486][349]LogMaterial: Missing cached shader map for material M_FireLoop3, compiling. 
+[2018.04.13-00.12.53:505][349]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.13-00.12.53:505][349]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.13-00.12.53:505][349]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.13-00.12.55:634][457]Cmd: TRANSACTION UNDO
+[2018.04.13-00.12.55:634][457]LogEditorTransaction: Undo Create Actors
+[2018.04.13-00.12.56:664][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.12.58:999][628]Cmd: TRANSACTION UNDO
+[2018.04.13-00.12.58:999][628]LogEditorTransaction: Undo Create Actors
+[2018.04.13-00.13.02:443][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.13.03:032][839]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.04.13-00.13.03:032][839]LogTexture: Display: Building textures: T_Engulf1 (RGBA16F, 2048X2048)
+[2018.04.13-00.13.03:032][839]LogMaterial: Missing cached shader map for material M_Engulf1, compiling. 
+[2018.04.13-00.13.03:057][839]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.13-00.13.03:057][839]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.13-00.13.03:057][839]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.13-00.13.06:511][ 49]Cmd: TRANSACTION UNDO
+[2018.04.13-00.13.06:511][ 49]LogEditorTransaction: Undo Create Actors
+[2018.04.13-00.13.09:269][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.13.29:552][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.13.41:881][361]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.13-00.13.41:950][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.13.42:809][417]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Inferno5)
+[2018.04.13-00.13.58:524][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.14.10:066][125]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.14.11:432][209]LogSlate: Window 'ShadowField* - Level Blueprint Editor' being destroyed
+[2018.04.13-00.14.11:436][209]LogSlate: Window 'ShadowField* - Level Blueprint Editor' being destroyed
+[2018.04.13-00.14.12:658][304]LogEditorViewport: Clicking on Actor (LMB): Fire_Spike_C (Fire_Spike)
+[2018.04.13-00.14.13:960][408]Cmd: DELETE
+[2018.04.13-00.14.13:960][408]Cmd: ACTOR DELETE
+[2018.04.13-00.14.13:975][408]LogEditorActor: Deleted Actor: Fire_Spike_C
+[2018.04.13-00.14.13:994][408]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.04.13-00.14.16:438][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.14.16:536][668]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-00.14.16:563][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.16:564][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.14.16:564][668]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:14:16 AM)
+[2018.04.13-00.14.16:564][668]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.14.16:619][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055445s)
+[2018.04.13-00.14.16:620][668]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.14.16:620][668]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2018.04.13-00.14.16:620][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.056624s)
+[2018.04.13-00.14.16:662][668]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.14.16:667][668]LogInit: FAudioDevice initialized.
+[2018.04.13-00.14.16:705][668]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.14.16:721][668]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.14.16
+[2018.04.13-00.14.16:722][668]LogWorld: Bringing up level for play took: 0.016660
+[2018.04.13-00.14.16:725][668]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 1.1
+[2018.04.13-00.14.16:725][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.19:964][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.20:009][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.23:508][311]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Inferno5)
+[2018.04.13-00.14.24:003][352]Cmd: DELETE
+[2018.04.13-00.14.24:003][352]Cmd: ACTOR DELETE
+[2018.04.13-00.14.24:016][352]LogEditorActor: Deleted Actor: Emitter
+[2018.04.13-00.14.24:031][352]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.04.13-00.14.24:653][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.14.24:719][423]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-00.14.24:739][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.24:739][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.14.24:740][423]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:14:24 AM)
+[2018.04.13-00.14.24:740][423]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.14.24:790][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050242s)
+[2018.04.13-00.14.24:791][423]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.14.24:791][423]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.04.13-00.14.24:791][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.051219s)
+[2018.04.13-00.14.24:823][423]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.14.24:827][423]LogInit: FAudioDevice initialized.
+[2018.04.13-00.14.24:858][423]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.14.24:864][423]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.14.24
+[2018.04.13-00.14.24:865][423]LogWorld: Bringing up level for play took: 0.006536
+[2018.04.13-00.14.24:866][423]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.759
+[2018.04.13-00.14.24:867][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.34:877][499]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.34:919][499]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.14.39:732][988]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.14.40:580][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.15.37:902][774]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.15.44:505][236]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.15.45:121][272]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.13-00.15.46:720][387]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.15.47:873][467]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.15.48:739][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.16.11:427][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.16.11:496][129]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-00.16.11:517][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.11:517][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.16.11:517][129]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:16:11 AM)
+[2018.04.13-00.16.11:517][129]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.16.11:566][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049194s)
+[2018.04.13-00.16.11:567][129]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.16.11:567][129]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2018.04.13-00.16.11:567][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.050121s)
+[2018.04.13-00.16.11:607][129]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.16.11:611][129]LogInit: FAudioDevice initialized.
+[2018.04.13-00.16.11:642][129]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.16.11:648][129]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.16.11
+[2018.04.13-00.16.11:649][129]LogWorld: Bringing up level for play took: 0.006549
+[2018.04.13-00.16.11:650][129]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.025
+[2018.04.13-00.16.11:651][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.19:360][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.19:403][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.22:628][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.16.25:298][222]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.16.35:024][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.35:025][ 56]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.13-00.16.35:030][ 56]LogPlayLevel: [PlayLevel] Compiling ShadowField before play...
+[2018.04.13-00.16.35:175][ 56]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
+[2018.04.13-00.16.35:176][ 56]PIE: New page: SIE session: ShadowField (Apr 12, 2018, 10:16:35 AM)
+[2018.04.13-00.16.35:176][ 56]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.16.35:231][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055257s)
+[2018.04.13-00.16.35:232][ 56]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.16.35:232][ 56]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2018.04.13-00.16.35:232][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.056357s)
+[2018.04.13-00.16.35:268][ 56]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.16.35:272][ 56]LogInit: FAudioDevice initialized.
+[2018.04.13-00.16.35:306][ 56]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.16.35:315][ 56]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.16.35
+[2018.04.13-00.16.35:315][ 56]LogWorld: Bringing up level for play took: 0.008412
+[2018.04.13-00.16.35:363][ 56]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.263
+[2018.04.13-00.16.35:485][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.37:933][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.38:030][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.16.38:363][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.16.52:908][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodSpike_A2)
+[2018.04.13-00.16.57:591][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.17.27:316][608]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2018.04.13-00.17.27:317][608]LogLinker: Warning: Can't find file 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.04.13-00.17.27:317][608]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2018.04.13-00.17.27:317][608]LogLinker: Warning: Can't find file 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.04.13-00.17.27:317][608]LogUObjectGlobals: Warning: Failed to find object 'Blueprint Engine/Tutorial/Installation/InstallingVisualStudioTutorial.InstallingVisualStudioTutorial'
+[2018.04.13-00.17.35:842][187]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.17.37:186][265]LogTemp: Repeating last play command: Simulate
+[2018.04.13-00.17.37:205][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.37:205][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.17.37:205][265]PIE: New page: SIE session: ShadowField (Apr 12, 2018, 10:17:37 AM)
+[2018.04.13-00.17.37:205][265]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.17.37:257][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052049s)
+[2018.04.13-00.17.37:258][265]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.17.37:258][265]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2018.04.13-00.17.37:258][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.053105s)
+[2018.04.13-00.17.37:292][265]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.17.37:296][265]LogInit: FAudioDevice initialized.
+[2018.04.13-00.17.37:332][265]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.17.37:338][265]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.17.37
+[2018.04.13-00.17.37:339][265]LogWorld: Bringing up level for play took: 0.006644
+[2018.04.13-00.17.37:340][265]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField -0.285
+[2018.04.13-00.17.37:362][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.38:504][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.17.38:601][358]LogSlate: Window 'ShadowField* - Level Blueprint Editor' being destroyed
+[2018.04.13-00.17.38:605][358]LogSlate: Window 'ShadowField* - Level Blueprint Editor' being destroyed
+[2018.04.13-00.17.39:574][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.17.39:657][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.39:690][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.40:196][478]LogTemp: Repeating last play command: Simulate
+[2018.04.13-00.17.40:215][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.40:215][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.17.40:215][478]PIE: New page: SIE session: ShadowField (Apr 12, 2018, 10:17:40 AM)
+[2018.04.13-00.17.40:215][478]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.17.40:262][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047197s)
+[2018.04.13-00.17.40:263][478]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.17.40:263][478]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2018.04.13-00.17.40:263][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.048060s)
+[2018.04.13-00.17.40:300][478]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.17.40:304][478]LogInit: FAudioDevice initialized.
+[2018.04.13-00.17.40:338][478]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.17.40:345][478]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.17.40
+[2018.04.13-00.17.40:345][478]LogWorld: Bringing up level for play took: 0.006478
+[2018.04.13-00.17.40:347][478]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.722
+[2018.04.13-00.17.40:350][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.42:549][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.17.42:694][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.42:728][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.44:430][849]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.17.46:004][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.46:004][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.17.46:005][ 18]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:17:46 AM)
+[2018.04.13-00.17.46:005][ 18]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.17.46:053][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047964s)
+[2018.04.13-00.17.46:053][ 18]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.17.46:053][ 18]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2018.04.13-00.17.46:054][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.048851s)
+[2018.04.13-00.17.46:093][ 18]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.17.46:097][ 18]LogInit: FAudioDevice initialized.
+[2018.04.13-00.17.46:097][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.17.46:128][ 18]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.17.46:139][ 18]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.17.46
+[2018.04.13-00.17.46:140][ 18]LogWorld: Bringing up level for play took: 0.010954
+[2018.04.13-00.17.46:142][ 18]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.517
+[2018.04.13-00.17.46:142][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.56:376][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.56:418][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.17.57:868][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.17.58:692][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.13-00.18.07:984][940]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  OnActorBeginOverlap (TriggerBox)  and was replaced as a Custom Event!
+[2018.04.13-00.18.12:920][258]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.13-00.18.14:827][378]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.13-00.18.19:417][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2018.04.13-00.18.21:854][787]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.18.23:077][859]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.18.23:714][898]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.18.27:306][105]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.13-00.18.27:883][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.18.41:149][ 31]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  OnActorBeginOverlap (TriggerBox)  and was replaced as a Custom Event!
+[2018.04.13-00.19.14:083][274]LogEditorTransaction: Undo Create Pin Link
+[2018.04.13-00.19.14:754][308]LogEditorTransaction: Undo Create Pin Link
+[2018.04.13-00.19.15:281][342]LogEditorTransaction: Undo Create Pin Link
+[2018.04.13-00.19.15:785][373]LogEditorTransaction: Undo Create Pin Link
+[2018.04.13-00.19.18:702][541]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.04.13-00.19.20:256][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.19.24:592][896]Cmd: DUPLICATE
+[2018.04.13-00.19.24:593][896]Cmd: ACTOR DUPLICATE
+[2018.04.13-00.19.36:280][642]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.19.43:087][ 89]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.19.44:029][139]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-00.19.44:049][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.19.44:049][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-00.19.44:049][139]PIE: New page: PIE session: ShadowField (Apr 12, 2018, 10:19:44 AM)
+[2018.04.13-00.19.44:049][139]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.04.13-00.19.44:102][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052379s)
+[2018.04.13-00.19.44:102][139]LogAIModule: Creating AISystem for world ShadowField
+[2018.04.13-00.19.44:103][139]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.04.13-00.19.44:103][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (0.053346s)
+[2018.04.13-00.19.44:143][139]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.13-00.19.44:148][139]LogInit: FAudioDevice initialized.
+[2018.04.13-00.19.44:176][139]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-00.19.44:183][139]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 0) at 2018.04.12-17.19.44
+[2018.04.13-00.19.44:184][139]LogWorld: Bringing up level for play took: 0.006743
+[2018.04.13-00.19.44:185][139]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 0.56
+[2018.04.13-00.19.44:185][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.20.00:279][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.20.00:326][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.04.13-00.20.02:526][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.13-00.20.24:263][242]BlueprintLog: New page: Compile ShadowField
+[2018.04.13-00.20.29:114][655]LogSlate: Window 'ShadowField* - Level Blueprint Editor' being destroyed
+[2018.04.13-00.20.29:117][655]LogSlate: Window 'ShadowField* - Level Blueprint Editor' being destroyed
+[2018.04.13-00.20.32:924][ 31]SourceControl: fatal: D:/UE_4.19/Engine/Content: 'D:/UE_4.19/Engine/Content' is outside repository
+[2018.04.13-00.20.35:749][ 31]LogSlate: Window 'Save Content' being destroyed
+[2018.04.13-00.20.35:983][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ShadowField" FILE="../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.13-00.20.36:924][ 31]LogSavePackage: Save=896.78ms
+[2018.04.13-00.20.36:924][ 31]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/ShadowFieldEBA9E3404BE043BD64948D888B269273.tmp' to '../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap'
+[2018.04.13-00.20.36:929][ 31]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap
+[2018.04.13-00.20.36:965][ 31]LogFileHelpers: Saving map 'ShadowField' took 1.126
+[2018.04.13-00.20.42:071][ 31]LogSlate: Window 'Submit Files' being destroyed
+[2018.04.13-00.20.46:809][ 31]LogSourceControl: commit successful: [MrAllen 81b4bb0] FireTrigger
+[2018.04.13-00.20.47:143][ 31]SourceControl: [MrAllen 81b4bb0] FireTrigger
+[2018.04.13-00.20.47:143][ 31]SourceControl:  25 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/BP_Birds.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/BP_Boost_Ring.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/BP_HUD.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/BP_Hang_Glider.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/C_Pitch_Curve.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Effects/C_Impact_Shake.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Effects/P_Cloud_Ring.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Effects/P_Hang_Glider_Clouds_Cheap.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/HangGlider_Gameinfo.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/M_Boost_Ring.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/M_Cloud_Particle_Ring.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Hardware.uasset
+[2018.04.13-00.20.47:143][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/M_Hang_Glider_Wing.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/M_Snowflake.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Materials/PM_Hang_Glider.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Meshes/SM_Hang_Glider.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Meshes/SM_Ring.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Textures/Falloff.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Textures/T_Hang_Glider_D.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Textures/T_Hang_Glider_M.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  delete mode 100644 Content/LandscapeMountains/Blueprints/Textures/T_Tech_Hex_Tile_M.uasset
+[2018.04.13-00.20.47:144][ 31]SourceControl:  create mode 100644 Content/MrAllenDemoStuff/P_FlamePetal5.uasset
+[2018.04.13-00.20.47:155][ 31]SourceControl: Commited [MrAllen 81b4bb0] FireTrigger.
+[2018.04.13-00.20.54:613][331]LogSlate: Window 'Save Content' being destroyed
+[2018.04.13-00.20.54:704][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MrAllenDemoStuff/SM_WoodSpike_A" FILE="../../../../Documents/GitHub/ShadowField/Content/MrAllenDemoStuff/SM_WoodSpike_A.uasset" SILENT=true
+[2018.04.13-00.20.54:735][331]LogSavePackage: Save=26.24ms
+[2018.04.13-00.20.54:735][331]LogSavePackage: Moving '../../../../Documents/GitHub/ShadowField/Saved/SM_WoodSpike_AAAD2CD25481AD4CDC41DE0B096197DD3.tmp' to '../../../../Documents/GitHub/ShadowField/Content/MrAllenDemoStuff/SM_WoodSpike_A.uasset'
+[2018.04.13-00.20.54:738][331]LogSavePackage: Display: Finished SavePackage ../../../../Documents/GitHub/ShadowField/Content/MrAllenDemoStuff/SM_WoodSpike_A.uasset
+[2018.04.13-00.20.55:113][331]LogSlate: Window 'ShadowField - Unreal Editor' being destroyed
+[2018.04.13-00.20.55:114][331]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.13-00.20.55:510][332]Cmd: QUIT_EDITOR
+[2018.04.13-00.20.56:720][332]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.13-00.20.56:720][332]LogExit: Preparing to exit.
+[2018.04.13-00.20.57:657][332]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Content/' was aborted.
+[2018.04.13-00.20.57:881][332]LogExit: Editor shut down
+[2018.04.13-00.20.57:887][332]LogExit: Transaction tracking system shut down
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../../../Documents/GitHub/ShadowField/Content/' was aborted.
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.13-00.20.58:200][332]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.13-00.20.58:201][332]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.13-00.20.59:735][332]LogExit: Object subsystem successfully closed.
+[2018.04.13-00.20.59:905][332]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.13-00.20.59:970][332]LogD3D11RHI: Shutdown
+[2018.04.13-00.20.59:970][332]LogD3D11RHI: CleanupD3DDevice
+[2018.04.13-00.21.00:017][332]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module BlueprintGraph (580)
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module DistCurveEditor (578)
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module Cascade (576)
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.04.13-00.21.01:261][332]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.04.13-00.21.01:271][332]LogDirectoryWatcher: A directory notification for 'D:/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.13-00.21.01:274][332]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.04.13-00.21.01:275][332]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.04.13-00.21.01:275][332]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.04.13-00.21.01:285][332]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Content/Collections/' was aborted.
+[2018.04.13-00.21.01:285][332]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Content/Developers/Leviathan/Collections/' was aborted.
+[2018.04.13-00.21.01:285][332]LogDirectoryWatcher: A directory notification for 'D:/Documents/GitHub/ShadowField/Saved/Collections/' was aborted.
+[2018.04.13-00.21.01:285][332]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.04.13-00.21.01:297][332]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.04.13-00.21.01:297][332]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.04.13-00.21.01:315][332]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.04.13-00.21.01:329][332]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.04.13-00.21.01:329][332]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.04.13-00.21.01:329][332]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.04.13-00.21.01:337][332]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.04.13-00.21.01:337][332]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.04.13-00.21.01:337][332]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.04.13-00.21.01:337][332]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.04.13-00.21.01:337][332]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.04.13-00.21.01:353][332]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.04.13-00.21.01:353][332]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.04.13-00.21.01:353][332]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.04.13-00.21.01:372][332]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.04.13-00.21.01:372][332]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.04.13-00.21.01:408][332]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.04.13-00.21.01:408][332]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.04.13-00.21.01:451][332]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.04.13-00.21.01:451][332]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.04.13-00.21.01:451][332]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.04.13-00.21.01:471][332]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.04.13-00.21.01:472][332]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.04.13-00.21.01:472][332]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.04.13-00.21.01:472][332]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.04.13-00.21.01:472][332]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.04.13-00.21.01:472][332]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.04.13-00.21.01:495][332]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.04.13-00.21.01:510][332]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.04.13-00.21.01:528][332]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.04.13-00.21.01:565][332]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.04.13-00.21.01:581][332]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.04.13-00.21.01:587][332]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.04.13-00.21.01:587][332]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.04.13-00.21.01:587][332]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.04.13-00.21.01:979][332]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.04.13-00.21.01:979][332]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.04.13-00.21.01:979][332]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.04.13-00.21.01:979][332]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.04.13-00.21.02:038][332]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.04.13-00.21.02:067][332]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.04.13-00.21.02:087][332]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.04.13-00.21.02:100][332]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.04.13-00.21.02:100][332]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.04.13-00.21.02:112][332]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.04.13-00.21.02:112][332]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.04.13-00.21.02:130][332]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.04.13-00.21.02:130][332]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.04.13-00.21.02:130][332]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.04.13-00.21.02:131][332]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.04.13-00.21.02:131][332]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.04.13-00.21.02:143][332]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.04.13-00.21.02:155][332]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.04.13-00.21.02:166][332]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.04.13-00.21.02:183][332]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.04.13-00.21.02:201][332]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.04.13-00.21.02:264][332]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.04.13-00.21.02:274][332]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.04.13-00.21.02:291][332]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.04.13-00.21.02:317][332]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.04.13-00.21.02:318][332]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.04.13-00.21.02:340][332]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.04.13-00.21.02:341][332]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.04.13-00.21.02:350][332]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.04.13-00.21.02:350][332]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.04.13-00.21.02:350][332]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.04.13-00.21.02:377][332]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.04.13-00.21.02:377][332]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.04.13-00.21.02:377][332]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.04.13-00.21.02:377][332]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.04.13-00.21.02:391][332]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.04.13-00.21.02:402][332]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.04.13-00.21.02:411][332]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.04.13-00.21.02:421][332]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.04.13-00.21.02:422][332]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.04.13-00.21.02:432][332]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2018.04.13-00.21.02:447][332]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2018.04.13-00.21.02:572][332]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2018.04.13-00.21.02:613][332]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2018.04.13-00.21.02:613][332]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.04.13-00.21.02:613][332]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.04.13-00.21.02:624][332]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.04.13-00.21.02:641][332]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.04.13-00.21.02:642][332]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.04.13-00.21.02:642][332]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.04.13-00.21.02:659][332]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.04.13-00.21.02:659][332]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.04.13-00.21.02:659][332]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.04.13-00.21.02:659][332]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2018.04.13-00.21.02:659][332]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2018.04.13-00.21.02:683][332]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2018.04.13-00.21.02:683][332]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2018.04.13-00.21.02:683][332]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2018.04.13-00.21.02:683][332]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2018.04.13-00.21.02:693][332]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2018.04.13-00.21.02:693][332]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.04.13-00.21.02:703][332]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.04.13-00.21.02:703][332]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2018.04.13-00.21.02:703][332]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2018.04.13-00.21.02:703][332]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2018.04.13-00.21.02:703][332]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2018.04.13-00.21.02:703][332]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2018.04.13-00.21.02:730][332]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2018.04.13-00.21.02:755][332]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2018.04.13-00.21.02:772][332]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2018.04.13-00.21.02:772][332]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2018.04.13-00.21.02:783][332]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2018.04.13-00.21.02:783][332]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2018.04.13-00.21.02:783][332]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2018.04.13-00.21.02:788][332]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2018.04.13-00.21.02:817][332]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2018.04.13-00.21.02:817][332]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2018.04.13-00.21.02:817][332]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2018.04.13-00.21.02:834][332]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2018.04.13-00.21.02:835][332]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2018.04.13-00.21.02:835][332]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2018.04.13-00.21.02:835][332]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2018.04.13-00.21.02:847][332]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2018.04.13-00.21.02:859][332]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.04.13-00.21.02:859][332]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.04.13-00.21.02:859][332]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.04.13-00.21.02:859][332]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.04.13-00.21.02:859][332]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.04.13-00.21.02:860][332]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.04.13-00.21.02:860][332]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.04.13-00.21.02:878][332]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.04.13-00.21.02:878][332]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.04.13-00.21.02:999][332]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.04.13-00.21.03:117][332]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.04.13-00.21.03:117][332]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.04.13-00.21.03:117][332]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.04.13-00.21.03:117][332]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.04.13-00.21.03:117][332]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.04.13-00.21.03:502][332]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.04.13-00.21.03:547][332]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)

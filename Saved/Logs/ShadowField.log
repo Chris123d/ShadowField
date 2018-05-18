@@ -356,3 +356,180 @@ LogInit: Object subsystem initialized
 [2018.05.18-19.11.36:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/' took 0.05s
 [2018.05.18-19.11.37:788][  0]SourceControl: Source control is disabled
 [2018.05.18-19.11.38:145][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.18-19.14.51:627][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.05.18-19.14.51:627][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.18-19.14.51:997][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.18-19.14.52:234][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.18-19.14.52:378][  0]LightingResults: New page: Lighting Build
+[2018.05.18-19.14.53:367][  0]MapCheck: New page: Map Check
+[2018.05.18-19.14.53:368][  0]LightingResults: New page: Lighting Build
+[2018.05.18-19.15.29:898][  0]LogTexture: Display: Building textures: T_Enemy_Bear_M (AutoDXT, 2048X2048)
+[2018.05.18-19.15.29:898][  0]LogTexture: Display: Building textures: T_Enemy_Bear_N (BC5, 2048X2048)
+[2018.05.18-19.15.31:039][  0]LogTexture: Display: Building textures: T_Enemy_Bear_D (AutoDXT, 2048X2048)
+[2018.05.18-19.15.35:570][  0]LogSkeletalMesh: Building Skeletal Mesh Enemy_Bear...
+[2018.05.18-19.15.35:673][  0]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear.Enemy_Bear
+[2018.05.18-19.15.37:844][  0]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2018.05.18-19.15.39:012][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.18-19.15.39:012][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.18-19.15.39:012][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.18-19.15.44:401][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.05.18-19.15.44:417][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.05.18-19.15.44:429][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
+[2018.05.18-19.15.45:449][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [179.232727ms] /Game/Phoenix/PhoenixModel.PhoenixModel
+[2018.05.18-19.15.46:941][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.18-19.15.47:908][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.18-19.15.49:016][  0]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.18-19.15.54:205][  0]LogAIModule: Creating AISystem for world ShadowField
+[2018.05.18-19.15.56:999][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.18-19.15.57:513][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.18-19.15.58:390][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 868.844ms to complete.
+[2018.05.18-19.15.58:413][  0]LogFileHelpers: Loading map 'ShadowField' took 66.360
+[2018.05.18-19.16.00:055][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_5cc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_fdc_0///####STATCAT_Advanced####
+[2018.05.18-19.16.00:055][  0]LogCollectionManager: Loaded 0 collections in 0.001593 seconds
+[2018.05.18-19.16.00:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Collections/' took 0.01s
+[2018.05.18-19.16.00:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/Developers/CTECube06/Collections/' took 0.01s
+[2018.05.18-19.16.00:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/Collections/' took 0.01s
+[2018.05.18-19.16.00:193][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.18-19.16.00:207][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2461 classes and 563 folders.
+[2018.05.18-19.16.00:319][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.18-19.16.01:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.18-19.16.01:378][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.18-19.16.02:303][  0]LogSlate: Took 0.052845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.18-19.16.02:655][  0]LogSlate: Took 0.327419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.18-19.16.03:388][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2018.05.18-19.16.04:908][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.18-19.16.04:908][  0]LogLoad: (Engine Initialization) Total time: 335.11 seconds
+[2018.05.18-19.16.04:908][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.18-19.16.05:229][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.18-19.16.06:053][  1]LogSlate: Took 0.025247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.18-19.16.06:356][  3]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.18-19.16.06:406][  5]LogAssetRegistry: Asset discovery search completed in 318.2359 seconds
+[2018.05.18-19.16.06:429][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.18-19.16.06:429][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.05.18-19.24.17:832][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-19.26.11:932][196]LogSlate: Took 0.027626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.18-19.26.29:521][304]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.05.18-19.26.30:894][304]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTService_BlueprintBase_New.
+[2018.05.18-19.26.38:208][470]LogSlate: Window 'BTService_BlueprintBase_New*' being destroyed
+[2018.05.18-19.26.38:212][470]LogSlate: Window 'BTService_BlueprintBase_New*' being destroyed
+[2018.05.18-19.26.42:336][557]LogMetaData: Removing '/Game/AI/AgroCheck.SKEL_AgroCheck_C' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.05.18-19.26.42:336][557]LogMetaData: Removing '/Game/AI/AgroCheck.AgroCheck_C' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.05.18-19.26.42:502][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/AgroCheck.uasset" SILENT=true
+[2018.05.18-19.26.42:545][557]LogSavePackage: Save=26.33ms
+[2018.05.18-19.26.42:545][557]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck1F2CA78C44F889B95C7E038CB7F4031B.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/AgroCheck.uasset'
+[2018.05.18-19.26.42:575][557]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/AgroCheck.uasset
+[2018.05.18-19.26.43:085][558]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/AgroCheck.
+[2018.05.18-19.27.12:656][808]LogSlate: Window 'AgroCheck' being destroyed
+[2018.05.18-19.27.57:038][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19767"
+[2018.05.18-19.27.57:065][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19779"
+[2018.05.18-19.27.57:065][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19794"
+[2018.05.18-19.27.57:076][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19800"
+[2018.05.18-19.27.57:076][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19806"
+[2018.05.18-19.27.57:076][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19848"
+[2018.05.18-19.27.57:076][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19860"
+[2018.05.18-19.27.57:076][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19866"
+[2018.05.18-19.27.57:076][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19914"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19953"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19962"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19968"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20016"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20028"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20037"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20058"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20064"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20070"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20088"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20094"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20100"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20106"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20124"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20142"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20154"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20172"
+[2018.05.18-19.27.57:077][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20178"
+[2018.05.18-19.27.57:083][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20190"
+[2018.05.18-19.27.57:083][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20196"
+[2018.05.18-19.27.57:083][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20208"
+[2018.05.18-19.27.57:083][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20214"
+[2018.05.18-19.27.57:083][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20220"
+[2018.05.18-19.27.57:084][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20226"
+[2018.05.18-19.27.57:084][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20232"
+[2018.05.18-19.27.57:084][ 58]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20238"
+[2018.05.18-19.27.57:126][ 58]LogBlueprint: Error: [AgroCheck] CommutativeAssociativeBinaryOperator has no function: 'None' class: 'None'
+[2018.05.18-19.27.57:483][ 59]LogSlate: Took 0.030745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.18-19.37.06:775][734]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.685
+[2018.05.18-19.37.06:867][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AgroCheck] ([1] browsable assets)...
+[2018.05.18-19.37.06:887][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AgroCheck]
+[2018.05.18-19.37.06:887][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.18-19.37.07:425][734]LogSavePackage: Save=164.11ms
+[2018.05.18-19.37.07:425][734]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck_Auto124DE5CFA44CEB74BE3A8FBA062B5A581.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto1.uasset'
+[2018.05.18-19.37.07:428][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto1.uasset
+[2018.05.18-19.37.07:429][734]LogFileHelpers: Auto-saving content packages took 0.653
+[2018.05.18-19.54.07:526][632]LogSlate: Took 0.054222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.05.18-19.55.02:073][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.030
+[2018.05.18-19.55.02:211][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AgroCheck] ([1] browsable assets)...
+[2018.05.18-19.55.02:211][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AgroCheck]
+[2018.05.18-19.55.02:211][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.05.18-19.55.02:263][330]LogSavePackage: Save=5.91ms
+[2018.05.18-19.55.02:263][330]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck_Auto23B936A6D418B539BF289A59E1E52EC5C.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto2.uasset'
+[2018.05.18-19.55.02:264][330]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto2.uasset
+[2018.05.18-19.55.02:264][330]LogFileHelpers: Auto-saving content packages took 0.189
+[2018.05.18-19.57.43:840][816]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_AgroCheck_C - Previous (StructProperty) Current(ByteProperty) for package:  FObjectReader
+[2018.05.18-19.59.16:768][207]BlueprintLog: New page: Compile AgroCheck
+[2018.05.18-19.59.29:050][333]Cmd: TRANSACTION UNDO
+[2018.05.18-19.59.29:050][333]LogEditorTransaction: Undo Change Variable Category
+[2018.05.18-20.00.17:930][728]BlueprintLog: New page: Compile AgroCheck
+[2018.05.18-20.00.17:934][728]LogClass: Warning: Type mismatch in DesiredObjectTypes of AgroCheck_C - Previous (ByteProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.05.18-20.00.28:383][828]BlueprintLog: New page: Compile AgroCheck
+[2018.05.18-20.05.06:252][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.034
+[2018.05.18-20.05.06:287][510]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AgroCheck] ([1] browsable assets)...
+[2018.05.18-20.05.06:287][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AgroCheck]
+[2018.05.18-20.05.06:287][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.18-20.05.06:705][510]LogSavePackage: Save=36.90ms
+[2018.05.18-20.05.06:705][510]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck_Auto3E8071AEE428047D7504988ACAE98DAEB.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto3.uasset'
+[2018.05.18-20.05.06:707][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto3.uasset
+[2018.05.18-20.05.06:707][510]LogFileHelpers: Auto-saving content packages took 0.455
+[2018.05.18-20.09.47:912][677]BlueprintLog: New page: Compile AgroCheck
+[2018.05.18-20.17.26:709][450]LogEditorTransaction: Undo Straighten Connection(s)
+[2018.05.18-20.17.51:678][182]LogEditorTransaction: Undo Break Pin Links
+[2018.05.18-20.19.49:321][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.037
+[2018.05.18-20.19.49:335][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AgroCheck] ([1] browsable assets)...
+[2018.05.18-20.19.49:335][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AgroCheck]
+[2018.05.18-20.19.49:336][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.05.18-20.19.49:797][863]LogSavePackage: Save=225.71ms
+[2018.05.18-20.19.49:797][863]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck_Auto43BF8D41E46679FA8B4E228A41F38CD06.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto4.uasset'
+[2018.05.18-20.19.49:830][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto4.uasset
+[2018.05.18-20.19.49:830][863]LogFileHelpers: Auto-saving content packages took 0.508
+[2018.05.18-20.29.50:606][862]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.147
+[2018.05.18-20.29.50:608][862]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AgroCheck] ([1] browsable assets)...
+[2018.05.18-20.29.50:608][862]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AgroCheck]
+[2018.05.18-20.29.50:637][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.05.18-20.29.50:906][862]LogSavePackage: Save=88.32ms
+[2018.05.18-20.29.50:906][862]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck_Auto5B1177D394B9A1323AF7CB7AD8E76C82B.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto5.uasset'
+[2018.05.18-20.29.50:946][862]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/Autosaves/Game/AI/AgroCheck_Auto5.uasset
+[2018.05.18-20.29.50:946][862]LogFileHelpers: Auto-saving content packages took 0.339
+[2018.05.18-20.32.43:628][563]BlueprintLog: New page: Compile AgroCheck
+[2018.05.18-20.35.33:803][ 95]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2018.05.18-20.35.33:803][ 95]LogLinker: Warning: Can't find file 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.05.18-20.35.33:804][ 95]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2018.05.18-20.35.33:804][ 95]LogLinker: Warning: Can't find file 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.05.18-20.35.33:804][ 95]LogUObjectGlobals: Warning: Failed to find object 'Blueprint Engine/Tutorial/Installation/InstallingVisualStudioTutorial.InstallingVisualStudioTutorial'
+[2018.05.18-20.37.00:802][119]BlueprintLog: New page: Compile AgroCheck
+[2018.05.18-20.37.47:817][984]LogSlate: Window 'AgroCheck*' being destroyed
+[2018.05.18-20.38.01:423][409]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New.
+[2018.05.18-20.38.24:455][205]LogMetaData: Removing '/Game/AI/RapidMoveTo.SKEL_RapidMoveTo_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.05.18-20.38.24:456][205]LogMetaData: Removing '/Game/AI/RapidMoveTo.RapidMoveTo_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.05.18-20.38.24:572][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/RapidMoveTo" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/RapidMoveTo.uasset" SILENT=true
+[2018.05.18-20.38.24:579][205]LogSavePackage: Save=5.00ms
+[2018.05.18-20.38.24:579][205]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/RapidMoveTo0BF5966B45C218A5744B30A4D4332BA4.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/RapidMoveTo.uasset'
+[2018.05.18-20.38.24:583][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/RapidMoveTo.uasset
+[2018.05.18-20.38.25:392][209]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/RapidMoveTo.
+[2018.05.18-20.40.54:313][991]BlueprintLog: New page: Compile RapidMoveTo
+[2018.05.18-20.40.59:777][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/AgroCheck.uasset" SILENT=true
+[2018.05.18-20.41.00:002][  9]LogSavePackage: Save=215.12ms
+[2018.05.18-20.41.00:064][  9]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/AgroCheck08FF34A245344BFD615E51AAFD0BBB8E.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/AgroCheck.uasset'
+[2018.05.18-20.41.00:069][  9]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/AgroCheck.uasset
+[2018.05.18-20.41.00:427][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/RapidMoveTo" FILE="../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/RapidMoveTo.uasset" SILENT=true
+[2018.05.18-20.41.00:440][  9]LogSavePackage: Save=8.77ms
+[2018.05.18-20.41.00:441][  9]LogSavePackage: Moving '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Saved/RapidMoveToBBBC5FED462DB09656D8F3838CA224FD.tmp' to '../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/RapidMoveTo.uasset'
+[2018.05.18-20.41.00:443][  9]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/CTE-Cube-06/Documents/GitHub/ShadowField/Content/AI/RapidMoveTo.uasset

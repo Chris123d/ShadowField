@@ -246,3 +246,403 @@ LogInit: Object subsystem initialized
 [2018.05.17-18.12.41:507][  0]LogInit: Setting process to per monitor DPI aware
 [2018.05.17-18.12.41:795][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
 [2018.05.17-18.12.41:795][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.17-18.12.58:335][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.17-18.12.58:467][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2018.05.17-18.12.58:468][  0]LogD3D11RHI:       2004/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.17-18.12.58:474][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.05.17-18.12.58:474][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.17-18.12.58:478][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.17-18.12.58:478][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.17-18.12.58:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.17-18.12.58:488][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.17-18.12.58:488][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.17-18.12.58:488][  0]LogWindows: EnumDisplayDevices:
+[2018.05.17-18.12.58:488][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.05.17-18.12.58:489][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.05.17-18.12.58:489][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.05.17-18.12.58:489][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.17-18.12.58:489][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2018.05.17-18.12.58:489][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.17-18.12.58:489][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.17-18.12.58:489][  0]LogRHI: Texture pool is 1402 MB (70% of 2004 MB)
+[2018.05.17-18.12.58:533][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.17-18.12.58:533][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.17-18.12.58:558][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.17-18.12.58:559][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Chis Allen/Desktop/ShadowField/Intermediate/Shaders/WorkingDirectory/8724/).
+[2018.05.17-18.12.58:559][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chis Allen/AppData/Local/Temp/UnrealShaderWorkingDir/CC6A36C64FA09A98EE2DBA932A248C12/'.
+[2018.05.17-18.12.59:885][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.17-18.12.59:955][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.17-18.12.59:985][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.17-18.13.00:021][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.17-18.13.00:083][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.17-18.13.00:113][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.17-18.13.00:138][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.17-18.13.00:164][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.17-18.13.00:175][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.17-18.13.00:193][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.17-18.13.00:210][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.17-18.13.00:230][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.17-18.13.00:248][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.17-18.13.00:265][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.17-18.13.00:283][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.17-18.13.00:327][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.17-18.13.00:327][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.17-18.13.00:433][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.17-18.13.00:435][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.17-18.13.00:520][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.17-18.13.00:551][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.17-18.13.00:578][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.17-18.13.00:603][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.17-18.13.00:624][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.17-18.13.00:692][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.17-18.13.00:692][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.17-18.13.01:212][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.17-18.13.01:212][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.17-18.13.01:213][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.17-18.13.14:646][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.17-18.13.15:482][  0]LogDerivedDataCache: Loaded boot cache 0.84s 74MB C:/Users/Chis Allen/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.17-18.13.15:482][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chis Allen/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.17-18.13.15:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chis Allen/Desktop/ShadowField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.17-18.13.15:482][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.17-18.13.15:483][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chis Allen/Desktop/ShadowField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.17-18.13.15:483][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.17-18.13.15:509][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.17-18.13.15:522][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chis Allen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.17-18.13.15:540][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.17-18.13.15:540][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.17-18.13.15:566][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.17-18.13.15:566][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.17-18.13.18:683][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2018.05.17-18.13.19:165][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.17-18.13.19:405][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.17-18.13.19:409][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.17-18.13.19:409][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.17-18.13.19:409][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.17-18.13.19:409][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.17-18.13.19:409][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.17-18.13.19:456][  0]LogNetVersion: ShadowField , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2023336792)
+[2018.05.17-18.13.20:175][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.156725 seconds
+[2018.05.17-18.13.20:182][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.17-18.13.20:182][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.17-18.13.20:182][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.17-18.14.27:935][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.17-18.14.27:994][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.17-18.14.29:749][  0]SourceControl: Source control is disabled
+[2018.05.17-18.14.29:749][  0]SourceControl: Source control is disabled
+[2018.05.17-18.14.29:791][  0]SourceControl: Source control is disabled
+[2018.05.17-18.14.29:832][  0]SourceControl: Source control is disabled
+[2018.05.17-18.14.31:272][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.17-18.14.31:772][  0]LogOcInput: OculusInput pre-init called
+[2018.05.17-18.14.32:149][  0]LogEngine: Initializing Engine...
+[2018.05.17-18.14.32:152][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.17-18.14.32:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.17-18.14.32:155][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.05.17-18.14.32:155][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.17-18.14.32:639][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.17-18.14.32:690][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-18.14.32:771][  0]LogInit: FAudioDevice initialized.
+[2018.05.17-18.14.33:839][  0]LogDerivedDataCache: Saved boot cache 1.07s 74MB C:/Users/Chis Allen/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.17-18.14.33:855][  0]LogInit: Texture streaming: Enabled
+[2018.05.17-18.14.33:890][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.17-18.14.33:918][  0]LogInit: Transaction tracking system initialized
+[2018.05.17-18.14.33:974][  0]BlueprintLog: New page: Editor Load
+[2018.05.17-18.14.34:240][  0]LocalizationService: Localization service is disabled
+[2018.05.17-18.14.35:051][  0]LogConsoleResponse: Display: 
+[2018.05.17-18.14.35:375][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.17-18.14.35:375][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.17-18.14.35:375][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.17-18.14.35:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.17-18.14.35:376][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.05.17-18.14.35:376][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.17-18.14.36:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chis Allen/Desktop/ShadowField/Content/' took 0.12s
+[2018.05.17-18.14.38:322][  0]SourceControl: Source control is disabled
+[2018.05.17-18.14.38:323][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/ThirdPersonBP/Maps/ShadowField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-18.14.38:324][  0]LightingResults: New page: Lighting Build
+[2018.05.17-18.14.38:328][  0]MapCheck: New page: Map Check
+[2018.05.17-18.14.38:329][  0]LightingResults: New page: Lighting Build
+[2018.05.17-18.14.58:052][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.05.17-18.14.58:053][  0]LogLinker: Warning: Can't find file '/Game/Weather/Rain/Rain_sound_effect'
+[2018.05.17-18.14.58:054][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Weather/Rain/Rain_sound_effect.Rain_sound_effect'
+[2018.05.17-18.14.58:202][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [100.286827ms] /Game/Phoenix/PhoenixModel.PhoenixModel
+[2018.05.17-18.15.16:766][  0]LogAIModule: Creating AISystem for world ShadowField
+[2018.05.17-18.15.19:149][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.17-18.15.19:219][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-18.15.19:384][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 165.827ms to complete.
+[2018.05.17-18.15.19:385][  0]LogFileHelpers: Loading map 'ShadowField' took 41.062
+[2018.05.17-18.15.19:673][  0]LogCollectionManager: Loaded 0 collections in 0.002916 seconds
+[2018.05.17-18.15.19:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chis Allen/Desktop/ShadowField/Saved/Collections/' took 0.01s
+[2018.05.17-18.15.19:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chis Allen/Desktop/ShadowField/Content/Developers/ChisAllen/Collections/' took 0.01s
+[2018.05.17-18.15.19:722][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chis Allen/Desktop/ShadowField/Content/Collections/' took 0.01s
+[2018.05.17-18.15.19:722][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.17-18.15.19:736][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2461 classes and 563 folders.
+[2018.05.17-18.15.19:746][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.05.17-18.15.20:715][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.17-18.15.20:722][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.17-18.15.20:782][  0]LogSlate: Took 0.027903 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.17-18.15.20:804][  0]LogSlate: Took 0.019041 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.17-18.15.20:841][  0]LogSlate: Took 0.031169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.17-18.15.21:018][  0]LogRenderer: Reallocating scene render targets to support 972x420 Format 10 NumSamples 1 (Frame:1).
+[2018.05.17-18.15.21:385][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.05.17-18.15.21:385][  0]LogLoad: (Engine Initialization) Total time: 176.75 seconds
+[2018.05.17-18.15.21:385][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.17-18.15.21:745][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.17-18.15.21:839][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.17-18.15.24:406][  8]LogAssetRegistry: Asset discovery search completed in 125.7454 seconds
+[2018.05.17-18.15.24:416][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.17-18.15.24:416][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000126 seconds (updated 0 objects)
+[2018.05.17-18.15.28:985][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.18.27:300][522]LogTexture: Display: Building textures: T_Enemy_Bear_M (AutoDXT, 2048X2048)
+[2018.05.17-18.18.27:300][522]LogTexture: Display: Building textures: T_Enemy_Bear_N (BC5, 2048X2048)
+[2018.05.17-18.18.27:300][522]LogTexture: Display: Building textures: T_Enemy_Bear_D (AutoDXT, 2048X2048)
+[2018.05.17-18.18.27:300][522]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2018.05.17-18.18.27:528][522]LogSkeletalMesh: Building Skeletal Mesh Enemy_Bear...
+[2018.05.17-18.18.27:589][522]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.17-18.18.27:589][522]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.17-18.18.27:590][522]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.17-18.18.27:590][522]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear.Enemy_Bear
+[2018.05.17-18.18.27:629][522]LogSlate: Took 0.026119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.17-18.18.29:046][522]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.05.17-18.18.30:972][522]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.05.17-18.18.31:193][522]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.05.17-18.18.33:494][522]LogSlate: Took 0.025092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.17-18.18.33:572][522]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.05.17-18.18.33:774][523]LogRenderer: Reallocating scene render targets to support 972x432 Format 10 NumSamples 1 (Frame:1).
+[2018.05.17-18.18.35:193][526]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.17-18.18.35:867][528]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.17-18.18.37:044][529]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.17-18.19.19:662][667]LogRenderer: Reallocating scene render targets to support 972x672 Format 10 NumSamples 1 (Frame:29).
+[2018.05.17-18.19.23:075][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.19.23:242][724]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Death.ExoGame_Bears_Attack_Death
+[2018.05.17-18.19.23:264][724]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Death.ExoGame_Bears_Attack_Death) using current/default (AnimCompress_RemoveLinearKeys_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.17-18.19.23:675][724]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.05.17-18.19.25:023][725]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.05.17-18.19.38:738][957]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Walk.ExoGame_Bears_Walk
+[2018.05.17-18.19.38:739][957]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Walk.ExoGame_Bears_Walk) using current/default (AnimCompress_RemoveLinearKeys_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.17-18.19.49:498][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.20.06:563][441]LogRenderer: Reallocating scene render targets to support 976x672 Format 10 NumSamples 1 (Frame:3072).
+[2018.05.17-18.20.06:652][442]LogRenderer: Reallocating scene render targets to support 1000x672 Format 10 NumSamples 1 (Frame:3074).
+[2018.05.17-18.20.06:761][443]LogRenderer: Reallocating scene render targets to support 1004x672 Format 10 NumSamples 1 (Frame:3076).
+[2018.05.17-18.20.06:867][444]LogRenderer: Reallocating scene render targets to support 1012x672 Format 10 NumSamples 1 (Frame:3078).
+[2018.05.17-18.20.06:967][445]LogRenderer: Reallocating scene render targets to support 1020x672 Format 10 NumSamples 1 (Frame:3080).
+[2018.05.17-18.48.53:155][217]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.51.16:987][588]LogSlate: Window 'ExoGame_Bears_Walk' being destroyed
+[2018.05.17-18.51.16:998][588]LogSlate: Window 'ExoGame_Bears_Walk' being destroyed
+[2018.05.17-18.52.09:381][462]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.05.17-18.53.40:597][968]BlueprintLog: New page: Compile AI_Character
+[2018.05.17-18.54.20:223][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.035
+[2018.05.17-18.54.20:263][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AI_Character] ([1] browsable assets)...
+[2018.05.17-18.54.20:332][295]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AI_Character.AI_Character]
+[2018.05.17-18.54.20:332][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_Character]
+[2018.05.17-18.54.20:332][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Character" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-18.54.20:416][295]LogSavePackage: Save=60.16ms
+[2018.05.17-18.54.20:416][295]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/AI_Character_Auto1E2F65A7F4F9F2CF27FAEBBA325DDD068.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto1.uasset'
+[2018.05.17-18.54.20:431][295]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto1.uasset
+[2018.05.17-18.54.20:431][295]LogFileHelpers: Auto-saving content packages took 0.207
+[2018.05.17-18.55.56:578][732]LogSlate: Window 'AI_Character*' being destroyed
+[2018.05.17-18.55.57:441][732]LogSlate: Took 0.023639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.17-18.56.00:129][774]LogRenderer: Reallocating scene render targets to support 1020x688 Format 10 NumSamples 1 (Frame:18).
+[2018.05.17-18.56.25:562][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.56.56:571][364]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.17-18.56.57:428][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-18.56.59:676][485]Cmd: MODE ROTGRID=1
+[2018.05.17-18.57.07:058][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.57.57:072][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.57.57:223][228]BlueprintLog: New page: Compile AI_Character
+[2018.05.17-18.58.14:735][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.58.14:898][370]LogSlate: Window 'AI_Character*' being destroyed
+[2018.05.17-18.58.18:678][430]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2018.05.17-18.58.38:196][558]LogSlate: Window 'Enemy_Bear' being destroyed
+[2018.05.17-18.58.38:198][558]LogSlate: Window 'Enemy_Bear' being destroyed
+[2018.05.17-18.58.44:260][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-18.58.45:301][813]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.05.17-18.58.50:826][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2018.05.17-19.04.21:351][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.052
+[2018.05.17-19.04.21:356][775]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AI_Character] ([1] browsable assets)...
+[2018.05.17-19.04.21:388][775]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AI_Character.AI_Character]
+[2018.05.17-19.04.21:388][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_Character]
+[2018.05.17-19.04.21:388][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Character" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-19.04.21:432][775]LogSavePackage: Save=31.21ms
+[2018.05.17-19.04.21:432][775]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/AI_Character_Auto20551C99C4566A11EBE31E5A5BA6C8618.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto2.uasset'
+[2018.05.17-19.04.21:434][775]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto2.uasset
+[2018.05.17-19.04.21:435][775]LogFileHelpers: Auto-saving content packages took 0.080
+[2018.05.17-19.28.29:295][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.28.40:256][692]LogSlate: Window 'Bear_Export_Skeleton' being destroyed
+[2018.05.17-19.28.40:271][692]LogSlate: Window 'Bear_Export_Skeleton' being destroyed
+[2018.05.17-19.28.43:127][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.28.59:179][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.29.27:435][816]LogSavePackage: Save=1802.99ms
+[2018.05.17-19.29.27:440][816]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/ShadowField_Auto32DD0B0AD4795A82A87970E8471556F29.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto3.umap'
+[2018.05.17-19.29.27:443][816]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto3.umap
+[2018.05.17-19.29.27:447][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 1.898
+[2018.05.17-19.29.27:448][816]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.898
+[2018.05.17-19.53.45:198][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.53.53:913][962]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-19.54.19:568][288]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.05.17-19.54.23:563][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.05.17-19.55.16:231][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.55.21:867][109]LogSlate: Window 'Bear_Export_Skeleton' being destroyed
+[2018.05.17-19.55.21:886][109]LogSlate: Window 'Bear_Export_Skeleton' being destroyed
+[2018.05.17-19.55.23:199][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_7.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2018.05.17-19.55.25:554][149]LogSlate: Window 'Enemy_Bear' being destroyed
+[2018.05.17-19.55.25:576][149]LogSlate: Window 'Enemy_Bear' being destroyed
+[2018.05.17-19.55.26:654][165]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Enemy_Bear)
+[2018.05.17-19.55.27:441][181]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.05.17-19.55.28:260][195]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Enemy_Bear)
+[2018.05.17-19.55.28:968][204]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Enemy_Bear)
+[2018.05.17-19.55.29:165][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-19.56.04:081][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.56.09:628][133]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-19.56.26:519][335]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-19.56.35:856][477]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-19.57.23:590][963]BlueprintLog: New page: Compile AI_Character
+[2018.05.17-19.57.30:186][ 55]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Enemy_Bear)
+[2018.05.17-19.57.30:306][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-19.57.31:534][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-19.57.32:599][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_8.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2018.05.17-19.57.38:011][172]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_9.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2018.05.17-19.57.38:881][172]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.05.17-19.57.58:031][440]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Death_2.ExoGame_Bears_Attack_Death_2
+[2018.05.17-19.57.58:031][440]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Death_2.ExoGame_Bears_Attack_Death_2) using current/default (AnimCompress_RemoveLinearKeys_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.17-19.58.00:069][468]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Melee_B.ExoGame_Bears_Attack_Melee_B
+[2018.05.17-19.58.00:069][468]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Melee_B.ExoGame_Bears_Attack_Melee_B) using current/default (AnimCompress_RemoveLinearKeys_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.17-19.58.06:907][565]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Walk_Backward.ExoGame_Bears_Walk_Backward
+[2018.05.17-19.58.06:908][565]LogAnimationCompression: Recompressing (AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Walk_Backward.ExoGame_Bears_Walk_Backward) using current/default (AnimCompress_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.17-19.58.44:320][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-19.59.16:568][540]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-19.59.18:924][540]LogSavePackage: Save=1711.08ms
+[2018.05.17-19.59.18:924][540]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/ShadowField_Auto4FF8DDD2F4ABEBF216AB89BA8E0B4A3FE.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto4.umap'
+[2018.05.17-19.59.18:926][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto4.umap
+[2018.05.17-19.59.18:931][540]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 2.259
+[2018.05.17-19.59.18:931][540]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.259
+[2018.05.17-19.59.18:937][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AI_Character] ([1] browsable assets)...
+[2018.05.17-19.59.18:973][540]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AI_Character.AI_Character]
+[2018.05.17-19.59.18:973][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_Character]
+[2018.05.17-19.59.18:973][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Character" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-19.59.19:010][540]LogSavePackage: Save=26.53ms
+[2018.05.17-19.59.19:010][540]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/AI_Character_Auto41931AE8F4F4C2824ECE157ABFE71721D.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto4.uasset'
+[2018.05.17-19.59.19:015][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto4.uasset
+[2018.05.17-19.59.19:015][540]LogFileHelpers: Auto-saving content packages took 0.079
+[2018.05.17-20.00.08:203][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.00.39:485][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.02.18:517][945]LogSlate: Window 'Enemy_Bear' being destroyed
+[2018.05.17-20.02.18:535][945]LogSlate: Window 'Enemy_Bear' being destroyed
+[2018.05.17-20.02.19:535][954]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Enemy_Bear)
+[2018.05.17-20.02.20:607][974]Cmd: DELETE
+[2018.05.17-20.02.20:607][974]Cmd: ACTOR DELETE
+[2018.05.17-20.02.20:703][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-20.02.20:914][974]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.05.17-20.02.20:971][974]LogEditorActor: Deleted 1 Actors (0.314 secs)
+[2018.05.17-20.02.21:655][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.03.12:333][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.04.21:474][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.04.39:200][406]BlueprintLog: New page: Compile AI_Character
+[2018.05.17-20.05.19:466][  5]BlueprintLog: New page: Compile AI_Character
+[2018.05.17-20.06.33:139][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.07.00:988][112]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-20.07.04:878][262]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-20.07.07:310][312]BlueprintLog: New page: Compile AI_Character
+[2018.05.17-20.08.18:897][460]LogSlate: Window 'AI_Character*' being destroyed
+[2018.05.17-20.08.19:923][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.08.45:457][744]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-20.09.40:457][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/FollowerBlackboard" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/AI/FollowerBlackboard.uasset" SILENT=true
+[2018.05.17-20.09.40:487][804]LogSavePackage: Save=14.68ms
+[2018.05.17-20.09.40:487][804]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/FollowerBlackboard9A20107240A9842F45B75DAE674CDFB5.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/AI/FollowerBlackboard.uasset'
+[2018.05.17-20.09.40:499][804]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/AI/FollowerBlackboard.uasset
+[2018.05.17-20.10.12:398][914]LogSavePackage: Save=1485.17ms
+[2018.05.17-20.10.12:398][914]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/ShadowField_Auto59A442D1A446F0C47F3A596AB368B83AA.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto5.umap'
+[2018.05.17-20.10.12:402][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/ThirdPersonBP/Maps/ShadowField_Auto5.umap
+[2018.05.17-20.10.12:407][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 1.561
+[2018.05.17-20.10.12:407][914]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.561
+[2018.05.17-20.10.12:413][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AI_Character] ([1] browsable assets)...
+[2018.05.17-20.10.12:448][914]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AI_Character.AI_Character]
+[2018.05.17-20.10.12:448][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_Character]
+[2018.05.17-20.10.12:448][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Character" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-20.10.12:551][914]LogSavePackage: Save=29.44ms
+[2018.05.17-20.10.12:551][914]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/AI_Character_Auto5921D68D545467766E795ACBFD6F69D7C.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto5.uasset'
+[2018.05.17-20.10.12:553][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/AI_Character_Auto5.uasset
+[2018.05.17-20.10.12:553][914]LogFileHelpers: Auto-saving content packages took 0.141
+[2018.05.17-20.10.24:261][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.10.26:537][ 53]LogSlate: Window 'FollowerBlackboard' being destroyed
+[2018.05.17-20.10.28:050][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-20.10.39:966][169]LogSlate: Window 'Follower_AI_CON' being destroyed
+[2018.05.17-20.10.40:090][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-20.20.13:254][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.058
+[2018.05.17-20.20.13:257][610]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Follower_AI_CON] ([1] browsable assets)...
+[2018.05.17-20.20.13:257][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Follower_AI_CON]
+[2018.05.17-20.20.13:257][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Follower_AI_CON" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/Follower_AI_CON_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-20.20.13:302][610]LogSavePackage: Save=24.75ms
+[2018.05.17-20.20.13:302][610]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Follower_AI_CON_Auto6C397A4584EE2AAD6EAE50F999556E867.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/Follower_AI_CON_Auto6.uasset'
+[2018.05.17-20.20.13:305][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/Follower_AI_CON_Auto6.uasset
+[2018.05.17-20.20.13:305][610]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.05.17-20.56.38:464][404]BlueprintLog: New page: Compile Follower_AI_CON
+[2018.05.17-20.57.43:346][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.046
+[2018.05.17-20.57.43:349][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Follower_AI_CON] ([1] browsable assets)...
+[2018.05.17-20.57.43:349][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Follower_AI_CON]
+[2018.05.17-20.57.43:349][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Follower_AI_CON" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/Follower_AI_CON_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-20.57.43:384][504]LogSavePackage: Save=18.98ms
+[2018.05.17-20.57.43:384][504]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Follower_AI_CON_Auto70C8390A64F8518B3514C05813C648447.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/Follower_AI_CON_Auto7.uasset'
+[2018.05.17-20.57.43:386][504]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/Follower_AI_CON_Auto7.uasset
+[2018.05.17-20.57.43:386][504]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.05.17-21.00.57:898][739]BlueprintLog: New page: Compile Follower_AI_CON
+[2018.05.17-21.01.10:273][  5]BlueprintLog: New page: Compile Follower_AI_CON
+[2018.05.17-21.02.29:395][929]BlueprintLog: New page: Compile Follower_AI_CON
+[2018.05.17-21.02.30:588][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Follower_AI_CON" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/AI/Follower_AI_CON.uasset" SILENT=true
+[2018.05.17-21.02.30:632][946]LogSavePackage: Save=39.32ms
+[2018.05.17-21.02.30:633][946]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Follower_AI_CON796F034E4CF37874D9220296390BD762.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/AI/Follower_AI_CON.uasset'
+[2018.05.17-21.02.30:638][946]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Content/AI/Follower_AI_CON.uasset
+[2018.05.17-21.02.31:995][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-21.02.32:127][982]LogSlate: Window 'Follower_AI_CON' being destroyed
+[2018.05.17-21.02.54:954][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-21.07.44:489][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ShadowField' took 0.060
+[2018.05.17-21.07.44:492][783]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/FollowerBT] ([1] browsable assets)...
+[2018.05.17-21.07.44:493][783]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/FollowerBT]
+[2018.05.17-21.07.44:493][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/FollowerBT" FILE="../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/FollowerBT_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2018.05.17-21.07.44:515][783]LogSavePackage: Save=13.18ms
+[2018.05.17-21.07.44:515][783]LogSavePackage: Moving '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/FollowerBT_Auto80941C0364D2559E1F8F26490049F6281.tmp' to '../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/FollowerBT_Auto8.uasset'
+[2018.05.17-21.07.44:518][783]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chis Allen/Desktop/ShadowField/Saved/Autosaves/Game/AI/FollowerBT_Auto8.uasset
+[2018.05.17-21.07.44:518][783]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.05.17-21.36.59:089][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-21.37.09:567][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.17-21.37.11:331][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-21.37.16:359][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.17-21.37.16:542][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.17-21.37.16:659][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.05.17-21.37.16:745][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-21.37.16:815][527]PIE: New page: PIE session: ShadowField (May 17, 2018, 7:37:16 AM)
+[2018.05.17-21.37.16:815][527]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField
+[2018.05.17-21.37.18:070][527]LogPlayLevel: PIE: StaticDuplicateObject took: (1.254902s)
+[2018.05.17-21.37.18:071][527]LogAIModule: Creating AISystem for world ShadowField
+[2018.05.17-21.37.18:071][527]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2018.05.17-21.37.18:072][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ShadowField.ShadowField to /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField (1.256776s)
+[2018.05.17-21.37.18:109][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-21.37.18:125][527]LogInit: FAudioDevice initialized.
+[2018.05.17-21.37.18:855][527]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.17-21.37.18:889][527]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField.ShadowField up for play (max tick rate 60) at 2018.05.17-14.37.18
+[2018.05.17-21.37.19:068][527]LogWorld: Bringing up level for play took: 0.211067
+[2018.05.17-21.37.19:118][527]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.05.17-21.37.19:156][527]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ShadowField 2.598
+[2018.05.17-21.37.19:157][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.05.17-21.38.17:631][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.05.17-21.38.18:236][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField' with GeneratedClass '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ShadowField.ShadowField:PersistentLevel.ShadowField'
+[2018.05.18-00.43.12:666][128]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.18-00.43.13:055][130]LogHttp: Warning: 000002A0751A9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.18-00.43.13:055][130]LogHttp: Warning: 000002A0751A9900: libcurl info message cache 0 (Connection 33 seems to be dead!)
+[2018.05.18-00.43.13:056][130]LogHttp: Warning: 000002A0751A9900: libcurl info message cache 1 (Closing connection 33)
+[2018.05.18-00.43.13:056][130]LogHttp: Warning: 000002A0751A9900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.05.18-00.43.13:056][130]LogHttp: Warning: 000002A0751A9900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.18-00.43.13:056][130]LogHttp: Warning: 000002A0751A9900: libcurl info message cache 4 (Closing connection 34)
+[2018.05.18-18.35.04:240][168]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.18-18.35.06:193][170]LogHttp: Warning: 000002A0751A8400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.18-18.35.06:193][170]LogHttp: Warning: 000002A0751A8400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.18-18.35.06:193][170]LogHttp: Warning: 000002A0751A8400: libcurl info message cache 1 (Closing connection 35)
+[2018.05.18-18.35.21:927][216]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.05.18-18.35.23:787][226]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2018.05.18-18.35.26:278][231]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2018.05.18-18.36.41:626][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-18.38.58:979][521]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.18-18.38.59:262][521]LogSlate: Window 'FollowerBT*' being destroyed
+[2018.05.18-18.42.34:378][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-18.42.48:072][ 93]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2018.05.18-18.43.14:925][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.18-18.43.15:357][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.Actor_11.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2018.05.18-18.43.21:753][128]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
